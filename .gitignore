@@ -2,6 +2,8 @@ node_modules/
 dist/
 coverage/
 backend/data/*.json
+backend/data/.tmp*
+presentation/**/.preview/
 .env
 *.log
 .DS_Store
