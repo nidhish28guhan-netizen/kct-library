@@ -2,7 +2,7 @@
   "name": "clms-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "College Library Management System — REST API (Express, JSON persistence)",
+  "description": "College Library Management System \u2014 REST API (Express, JSON persistence)",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -14,12 +14,17 @@
     "test:e2e": "node tests/e2e/selenium-flow.js && node tests/e2e/selenium-circulation.js",
     "test:e2e:reserve": "node tests/e2e/selenium-flow.js",
     "test:e2e:circulation": "node tests/e2e/selenium-circulation.js",
-    "metrics": "node tools/analyze.js",
+    "metrics": "node ../tools/analyze.js",
     "coverage": "jest --coverage --runInBand --forceExit"
   },
   "jest": {
     "testEnvironment": "node",
-    "coveragePathIgnorePatterns": ["/node_modules/", "/tests/", "/src/db/seed.js", "/tools/"]
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/tests/",
+      "/src/db/seed.js",
+      "/tools/"
+    ]
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
