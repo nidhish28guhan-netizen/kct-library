@@ -1,0 +1,26 @@
+[
+  {
+    "id": "POLICY",
+    "roles": {
+      "STUDENT": {
+        "loanDays": 14,
+        "maxBooks": 3,
+        "maxReservations": 3
+      },
+      "FACULTY": {
+        "loanDays": 30,
+        "maxBooks": 5,
+        "maxReservations": 5
+      }
+    },
+    "global": {
+      "finePerDay": 1,
+      "blockThreshold": 50,
+      "renewLimit": 2,
+      "holdDays": 48,
+      "dueSoonDays": 3,
+      "queueLimit": 5
+    },
+    "updatedAt": "2026-09-15T16:07:49.154Z"
+  }
+]

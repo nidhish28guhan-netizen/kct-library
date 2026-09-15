@@ -1,0 +1,13 @@
+{
+  "name": "college-library-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "College Library Management System (24CSI015 SE with Agile Practices) — Node/Express + React, JSON persistence",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "start": "npm run build && npm --prefix backend start",
+    "start:api": "npm --prefix backend start",
+    "test": "npm --prefix backend test",
+    "test:e2e": "npm --prefix backend run test:e2e"
+  }
+}
