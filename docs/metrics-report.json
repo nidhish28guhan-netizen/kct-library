@@ -1,0 +1,291 @@
+{
+  "generatedAt": "2026-09-15T17:57:01.187Z",
+  "totals": {
+    "files": 29,
+    "loc": 1498,
+    "functions": 314,
+    "avgCyclomatic": 2.13,
+    "maxCyclomatic": 14,
+    "highComplexityFns": [
+      {
+        "file": "backend/src/domain/policyRules.js",
+        "cc": 14
+      },
+      {
+        "file": "backend/src/services/circulationService.js",
+        "cc": 13
+      },
+      {
+        "file": "backend/src/services/recommendationService.js",
+        "cc": 13
+      },
+      {
+        "file": "backend/src/services/reservationService.js",
+        "cc": 12
+      }
+    ]
+  },
+  "perFile": [
+    {
+      "file": "backend/src/app.js",
+      "loc": 43,
+      "functions": 5,
+      "avgCyclomatic": 2,
+      "maxCyclomatic": 4,
+      "worstFn": "createApp",
+      "totalHalsteadEffort": 6220
+    },
+    {
+      "file": "backend/src/config.js",
+      "loc": 12,
+      "functions": 0,
+      "avgCyclomatic": 0,
+      "maxCyclomatic": 1,
+      "worstFn": "—",
+      "totalHalsteadEffort": 0
+    },
+    {
+      "file": "backend/src/db/store.js",
+      "loc": 104,
+      "functions": 17,
+      "avgCyclomatic": 1.53,
+      "maxCyclomatic": 2,
+      "worstFn": "(anonymous)",
+      "totalHalsteadEffort": 2219
+    },
+    {
+      "file": "backend/src/domain/barcodeRules.js",
+      "loc": 18,
+      "functions": 3,
+      "avgCyclomatic": 1.67,
+      "maxCyclomatic": 3,
+      "worstFn": "parseCopyBarcode",
+      "totalHalsteadEffort": 218
+    },
+    {
+      "file": "backend/src/domain/copyRules.js",
+      "loc": 16,
+      "functions": 2,
+      "avgCyclomatic": 3.5,
+      "maxCyclomatic": 5,
+      "worstFn": "canIssueCopy",
+      "totalHalsteadEffort": 719
+    },
+    {
+      "file": "backend/src/domain/loanRules.js",
+      "loc": 52,
+      "functions": 7,
+      "avgCyclomatic": 2.29,
+      "maxCyclomatic": 5,
+      "worstFn": "canIssue",
+      "totalHalsteadEffort": 1760
+    },
+    {
+      "file": "backend/src/domain/memberRules.js",
+      "loc": 43,
+      "functions": 6,
+      "avgCyclomatic": 3,
+      "maxCyclomatic": 8,
+      "worstFn": "validateMemberInput",
+      "totalHalsteadEffort": 1640
+    },
+    {
+      "file": "backend/src/domain/penaltyRules.js",
+      "loc": 18,
+      "functions": 3,
+      "avgCyclomatic": 1.33,
+      "maxCyclomatic": 2,
+      "worstFn": "calculatePenalty",
+      "totalHalsteadEffort": 211
+    },
+    {
+      "file": "backend/src/domain/policyRules.js",
+      "loc": 43,
+      "functions": 2,
+      "avgCyclomatic": 8,
+      "maxCyclomatic": 14,
+      "worstFn": "mergePolicies",
+      "totalHalsteadEffort": 6522
+    },
+    {
+      "file": "backend/src/domain/recommendationRules.js",
+      "loc": 62,
+      "functions": 7,
+      "avgCyclomatic": 5.29,
+      "maxCyclomatic": 9,
+      "worstFn": "scoreBook",
+      "totalHalsteadEffort": 12627
+    },
+    {
+      "file": "backend/src/domain/reservationRules.js",
+      "loc": 42,
+      "functions": 8,
+      "avgCyclomatic": 2.25,
+      "maxCyclomatic": 5,
+      "worstFn": "canReserve",
+      "totalHalsteadEffort": 1675
+    },
+    {
+      "file": "backend/src/middleware/auth.js",
+      "loc": 39,
+      "functions": 7,
+      "avgCyclomatic": 2.29,
+      "maxCyclomatic": 4,
+      "worstFn": "authenticate",
+      "totalHalsteadEffort": 1214
+    },
+    {
+      "file": "backend/src/repositories/index.js",
+      "loc": 29,
+      "functions": 2,
+      "avgCyclomatic": 1.5,
+      "maxCyclomatic": 2,
+      "worstFn": "(anonymous)",
+      "totalHalsteadEffort": 97
+    },
+    {
+      "file": "backend/src/repositories/repository.js",
+      "loc": 29,
+      "functions": 11,
+      "avgCyclomatic": 1.27,
+      "maxCyclomatic": 2,
+      "worstFn": "(anonymous)",
+      "totalHalsteadEffort": 321
+    },
+    {
+      "file": "backend/src/routes/index.js",
+      "loc": 127,
+      "functions": 51,
+      "avgCyclomatic": 1.2,
+      "maxCyclomatic": 3,
+      "worstFn": "assertSelfOrStaff",
+      "totalHalsteadEffort": 1504
+    },
+    {
+      "file": "backend/src/server.js",
+      "loc": 10,
+      "functions": 1,
+      "avgCyclomatic": 1,
+      "maxCyclomatic": 1,
+      "worstFn": "(anonymous)",
+      "totalHalsteadEffort": 20
+    },
+    {
+      "file": "backend/src/services/adminService.js",
+      "loc": 64,
+      "functions": 12,
+      "avgCyclomatic": 2,
+      "maxCyclomatic": 7,
+      "worstFn": "scan",
+      "totalHalsteadEffort": 8586
+    },
+    {
+      "file": "backend/src/services/auditService.js",
+      "loc": 19,
+      "functions": 2,
+      "avgCyclomatic": 4,
+      "maxCyclomatic": 6,
+      "worstFn": "record",
+      "totalHalsteadEffort": 419
+    },
+    {
+      "file": "backend/src/services/authService.js",
+      "loc": 47,
+      "functions": 7,
+      "avgCyclomatic": 2.71,
+      "maxCyclomatic": 6,
+      "worstFn": "login",
+      "totalHalsteadEffort": 3874
+    },
+    {
+      "file": "backend/src/services/catalogueService.js",
+      "loc": 79,
+      "functions": 21,
+      "avgCyclomatic": 2.19,
+      "maxCyclomatic": 8,
+      "worstFn": "search",
+      "totalHalsteadEffort": 8898
+    },
+    {
+      "file": "backend/src/services/circulationService.js",
+      "loc": 126,
+      "functions": 18,
+      "avgCyclomatic": 3.39,
+      "maxCyclomatic": 13,
+      "worstFn": "issue",
+      "totalHalsteadEffort": 22704
+    },
+    {
+      "file": "backend/src/services/copyService.js",
+      "loc": 66,
+      "functions": 9,
+      "avgCyclomatic": 2.67,
+      "maxCyclomatic": 8,
+      "worstFn": "updateCopy",
+      "totalHalsteadEffort": 8341
+    },
+    {
+      "file": "backend/src/services/memberService.js",
+      "loc": 86,
+      "functions": 22,
+      "avgCyclomatic": 2.55,
+      "maxCyclomatic": 8,
+      "worstFn": "create",
+      "totalHalsteadEffort": 6157
+    },
+    {
+      "file": "backend/src/services/notifyService.js",
+      "loc": 25,
+      "functions": 6,
+      "avgCyclomatic": 2.67,
+      "maxCyclomatic": 6,
+      "worstFn": "notify",
+      "totalHalsteadEffort": 1469
+    },
+    {
+      "file": "backend/src/services/penaltyService.js",
+      "loc": 26,
+      "functions": 7,
+      "avgCyclomatic": 1.71,
+      "maxCyclomatic": 4,
+      "worstFn": "clear",
+      "totalHalsteadEffort": 1287
+    },
+    {
+      "file": "backend/src/services/recommendationService.js",
+      "loc": 56,
+      "functions": 24,
+      "avgCyclomatic": 1.75,
+      "maxCyclomatic": 13,
+      "worstFn": "similarTo",
+      "totalHalsteadEffort": 10563
+    },
+    {
+      "file": "backend/src/services/reportService.js",
+      "loc": 80,
+      "functions": 24,
+      "avgCyclomatic": 1.63,
+      "maxCyclomatic": 4,
+      "worstFn": "popularBooks",
+      "totalHalsteadEffort": 7669
+    },
+    {
+      "file": "backend/src/services/reservationService.js",
+      "loc": 121,
+      "functions": 23,
+      "avgCyclomatic": 2.74,
+      "maxCyclomatic": 12,
+      "worstFn": "cancel",
+      "totalHalsteadEffort": 16976
+    },
+    {
+      "file": "backend/src/utils/errors.js",
+      "loc": 16,
+      "functions": 7,
+      "avgCyclomatic": 1,
+      "maxCyclomatic": 1,
+      "worstFn": "(anonymous)",
+      "totalHalsteadEffort": 260
+    }
+  ]
+}

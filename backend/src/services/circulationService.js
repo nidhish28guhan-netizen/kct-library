@@ -18,8 +18,11 @@ const rolePolicy = (role) => {
 };
 
 function resolveMember(memberIdentifier) {
-  const m = memberService.byMemberId(memberIdentifier) || Members.byId(memberIdentifier);
-  if (!m) throw notFound(`No member "${memberIdentifier}"`);
+  const id = String(memberIdentifier || '').trim();
+  const bare = id.replace(/^LIB-/i, ''); // desk scans send the member barcode
+  const m = memberService.byMemberId(bare) || Members.byId(id)
+    || Members.find((mm) => mm.barcode === id.toUpperCase())[0];
+  if (!m) throw notFound(`No member "${id}"`);
   return m;
 }
 

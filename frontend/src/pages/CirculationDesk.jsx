@@ -20,13 +20,19 @@ export default function CirculationDesk() {
     catch (err) { setError(err); }
   };
 
+  const refreshElig = async () => {
+    if (!memberId.trim()) return;
+    try { setElig(await api(`/circulation/eligibility?memberIdentifier=${encodeURIComponent(memberId.trim())}`)); }
+    catch { /* keep the last card while issuing */ }
+  };
+
   const issue = async (e) => {
     e.preventDefault();
     setError(null); setReceipt(null);
     try {
       const r = await api('/circulation/issue', { method: 'POST', body: { memberIdentifier: memberId.trim(), barcode: barcode.trim() } });
       setReceipt(r); setBarcode('');
-      checkMember();
+      refreshElig();
     } catch (err) { setError(err); }
   };
 
@@ -102,7 +108,7 @@ export default function CirculationDesk() {
       <Card title="Return a copy">
         <form className="scan-box" onSubmit={doReturn}>
           <input type="text" placeholder="LIB-…-NNN" value={barcode} onChange={(e) => setBarcode(e.target.value)} aria-label="Book barcode" />
-          <button className="btn brass">Return</button>
+          <button className="btn brass">Return copy</button>
         </form>
         {result && <div className="card" style={{ marginTop: 14, boxShadow: 'none', background: 'var(--surface-2)' }}>
           <p><strong>“{result.book.title}”</strong> returned by {result.member?.name || 'member'}.</p>

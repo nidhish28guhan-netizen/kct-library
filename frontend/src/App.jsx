@@ -16,8 +16,10 @@ import AuditLog from './pages/AuditLog';
 const STAFF = ['LIBRARIAN', 'ADMIN'];
 
 function Shell({ children }) {
-  const { user, logout } = useAuth();
+  const { user, ready, logout } = useAuth();
   const nav = useNavigate();
+  if (!ready) return null;
+  if (!user) return <Navigate to="/login" replace />;
   const staff = STAFF.includes(user.role);
   const admin = user.role === 'ADMIN';
   const link = (to, label) => <NavLink to={to} className={({ isActive }) => (isActive ? 'active' : '')}>{label}</NavLink>;

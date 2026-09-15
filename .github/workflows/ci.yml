@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+      - run: npm ci
+      - name: Unit + integration tests with coverage
+        run: npx jest --coverage --coverageReporters=json-summary --runInBand --forceExit
+      - name: Static metrics (McCabe + Halstead)
+        run: node ../tools/analyze.js
+      - name: Coverage gate — three core modules ≥ 80 %
+        run: |
+          node - <<'EOF'
+          const s = require('./coverage/coverage-summary.json');
+          const core = ['domain', 'repositories', 'routes'];
+          for (const dir of core) {
+            const files = Object.entries(s).filter(([p]) => p.includes('/src/' + dir + '/'));
+            const stmts = files.map(([, v]) => v.statements).reduce((a, b) => ({ covered: a.covered + b.covered, total: a.total + b.total }), { covered: 0, total: 0 });
+            const pct = +((stmts.covered / stmts.total) * 100).toFixed(2);
+            if (pct < 80) { console.error(`FAIL src/${dir} statements ${pct}% < 80%`); process.exit(1); }
+            console.log(`ok src/${dir} statements ${pct}% >= 80%`);
+          }
+          EOF
+        continue-on-error: false
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run build
