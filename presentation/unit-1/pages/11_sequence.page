@@ -1,0 +1,627 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e265
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 3 · MODELLING
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e266
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: 'Issue-at-desk: seven messages, one atomic write'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e267
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e268
+  elementType: shape
+  bounds:
+  - 75
+  - 162
+  - 190
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e269
+  elementType: text
+  bounds:
+  - 81
+  - 162
+  - 178
+  - 40
+  content:
+    text: LIBRARIAN
+    fontSize: 10.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e270
+  elementType: shape
+  bounds:
+  - 170
+  - 216
+  - 2
+  - 414
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e271
+  elementType: shape
+  bounds:
+  - 365
+  - 162
+  - 190
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e272
+  elementType: text
+  bounds:
+  - 371
+  - 162
+  - 178
+  - 40
+  content:
+    text: REACT UI
+    fontSize: 10.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e273
+  elementType: shape
+  bounds:
+  - 460
+  - 216
+  - 2
+  - 414
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e274
+  elementType: shape
+  bounds:
+  - 665
+  - 162
+  - 190
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e275
+  elementType: text
+  bounds:
+  - 671
+  - 162
+  - 178
+  - 40
+  content:
+    text: DOMAIN (EXPRESS)
+    fontSize: 10.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e276
+  elementType: shape
+  bounds:
+  - 760
+  - 216
+  - 2
+  - 414
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e277
+  elementType: shape
+  bounds:
+  - 955
+  - 162
+  - 190
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e278
+  elementType: text
+  bounds:
+  - 961
+  - 162
+  - 178
+  - 40
+  content:
+    text: JSONSTORE
+    fontSize: 10.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e279
+  elementType: shape
+  bounds:
+  - 1050
+  - 216
+  - 2
+  - 414
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e280
+  elementType: shape
+  bounds:
+  - 170
+  - 261.0
+  - 290
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e281
+  elementType: shape
+  bounds:
+  - 452.5
+  - 254.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+  rotation: 90
+- elementId: e282
+  elementType: text
+  bounds:
+  - 178
+  - 238
+  - 274
+  - 18
+  content:
+    text: 1 · scan barcode LIB-CSALG01-001
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e283
+  elementType: shape
+  bounds:
+  - 460
+  - 325.0
+  - 300
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e284
+  elementType: shape
+  bounds:
+  - 752.5
+  - 318.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+  rotation: 90
+- elementId: e285
+  elementType: text
+  bounds:
+  - 468
+  - 302
+  - 284
+  - 18
+  content:
+    text: 2 · POST /api/loans · JWT LIBRARIAN
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e286
+  elementType: shape
+  bounds:
+  - 656
+  - 350
+  - 210
+  - 38
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e287
+  elementType: text
+  bounds:
+  - 664
+  - 350
+  - 194
+  - 38
+  content:
+    text: '3 · guard: status · limit · dues'
+    fontSize: 10.5
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e288
+  elementType: shape
+  bounds:
+  - 760
+  - 439.0
+  - 290
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e289
+  elementType: shape
+  bounds:
+  - 1042.5
+  - 432.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+  rotation: 90
+- elementId: e290
+  elementType: text
+  bounds:
+  - 768
+  - 416
+  - 274
+  - 18
+  content:
+    text: 4 · write loan · flip copy state
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e291
+  elementType: shape
+  bounds:
+  - 946
+  - 462
+  - 210
+  - 38
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e292
+  elementType: text
+  bounds:
+  - 954
+  - 462
+  - 194
+  - 38
+  content:
+    text: 5 · tmp file, then atomic rename
+    fontSize: 10.5
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e293
+  elementType: shape
+  bounds:
+  - 460
+  - 551.0
+  - 300
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e294
+  elementType: shape
+  bounds:
+  - 452.5
+  - 544.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+  rotation: 270
+- elementId: e295
+  elementType: text
+  bounds:
+  - 468
+  - 528
+  - 284
+  - 18
+  content:
+    text: 6 · 201 · loan + receipt payload
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e296
+  elementType: shape
+  bounds:
+  - 170
+  - 609.0
+  - 290
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e297
+  elementType: shape
+  bounds:
+  - 162.5
+  - 602.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+  rotation: 270
+- elementId: e298
+  elementType: text
+  bounds:
+  - 178
+  - 586
+  - 274
+  - 18
+  content:
+    text: 7 · print receipt · Code 128
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e299
+  elementType: text
+  bounds:
+  - 72
+  - 640
+  - 1136
+  - 24
+  content:
+    text: 'No step trusts the browser: the guard runs server-side even though the UI already disables invalid actions.'
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e300
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e301
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e302
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 11 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

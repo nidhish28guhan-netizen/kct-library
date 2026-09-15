@@ -1,0 +1,354 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e086
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 2 · METHOD
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e087
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Waterfall would have frozen rules we were still discovering
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e088
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e089
+  elementType: table
+  bounds:
+  - 72
+  - 178
+  - 1136
+  - 264
+  columnWidths:
+  - 0.2
+  - 0.36
+  - 0.44
+  rowHeights:
+  - 0.16
+  - 0.21
+  - 0.21
+  - 0.21
+  - 0.21
+  rows:
+  - - text: DIMENSION
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: WATERFALL
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: HOW CLMS ACTUALLY RAN
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: Requirements
+      fontFamily: Menlo
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Signed off once, up front
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Evolved as 37 stories across 10 epics
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Feedback
+      fontFamily: Menlo
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Only after full build-out
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Every two weeks at the sprint review
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: Risk
+      fontFamily: Menlo
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Late integration surprises
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Each sprint ran live on localhost:4000
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Fit for CLMS
+      fontFamily: Menlo
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Weak — policies were unknown
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Lean + Scrum + Kanban + XP hybrid
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+- elementId: e090
+  elementType: shape
+  bounds:
+  - 72
+  - 468
+  - 1136
+  - 48
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e091
+  elementType: text
+  bounds:
+  - 96
+  - 468
+  - 1090
+  - 48
+  content:
+    text: 'Agile fit confirmed: seven two-week sprints, 125 of 126 scope points delivered by 4 Sep 2026 — the process story is Unit II.'
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e092
+  elementType: text
+  bounds:
+  - 72
+  - 546
+  - 1136
+  - 80
+  content:
+    text: 'Selection logic: policy values (terms, fines, queues) were interview material, not prior knowledge. An incremental lifecycle let each sprint correct the model before the next one built on it.'
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e093
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e094
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e095
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 05 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

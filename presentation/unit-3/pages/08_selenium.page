@@ -1,0 +1,631 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e1004
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 3 · EVIDENCE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1005
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Two Selenium journeys, five steps each, asserted via API
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e1006
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1007
+  elementType: shape
+  bounds:
+  - 72
+  - 180
+  - 540
+  - 350
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1008
+  elementType: shape
+  bounds:
+  - 72
+  - 180
+  - 540
+  - 6
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1009
+  elementType: text
+  bounds:
+  - 96
+  - 200
+  - 492
+  - 24
+  content:
+    text: JOURNEY 1 · STUDENT
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e1010
+  elementType: text
+  bounds:
+  - 96
+  - 238
+  - 492
+  - 30
+  content:
+    text: 1  log in on the SPA (JWT)
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1011
+  elementType: shape
+  bounds:
+  - 96
+  - 236
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1012
+  elementType: text
+  bounds:
+  - 96
+  - 282
+  - 492
+  - 30
+  content:
+    text: 2  search catalogue · pick a copy
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1013
+  elementType: shape
+  bounds:
+  - 96
+  - 280
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1014
+  elementType: text
+  bounds:
+  - 96
+  - 326
+  - 492
+  - 30
+  content:
+    text: 3  place a hold on the ISSUED copy
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1015
+  elementType: shape
+  bounds:
+  - 96
+  - 324
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1016
+  elementType: text
+  bounds:
+  - 96
+  - 370
+  - 492
+  - 30
+  content:
+    text: 4  copy returns → member is READY
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1017
+  elementType: shape
+  bounds:
+  - 96
+  - 368
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1018
+  elementType: text
+  bounds:
+  - 96
+  - 414
+  - 492
+  - 30
+  content:
+    text: 5  fines view shows 7 rupees accrued
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1019
+  elementType: shape
+  bounds:
+  - 96
+  - 412
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1020
+  elementType: shape
+  bounds:
+  - 96
+  - 470
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1021
+  elementType: text
+  bounds:
+  - 96
+  - 478
+  - 492
+  - 34
+  content:
+    text: headless Chrome · 5 steps · passing at v1.0.0
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1022
+  elementType: shape
+  bounds:
+  - 668
+  - 180
+  - 540
+  - 350
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1023
+  elementType: shape
+  bounds:
+  - 668
+  - 180
+  - 540
+  - 6
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1024
+  elementType: text
+  bounds:
+  - 692
+  - 200
+  - 492
+  - 24
+  content:
+    text: JOURNEY 2 · LIBRARIAN
+    fontSize: 13.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e1025
+  elementType: text
+  bounds:
+  - 692
+  - 238
+  - 492
+  - 30
+  content:
+    text: 1  log in at the desk (JWT)
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1026
+  elementType: shape
+  bounds:
+  - 692
+  - 236
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1027
+  elementType: text
+  bounds:
+  - 692
+  - 282
+  - 492
+  - 30
+  content:
+    text: 2  scan LIB-CSALG01-001 Code 128
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1028
+  elementType: shape
+  bounds:
+  - 692
+  - 280
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1029
+  elementType: text
+  bounds:
+  - 692
+  - 326
+  - 492
+  - 30
+  content:
+    text: 3  issue loan → state flips to ISSUED
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1030
+  elementType: shape
+  bounds:
+  - 692
+  - 324
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1031
+  elementType: text
+  bounds:
+  - 692
+  - 370
+  - 492
+  - 30
+  content:
+    text: 4  receipt + barcode verified
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1032
+  elementType: shape
+  bounds:
+  - 692
+  - 368
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1033
+  elementType: text
+  bounds:
+  - 692
+  - 414
+  - 492
+  - 30
+  content:
+    text: 5  return → API asserts AVAILABLE + fine
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1034
+  elementType: shape
+  bounds:
+  - 692
+  - 412
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1035
+  elementType: shape
+  bounds:
+  - 692
+  - 470
+  - 492
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1036
+  elementType: text
+  bounds:
+  - 692
+  - 478
+  - 492
+  - 34
+  content:
+    text: headless Chrome · 5 steps · passing at v1.0.0
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1037
+  elementType: shape
+  bounds:
+  - 72
+  - 558
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1038
+  elementType: text
+  bounds:
+  - 96
+  - 558
+  - 1090
+  - 44
+  content:
+    text: 'No screenshot theatre: post-return state is verified through REST responses, not DOM pixels.'
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e1039
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1040
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1041
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 08 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

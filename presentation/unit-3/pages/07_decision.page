@@ -1,0 +1,723 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e988
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 2 · BLACK-BOX TECHNIQUES
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e989
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: One decision table owns the can-issue question
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e990
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e991
+  elementType: table
+  bounds:
+  - 72
+  - 180
+  - 1136
+  - 260
+  columnWidths:
+  - 0.1
+  - 0.19
+  - 0.16
+  - 0.19
+  - 0.19
+  - 0.17
+  rowHeights:
+  - 0.16
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  rows:
+  - - text: RULE
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: MEMBER STATUS
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: UNDER LIMIT
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: DUES BELOW 50
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: COPY AVAILABLE
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: ISSUE?
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: R1
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: ACTIVE
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: ALLOW
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#2E5646'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: R2
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: ACTIVE
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: N
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: REFUSE · LIMIT
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#96462F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: R3
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: ACTIVE
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: N
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: REFUSE · BLOCK
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#96462F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: R4
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: BLOCKED
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: —
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: —
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: REFUSE · STATUS
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#96462F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: R5
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: ACTIVE
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Y
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: N (on hold)
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - center
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: REFUSE · QUEUE
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#96462F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+- elementId: e992
+  elementType: text
+  bounds:
+  - 72
+  - 479
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e993
+  elementType: text
+  bounds:
+  - 96
+  - 478
+  - 266.88
+  - 46
+  content:
+    text: Five rules, each a one-line spec
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e994
+  elementType: text
+  bounds:
+  - 358.88
+  - 478
+  - 807.12
+  - 46
+  content:
+    text: in the domain test suite
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e995
+  elementType: text
+  bounds:
+  - 72
+  - 519
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e996
+  elementType: text
+  bounds:
+  - 96
+  - 518
+  - 164.1475
+  - 46
+  content:
+    text: The dashes are real
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e997
+  elementType: text
+  bounds:
+  - 256.14750000000004
+  - 518
+  - 909.8525
+  - 46
+  content:
+    text: — blocked members never reach the dues check
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e998
+  elementType: text
+  bounds:
+  - 72
+  - 559
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e999
+  elementType: text
+  bounds:
+  - 96
+  - 558
+  - 211.56250000000003
+  - 46
+  content:
+    text: R5 encodes the hold queue
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1000
+  elementType: text
+  bounds:
+  - 303.5625
+  - 558
+  - 862.4375
+  - 46
+  content:
+    text: — the reserved copy waits for READY, not for whoever asks
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1001
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1002
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1003
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 07 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

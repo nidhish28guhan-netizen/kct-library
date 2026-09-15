@@ -1,0 +1,535 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e921
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 1 · STRATEGY
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e922
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: TDD was real here — the due-date rule is the proof
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e923
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e924
+  elementType: shape
+  bounds:
+  - 72
+  - 192
+  - 170
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e925
+  elementType: text
+  bounds:
+  - 78
+  - 192
+  - 158
+  - 56
+  content:
+    text: RED
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e926
+  elementType: text
+  bounds:
+  - 72
+  - 258
+  - 180
+  - 20
+  content:
+    text: write the failing spec first
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e927
+  elementType: shape
+  bounds:
+  - 246
+  - 219.0
+  - 34
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e928
+  elementType: shape
+  bounds:
+  - 272.5
+  - 212.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e929
+  elementType: shape
+  bounds:
+  - 282
+  - 192
+  - 170
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e930
+  elementType: text
+  bounds:
+  - 288
+  - 192
+  - 158
+  - 56
+  content:
+    text: GREEN
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e931
+  elementType: text
+  bounds:
+  - 282
+  - 258
+  - 180
+  - 20
+  content:
+    text: minimum change to pass
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e932
+  elementType: shape
+  bounds:
+  - 456
+  - 219.0
+  - 34
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e933
+  elementType: shape
+  bounds:
+  - 482.5
+  - 212.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e934
+  elementType: shape
+  bounds:
+  - 492
+  - 192
+  - 170
+  - 56
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+- elementId: e935
+  elementType: text
+  bounds:
+  - 498
+  - 192
+  - 158
+  - 56
+  content:
+    text: REFACTOR
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e936
+  elementType: text
+  bounds:
+  - 492
+  - 258
+  - 180
+  - 20
+  content:
+    text: clean up under coverage floor
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e937
+  elementType: shape
+  bounds:
+  - 576.5
+  - 158
+  - 1
+  - 34
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e938
+  elementType: shape
+  bounds:
+  - 157
+  - 157.5
+  - 420
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e939
+  elementType: shape
+  bounds:
+  - 156.5
+  - 158
+  - 1
+  - 34
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e940
+  elementType: shape
+  bounds:
+  - 151.5
+  - 186.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 180
+- elementId: e941
+  elementType: text
+  bounds:
+  - 372
+  - 134
+  - 260
+  - 18
+  content:
+    text: loop, per story
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e942
+  elementType: shape
+  bounds:
+  - 72
+  - 300
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e943
+  elementType: text
+  bounds:
+  - 96
+  - 300
+  - 1090
+  - 44
+  content:
+    text: 'The story: a loan term must end at 23:59, not midnight.'
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e944
+  elementType: text
+  bounds:
+  - 72
+  - 372
+  - 110
+  - 22
+  content:
+    text: RED
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e945
+  elementType: text
+  bounds:
+  - 188
+  - 371
+  - 1020
+  - 44
+  content:
+    text: a spec asserted 'due at 23:59:59 on the last day' — it failed against a 00:00 parse.
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e946
+  elementType: text
+  bounds:
+  - 72
+  - 428
+  - 110
+  - 22
+  content:
+    text: GREEN
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e947
+  elementType: text
+  bounds:
+  - 188
+  - 427
+  - 1020
+  - 44
+  content:
+    text: the due-date computation moved to 23:59 in the pure domain layer; suite went green.
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e948
+  elementType: text
+  bounds:
+  - 72
+  - 484
+  - 110
+  - 22
+  content:
+    text: PIN
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e949
+  elementType: text
+  bounds:
+  - 188
+  - 483
+  - 1020
+  - 44
+  content:
+    text: boundary tests at ±1 day now guard the rule — nobody re-breaks it silently.
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e950
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e951
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e952
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 04 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

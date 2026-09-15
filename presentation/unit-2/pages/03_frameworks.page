@@ -1,0 +1,627 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e477
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 1 · FRAMEWORK
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e478
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Not one framework — four, each hired for a different job
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e479
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e480
+  elementType: shape
+  bounds:
+  - 72
+  - 182
+  - 548
+  - 186
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e481
+  elementType: shape
+  bounds:
+  - 72
+  - 182
+  - 6
+  - 186
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e482
+  elementType: text
+  bounds:
+  - 100
+  - 198
+  - 500
+  - 26
+  content:
+    text: SCRUM
+    fontSize: 18
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e483
+  elementType: text
+  bounds:
+  - 100
+  - 228
+  - 500
+  - 20
+  content:
+    text: gives the cadence
+    fontSize: 13
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    italic: true
+    wrap: false
+- elementId: e484
+  elementType: text
+  bounds:
+  - 100
+  - 258
+  - 508
+  - 24
+  content:
+    text: • Two-week sprints
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e485
+  elementType: text
+  bounds:
+  - 100
+  - 285
+  - 508
+  - 24
+  content:
+    text: • planning poker & reviews
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e486
+  elementType: text
+  bounds:
+  - 100
+  - 312
+  - 508
+  - 24
+  content:
+    text: • retros per sprint
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e487
+  elementType: text
+  bounds:
+  - 100
+  - 339
+  - 508
+  - 24
+  content:
+    text: • all seven closed
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e488
+  elementType: shape
+  bounds:
+  - 660
+  - 182
+  - 548
+  - 186
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e489
+  elementType: shape
+  bounds:
+  - 660
+  - 182
+  - 6
+  - 186
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e490
+  elementType: text
+  bounds:
+  - 688
+  - 198
+  - 500
+  - 26
+  content:
+    text: XP
+    fontSize: 18
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e491
+  elementType: text
+  bounds:
+  - 688
+  - 228
+  - 500
+  - 20
+  content:
+    text: gives engineering discipline
+    fontSize: 13
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    italic: true
+    wrap: false
+- elementId: e492
+  elementType: text
+  bounds:
+  - 688
+  - 258
+  - 508
+  - 24
+  content:
+    text: • TDD on domain rules
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e493
+  elementType: text
+  bounds:
+  - 688
+  - 285
+  - 508
+  - 24
+  content:
+    text: • refactoring under coverage floors
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e494
+  elementType: text
+  bounds:
+  - 688
+  - 312
+  - 508
+  - 24
+  content:
+    text: • small releasable increments
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e495
+  elementType: shape
+  bounds:
+  - 72
+  - 388
+  - 548
+  - 186
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e496
+  elementType: shape
+  bounds:
+  - 72
+  - 388
+  - 6
+  - 186
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e497
+  elementType: text
+  bounds:
+  - 100
+  - 404
+  - 500
+  - 26
+  content:
+    text: KANBAN
+    fontSize: 18
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e498
+  elementType: text
+  bounds:
+  - 100
+  - 434
+  - 500
+  - 20
+  content:
+    text: gives the desk flow
+    fontSize: 13
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    italic: true
+    wrap: false
+- elementId: e499
+  elementType: text
+  bounds:
+  - 100
+  - 464
+  - 508
+  - 24
+  content:
+    text: • Returns, holds and maintenance visualised as queue work
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e500
+  elementType: text
+  bounds:
+  - 100
+  - 491
+  - 508
+  - 24
+  content:
+    text: • WIP kept at desk scale
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e501
+  elementType: shape
+  bounds:
+  - 660
+  - 388
+  - 548
+  - 186
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e502
+  elementType: shape
+  bounds:
+  - 660
+  - 388
+  - 6
+  - 186
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e503
+  elementType: text
+  bounds:
+  - 688
+  - 404
+  - 500
+  - 26
+  content:
+    text: LEAN
+    fontSize: 18
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e504
+  elementType: text
+  bounds:
+  - 688
+  - 434
+  - 500
+  - 20
+  content:
+    text: kills hand-off waste
+    fontSize: 13
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    italic: true
+    wrap: false
+- elementId: e505
+  elementType: text
+  bounds:
+  - 688
+  - 464
+  - 508
+  - 24
+  content:
+    text: • Story-gated scope
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e506
+  elementType: text
+  bounds:
+  - 688
+  - 491
+  - 508
+  - 24
+  content:
+    text: • no speculative build
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e507
+  elementType: text
+  bounds:
+  - 688
+  - 518
+  - 508
+  - 24
+  content:
+    text: • every point moves the ledger
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e508
+  elementType: shape
+  bounds:
+  - 72
+  - 598
+  - 1136
+  - 46
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e509
+  elementType: text
+  bounds:
+  - 96
+  - 598
+  - 1090
+  - 46
+  content:
+    text: Scrum for cadence, XP for engineering discipline, Kanban for desk-flow support work, Lean to kill hand-off waste.
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e510
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e511
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e512
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 03 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

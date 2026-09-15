@@ -1,0 +1,715 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e109
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 2 · METHOD
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e110
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: One line of vision, traceable down to every point
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e111
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e112
+  elementType: shape
+  bounds:
+  - 72
+  - 186
+  - 252
+  - 168
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e113
+  elementType: shape
+  bounds:
+  - 72
+  - 186
+  - 252
+  - 4
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e114
+  elementType: text
+  bounds:
+  - 90
+  - 200
+  - 216
+  - 18
+  content:
+    text: VISION
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e115
+  elementType: text
+  bounds:
+  - 88
+  - 236
+  - 220
+  - 70
+  content:
+    text: One dependable collection desk
+    fontSize: 16
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    italic: true
+- elementId: e116
+  elementType: text
+  bounds:
+  - 86
+  - 312
+  - 224
+  - 26
+  content:
+    text: the anchor sentence
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+- elementId: e117
+  elementType: shape
+  bounds:
+  - 328
+  - 269.0
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e118
+  elementType: shape
+  bounds:
+  - 348.5
+  - 262.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e119
+  elementType: shape
+  bounds:
+  - 360
+  - 186
+  - 252
+  - 168
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e120
+  elementType: shape
+  bounds:
+  - 360
+  - 186
+  - 252
+  - 4
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e121
+  elementType: text
+  bounds:
+  - 378
+  - 200
+  - 216
+  - 18
+  content:
+    text: EPICS
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e122
+  elementType: text
+  bounds:
+  - 360
+  - 224
+  - 252
+  - 60
+  content:
+    text: '10'
+    fontSize: 44
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e123
+  elementType: text
+  bounds:
+  - 374
+  - 296
+  - 224
+  - 40
+  content:
+    text: coarse scope units
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+- elementId: e124
+  elementType: shape
+  bounds:
+  - 616
+  - 269.0
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e125
+  elementType: shape
+  bounds:
+  - 636.5
+  - 262.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e126
+  elementType: shape
+  bounds:
+  - 648
+  - 186
+  - 252
+  - 168
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e127
+  elementType: shape
+  bounds:
+  - 648
+  - 186
+  - 252
+  - 4
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e128
+  elementType: text
+  bounds:
+  - 666
+  - 200
+  - 216
+  - 18
+  content:
+    text: STORIES
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e129
+  elementType: text
+  bounds:
+  - 648
+  - 224
+  - 252
+  - 60
+  content:
+    text: '37'
+    fontSize: 44
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e130
+  elementType: text
+  bounds:
+  - 662
+  - 296
+  - 224
+  - 40
+  content:
+    text: sprint-sized promises
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+- elementId: e131
+  elementType: shape
+  bounds:
+  - 904
+  - 269.0
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e132
+  elementType: shape
+  bounds:
+  - 924.5
+  - 262.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e133
+  elementType: shape
+  bounds:
+  - 936
+  - 186
+  - 252
+  - 168
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e134
+  elementType: shape
+  bounds:
+  - 936
+  - 186
+  - 252
+  - 4
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e135
+  elementType: text
+  bounds:
+  - 954
+  - 200
+  - 216
+  - 18
+  content:
+    text: POINTS
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e136
+  elementType: text
+  bounds:
+  - 936
+  - 224
+  - 252
+  - 60
+  content:
+    text: '126'
+    fontSize: 44
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e137
+  elementType: text
+  bounds:
+  - 950
+  - 296
+  - 224
+  - 40
+  content:
+    text: 125 delivered
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+- elementId: e138
+  elementType: text
+  bounds:
+  - 72
+  - 397
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e139
+  elementType: text
+  bounds:
+  - 96
+  - 396
+  - 103.92500000000001
+  - 44
+  content:
+    text: Every story
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e140
+  elementType: text
+  bounds:
+  - 195.925
+  - 396
+  - 630.075
+  - 44
+  content:
+    text: carries acceptance criteria and a sprint tag
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e141
+  elementType: text
+  bounds:
+  - 72
+  - 435
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e142
+  elementType: text
+  bounds:
+  - 96
+  - 434
+  - 54.875
+  - 44
+  content:
+    text: Epics
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e143
+  elementType: text
+  bounds:
+  - 146.875
+  - 434
+  - 679.125
+  - 44
+  content:
+    text: roll the stories back up to the vision sentence
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e144
+  elementType: text
+  bounds:
+  - 72
+  - 473
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e145
+  elementType: text
+  bounds:
+  - 96
+  - 472
+  - 95.75
+  - 44
+  content:
+    text: 125 of 126
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e146
+  elementType: text
+  bounds:
+  - 187.75
+  - 472
+  - 638.25
+  - 44
+  content:
+    text: points delivered · US-37 deferred at review
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e147
+  elementType: text
+  bounds:
+  - 72
+  - 540
+  - 1136
+  - 70
+  content:
+    text: 'Traceability worked both directions: defect RES-001 retraced to its hold-queue story, its epic, and its regression pin in one hop.'
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e148
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e149
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e150
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 07 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

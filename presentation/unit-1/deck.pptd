@@ -1,0 +1,50 @@
+version: v2
+title: CLMS Unit I — SE Fundamentals & System Design
+size:
+- 1280
+- 720
+theme:
+  colors:
+    paper: '#F5F2EA'
+    ink: '#1E3A2F'
+    brass: '#A8792C'
+    muted: '#66756A'
+    line: '#D9D2C0'
+    panel: '#EDE7D8'
+    faint: '#E3DCC8'
+    white: '#FFFFFF'
+    brick: '#96462F'
+    text: '#1E3A2F'
+  textStyles:
+    display:
+      fontFamily: Georgia
+      color: '#1E3A2F'
+    body:
+      fontFamily: Helvetica
+      color: '#1E3A2F'
+    mono:
+      fontFamily: Menlo
+      color: '#1E3A2F'
+    kicker:
+      fontFamily: Helvetica
+      color: '#A8792C'
+    muted:
+      fontFamily: Helvetica
+      color: '#66756A'
+pages:
+- pages/01_cover.page
+- pages/02_agenda.page
+- pages/03_problem.page
+- pages/04_stakeholders.page
+- pages/05_sdlc.page
+- pages/06_requirements.page
+- pages/07_traceability.page
+- pages/08_usecase.page
+- pages/09_classes.page
+- pages/10_states.page
+- pages/11_sequence.page
+- pages/12_architecture.page
+- pages/13_barcode.page
+- pages/14_data.page
+- pages/15_principles.page
+- pages/16_recap.page

@@ -1,0 +1,468 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e342
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 4 · ARCHITECTURE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e343
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Every copy carries a scannable identity
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e344
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e345
+  elementType: shape
+  bounds:
+  - 72
+  - 176
+  - 520
+  - 330
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#FFFFFF'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e346
+  elementType: text
+  bounds:
+  - 96
+  - 196
+  - 470
+  - 20
+  content:
+    text: CATALOGUE COPY · SAMPLE LABEL
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.8
+    wrap: false
+- elementId: e347
+  elementType: text
+  bounds:
+  - 96
+  - 222
+  - 470
+  - 34
+  content:
+    text: LIB-CSALG01-001
+    fontSize: 24
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e348
+  elementType: image
+  bounds:
+  - 106
+  - 268
+  - 452
+  - 188
+  src: media/barcode-motif.png
+  fit:
+    mode: contain
+- elementId: e349
+  elementType: text
+  bounds:
+  - 640
+  - 176
+  - 380
+  - 16
+  content:
+    text: WHY CODE 128 · VIA BWIP-JS
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e350
+  elementType: shape
+  bounds:
+  - 640
+  - 198
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e351
+  elementType: text
+  bounds:
+  - 640
+  - 213
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e352
+  elementType: text
+  bounds:
+  - 664
+  - 212
+  - 149.16
+  - 46
+  content:
+    text: Dense full-ASCII
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e353
+  elementType: text
+  bounds:
+  - 809.16
+  - 212
+  - 384.84000000000003
+  - 46
+  content:
+    text: — codes fit small spine labels
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e354
+  elementType: text
+  bounds:
+  - 640
+  - 253
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e355
+  elementType: text
+  bounds:
+  - 664
+  - 252
+  - 182.95000000000002
+  - 46
+  content:
+    text: Built-in check digit
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e356
+  elementType: text
+  bounds:
+  - 842.95
+  - 252
+  - 351.04999999999995
+  - 46
+  content:
+    text: — misreads reject themselves
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e357
+  elementType: text
+  bounds:
+  - 640
+  - 293
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e358
+  elementType: text
+  bounds:
+  - 664
+  - 292
+  - 149.16
+  - 46
+  content:
+    text: Scanner-agnostic
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e359
+  elementType: text
+  bounds:
+  - 809.16
+  - 292
+  - 384.84000000000003
+  - 46
+  content:
+    text: — camera or gun, same string
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e360
+  elementType: text
+  bounds:
+  - 640
+  - 333
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e361
+  elementType: text
+  bounds:
+  - 664
+  - 332
+  - 140.7125
+  - 46
+  content:
+    text: Server-side SVG
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e362
+  elementType: text
+  bounds:
+  - 800.7125
+  - 332
+  - 393.2875
+  - 46
+  content:
+    text: — generated on demand by bwip-js
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e363
+  elementType: shape
+  bounds:
+  - 72
+  - 534
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e364
+  elementType: text
+  bounds:
+  - 96
+  - 534
+  - 1090
+  - 44
+  content:
+    text: 'UI-002 lesson: an image tag cannot send a JWT header — the SPA fetches the SVG authenticated, then paints it.'
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e365
+  elementType: text
+  bounds:
+  - 72
+  - 596
+  - 1136
+  - 30
+  content:
+    text: 'Label format LIB-<collection><item>-<seq>: human-readable prefix, machine-scannable payload.'
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e366
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e367
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e368
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 13 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

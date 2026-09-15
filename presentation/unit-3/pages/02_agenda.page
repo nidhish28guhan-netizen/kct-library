@@ -1,0 +1,379 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e879
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: AGENDA · UNIT III
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e880
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: What this unit covers
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e881
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e882
+  elementType: shape
+  bounds:
+  - 72
+  - 174
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e883
+  elementType: text
+  bounds:
+  - 72
+  - 190
+  - 70
+  - 30
+  content:
+    text: '01'
+    fontSize: 17
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e884
+  elementType: text
+  bounds:
+  - 164
+  - 187
+  - 600
+  - 34
+  content:
+    text: STRATEGY
+    fontSize: 21
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e885
+  elementType: text
+  bounds:
+  - 620
+  - 192
+  - 588
+  - 28
+  content:
+    text: The test pyramid · the TDD loop we actually ran
+    fontSize: 14.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+- elementId: e886
+  elementType: shape
+  bounds:
+  - 72
+  - 284
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e887
+  elementType: text
+  bounds:
+  - 72
+  - 300
+  - 70
+  - 30
+  content:
+    text: '02'
+    fontSize: 17
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e888
+  elementType: text
+  bounds:
+  - 164
+  - 297
+  - 600
+  - 34
+  content:
+    text: BLACK-BOX TECHNIQUES
+    fontSize: 21
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e889
+  elementType: text
+  bounds:
+  - 620
+  - 302
+  - 588
+  - 28
+  content:
+    text: Equivalence partitioning · boundary values · decision tables
+    fontSize: 14.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+- elementId: e890
+  elementType: shape
+  bounds:
+  - 72
+  - 394
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e891
+  elementType: text
+  bounds:
+  - 72
+  - 410
+  - 70
+  - 30
+  content:
+    text: '03'
+    fontSize: 17
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e892
+  elementType: text
+  bounds:
+  - 164
+  - 407
+  - 600
+  - 34
+  content:
+    text: EVIDENCE
+    fontSize: 21
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e893
+  elementType: text
+  bounds:
+  - 620
+  - 412
+  - 588
+  - 28
+  content:
+    text: Selenium journeys · defect ledger · coverage · white-box metrics
+    fontSize: 14.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+- elementId: e894
+  elementType: shape
+  bounds:
+  - 72
+  - 504
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e895
+  elementType: text
+  bounds:
+  - 72
+  - 520
+  - 70
+  - 30
+  content:
+    text: '04'
+    fontSize: 17
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e896
+  elementType: text
+  bounds:
+  - 164
+  - 517
+  - 600
+  - 34
+  content:
+    text: QUALITY SYSTEM
+    fontSize: 21
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e897
+  elementType: text
+  bounds:
+  - 620
+  - 522
+  - 588
+  - 28
+  content:
+    text: ISO 25010 · CI/CD · CMMI-3 · the v1.0.0 release ledger
+    fontSize: 14.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+- elementId: e898
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e899
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e900
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 02 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

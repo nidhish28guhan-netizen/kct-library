@@ -1,0 +1,379 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e397
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 4 · ARCHITECTURE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e398
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Design principles that earned their keep
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e399
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e400
+  elementType: text
+  bounds:
+  - 72
+  - 180
+  - 70
+  - 32
+  content:
+    text: P1
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e401
+  elementType: text
+  bounds:
+  - 134
+  - 177
+  - 1074
+  - 30
+  content:
+    text: Single responsibility by layering
+    fontSize: 20
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e402
+  elementType: text
+  bounds:
+  - 134
+  - 210
+  - 1074
+  - 42
+  content:
+    text: Routes never touch files; the store never knows library rules — each rule lives in exactly one place.
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e403
+  elementType: shape
+  bounds:
+  - 72
+  - 266
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e404
+  elementType: text
+  bounds:
+  - 72
+  - 292
+  - 70
+  - 32
+  content:
+    text: P2
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e405
+  elementType: text
+  bounds:
+  - 134
+  - 289
+  - 1074
+  - 30
+  content:
+    text: Pure domain functions
+    fontSize: 20
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e406
+  elementType: text
+  bounds:
+  - 134
+  - 322
+  - 1074
+  - 42
+  content:
+    text: Policies evaluate without I/O or mocks — which is why domain statement coverage reaches 96.8%.
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e407
+  elementType: shape
+  bounds:
+  - 72
+  - 378
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e408
+  elementType: text
+  bounds:
+  - 72
+  - 404
+  - 70
+  - 32
+  content:
+    text: P3
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e409
+  elementType: text
+  bounds:
+  - 134
+  - 401
+  - 1074
+  - 30
+  content:
+    text: Idempotent notifications
+    fontSize: 20
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e410
+  elementType: text
+  bounds:
+  - 134
+  - 434
+  - 1074
+  - 42
+  content:
+    text: A READY notice replayed is harmless — queue re-dispatch stays safe after the RES-001 fix.
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e411
+  elementType: shape
+  bounds:
+  - 72
+  - 490
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e412
+  elementType: text
+  bounds:
+  - 72
+  - 516
+  - 70
+  - 32
+  content:
+    text: P4
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e413
+  elementType: text
+  bounds:
+  - 134
+  - 513
+  - 1074
+  - 30
+  content:
+    text: State guards before writes
+    fontSize: 20
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e414
+  elementType: text
+  bounds:
+  - 134
+  - 546
+  - 1074
+  - 42
+  content:
+    text: Every copy transition checks the allowed set first — no silent illegal edit reaches the store.
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e415
+  elementType: shape
+  bounds:
+  - 72
+  - 602
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e416
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e417
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e418
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 15 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

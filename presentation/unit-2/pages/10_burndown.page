@@ -1,0 +1,416 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e669
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 3 · EXECUTION
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e670
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: 'Sprint 3''s burndown tells the only story that matters: truth'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e671
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e672
+  elementType: image
+  bounds:
+  - 72
+  - 176
+  - 620
+  - 360
+  src: media/burndown-s3.png
+  fit:
+    mode: contain
+- elementId: e673
+  elementType: text
+  bounds:
+  - 724
+  - 188
+  - 380
+  - 16
+  content:
+    text: READING THE BUMP
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e674
+  elementType: shape
+  bounds:
+  - 724
+  - 210
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e675
+  elementType: text
+  bounds:
+  - 724
+  - 223
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e676
+  elementType: text
+  bounds:
+  - 748
+  - 222
+  - 157.60750000000002
+  - 50
+  content:
+    text: Planned 21 points
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e677
+  elementType: text
+  bounds:
+  - 901.6075000000001
+  - 222
+  - 300.3925
+  - 50
+  content:
+    text: — ideal line runs straight down
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e678
+  elementType: text
+  bounds:
+  - 724
+  - 267
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e679
+  elementType: text
+  bounds:
+  - 748
+  - 266
+  - 132.26500000000001
+  - 50
+  content:
+    text: 'Day 5: RES-001'
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e680
+  elementType: text
+  bounds:
+  - 876.265
+  - 266
+  - 325.735
+  - 50
+  content:
+    text: — cancelled READY holds can strand a copy
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e681
+  elementType: text
+  bounds:
+  - 724
+  - 311
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e682
+  elementType: text
+  bounds:
+  - 748
+  - 310
+  - 90.0275
+  - 50
+  content:
+    text: +3 points
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e683
+  elementType: text
+  bounds:
+  - 834.0275
+  - 310
+  - 367.97249999999997
+  - 50
+  content:
+    text: enter as the regression-safe fix is scoped
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e684
+  elementType: text
+  bounds:
+  - 724
+  - 355
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e685
+  elementType: text
+  bounds:
+  - 748
+  - 354
+  - 115.37
+  - 50
+  content:
+    text: Closed at 18
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e686
+  elementType: text
+  bounds:
+  - 859.37
+  - 354
+  - 342.63
+  - 50
+  content:
+    text: — three points carried, openly, to S4
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e687
+  elementType: text
+  bounds:
+  - 72
+  - 548
+  - 620
+  - 40
+  content:
+    text: 'Chart: ideal vs actual points remaining, sprint days 0–10.'
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e688
+  elementType: shape
+  bounds:
+  - 72
+  - 588
+  - 1136
+  - 42
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e689
+  elementType: text
+  bounds:
+  - 96
+  - 588
+  - 1090
+  - 42
+  content:
+    text: A bump you can see is a plan you can trust — hiding it would only move the surprise to the release.
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e690
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e691
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e692
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 10 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

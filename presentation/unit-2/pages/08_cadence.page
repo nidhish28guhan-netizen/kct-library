@@ -1,0 +1,745 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e604
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 3 · EXECUTION
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e605
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Seven two-week sprints — 1 Jun to 4 Sep 2026, all closed
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e606
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e607
+  elementType: shape
+  bounds:
+  - 72
+  - 216
+  - 148
+  - 76
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e608
+  elementType: text
+  bounds:
+  - 100
+  - 222
+  - 116
+  - 26
+  content:
+    text: S1
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e609
+  elementType: text
+  bounds:
+  - 100
+  - 250
+  - 116
+  - 32
+  content:
+    text: 17 pts
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e610
+  elementType: shape
+  bounds:
+  - 230
+  - 216
+  - 148
+  - 76
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e611
+  elementType: text
+  bounds:
+  - 258
+  - 222
+  - 116
+  - 26
+  content:
+    text: S2
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e612
+  elementType: text
+  bounds:
+  - 258
+  - 250
+  - 116
+  - 32
+  content:
+    text: 16 pts
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e613
+  elementType: shape
+  bounds:
+  - 388
+  - 216
+  - 148
+  - 76
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e614
+  elementType: text
+  bounds:
+  - 416
+  - 222
+  - 116
+  - 26
+  content:
+    text: S3
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e615
+  elementType: text
+  bounds:
+  - 416
+  - 250
+  - 116
+  - 32
+  content:
+    text: 18 pts
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e616
+  elementType: shape
+  bounds:
+  - 546
+  - 216
+  - 148
+  - 76
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e617
+  elementType: text
+  bounds:
+  - 574
+  - 222
+  - 116
+  - 26
+  content:
+    text: S4
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e618
+  elementType: text
+  bounds:
+  - 574
+  - 250
+  - 116
+  - 32
+  content:
+    text: 22 pts
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e619
+  elementType: shape
+  bounds:
+  - 704
+  - 216
+  - 148
+  - 76
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e620
+  elementType: text
+  bounds:
+  - 732
+  - 222
+  - 116
+  - 26
+  content:
+    text: S5
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e621
+  elementType: text
+  bounds:
+  - 732
+  - 250
+  - 116
+  - 32
+  content:
+    text: 13 pts
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e622
+  elementType: shape
+  bounds:
+  - 862
+  - 216
+  - 148
+  - 76
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e623
+  elementType: text
+  bounds:
+  - 890
+  - 222
+  - 116
+  - 26
+  content:
+    text: S6
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e624
+  elementType: text
+  bounds:
+  - 890
+  - 250
+  - 116
+  - 32
+  content:
+    text: 16 pts
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e625
+  elementType: shape
+  bounds:
+  - 1020
+  - 216
+  - 148
+  - 76
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e626
+  elementType: text
+  bounds:
+  - 1048
+  - 222
+  - 116
+  - 26
+  content:
+    text: S7
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e627
+  elementType: text
+  bounds:
+  - 1048
+  - 250
+  - 116
+  - 32
+  content:
+    text: 24 pts
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e628
+  elementType: text
+  bounds:
+  - 72
+  - 178
+  - 400
+  - 20
+  content:
+    text: 1 JUN 2026
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+- elementId: e629
+  elementType: text
+  bounds:
+  - 832
+  - 178
+  - 376
+  - 20
+  content:
+    text: 4 SEP 2026 · RELEASE v1.0.0
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+- elementId: e630
+  elementType: shape
+  bounds:
+  - 72
+  - 316
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e631
+  elementType: text
+  bounds:
+  - 368
+  - 330
+  - 300
+  - 20
+  content:
+    text: S3 slip · RES-001 found
+    fontSize: 12
+    color: '#96462F'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e632
+  elementType: text
+  bounds:
+  - 842
+  - 330
+  - 300
+  - 20
+  content:
+    text: S6 slip · UI-002 found
+    fontSize: 12
+    color: '#96462F'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e633
+  elementType: text
+  bounds:
+  - 72
+  - 381
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e634
+  elementType: text
+  bounds:
+  - 96
+  - 380
+  - 368.795
+  - 50
+  content:
+    text: Both slips surfaced in their sprint review
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e635
+  elementType: text
+  bounds:
+  - 460.795
+  - 380
+  - 705.2049999999999
+  - 50
+  content:
+    text: and were recovered the sprint after
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e636
+  elementType: text
+  bounds:
+  - 72
+  - 425
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e637
+  elementType: text
+  bounds:
+  - 96
+  - 424
+  - 174.5025
+  - 50
+  content:
+    text: S4 closed 22 points
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e638
+  elementType: text
+  bounds:
+  - 266.5025
+  - 424
+  - 899.4975
+  - 50
+  content:
+    text: — absorbing S3's three carried points inside a healthy sprint
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e639
+  elementType: text
+  bounds:
+  - 72
+  - 469
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e640
+  elementType: text
+  bounds:
+  - 96
+  - 468
+  - 174.5025
+  - 50
+  content:
+    text: S7 closed 24 points
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e641
+  elementType: text
+  bounds:
+  - 266.5025
+  - 468
+  - 899.4975
+  - 50
+  content:
+    text: — the strongest sprint, delivered right at the release
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e642
+  elementType: shape
+  bounds:
+  - 72
+  - 558
+  - 1136
+  - 48
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e643
+  elementType: text
+  bounds:
+  - 96
+  - 558
+  - 1090
+  - 48
+  content:
+    text: Every sprint closed at release — no open sprint was parked when v1.0.0 shipped.
+    fontSize: 13.5
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e644
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e645
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e646
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 08 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

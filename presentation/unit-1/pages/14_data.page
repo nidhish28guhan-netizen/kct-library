@@ -1,0 +1,490 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e369
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 4 · ARCHITECTURE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e370
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: The whole system fits in seven small files
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e371
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e372
+  elementType: text
+  bounds:
+  - 72
+  - 192
+  - 280
+  - 72
+  content:
+    text: '2'
+    fontSize: 62
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e373
+  elementType: text
+  bounds:
+  - 72
+  - 268
+  - 280
+  - 18
+  content:
+    text: SEED STAFF
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e374
+  elementType: shape
+  bounds:
+  - 322
+  - 198
+  - 2
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e375
+  elementType: text
+  bounds:
+  - 362
+  - 192
+  - 280
+  - 72
+  content:
+    text: '4'
+    fontSize: 62
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e376
+  elementType: text
+  bounds:
+  - 362
+  - 268
+  - 280
+  - 18
+  content:
+    text: SEED MEMBERS
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e377
+  elementType: shape
+  bounds:
+  - 612
+  - 198
+  - 2
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e378
+  elementType: text
+  bounds:
+  - 652
+  - 192
+  - 280
+  - 72
+  content:
+    text: '12'
+    fontSize: 62
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e379
+  elementType: text
+  bounds:
+  - 652
+  - 268
+  - 280
+  - 18
+  content:
+    text: TITLES
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e380
+  elementType: shape
+  bounds:
+  - 902
+  - 198
+  - 2
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e381
+  elementType: text
+  bounds:
+  - 942
+  - 192
+  - 280
+  - 72
+  content:
+    text: '34'
+    fontSize: 62
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e382
+  elementType: text
+  bounds:
+  - 942
+  - 268
+  - 280
+  - 18
+  content:
+    text: PHYSICAL COPIES
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e383
+  elementType: text
+  bounds:
+  - 72
+  - 358
+  - 280
+  - 72
+  content:
+    text: '11'
+    fontSize: 62
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e384
+  elementType: text
+  bounds:
+  - 72
+  - 434
+  - 280
+  - 18
+  content:
+    text: OPEN LOANS
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e385
+  elementType: shape
+  bounds:
+  - 322
+  - 364
+  - 2
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e386
+  elementType: text
+  bounds:
+  - 362
+  - 358
+  - 280
+  - 72
+  content:
+    text: '3'
+    fontSize: 62
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e387
+  elementType: text
+  bounds:
+  - 362
+  - 434
+  - 280
+  - 18
+  content:
+    text: RESERVATIONS
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e388
+  elementType: shape
+  bounds:
+  - 612
+  - 364
+  - 2
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e389
+  elementType: text
+  bounds:
+  - 652
+  - 358
+  - 280
+  - 72
+  content:
+    text: '2'
+    fontSize: 62
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e390
+  elementType: text
+  bounds:
+  - 652
+  - 434
+  - 280
+  - 18
+  content:
+    text: PENALTIES
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e391
+  elementType: text
+  bounds:
+  - 942
+  - 358
+  - 266
+  - 100
+  content:
+    text: One JSON collection per entity — no database server anywhere in the stack.
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e392
+  elementType: shape
+  bounds:
+  - 72
+  - 512
+  - 1136
+  - 58
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e393
+  elementType: text
+  bounds:
+  - 96
+  - 512
+  - 1090
+  - 58
+  content:
+    text: 'Trade-off stated honestly: JSON documents were an explicit requirement — the answer is atomic tmp + rename writes, so a crash mid-save cannot corrupt the ledger.'
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e394
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e395
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e396
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 14 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

@@ -1,0 +1,343 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e901
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 1 · STRATEGY
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e902
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: 'A pyramid, not a coin flip: 121 tests in six suites'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e903
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e904
+  elementType: image
+  bounds:
+  - 72
+  - 172
+  - 560
+  - 360
+  src: media/pyramid.png
+  fit:
+    mode: contain
+- elementId: e905
+  elementType: text
+  bounds:
+  - 72
+  - 540
+  - 560
+  - 20
+  content:
+    text: 'Figure: test pyramid — counts as shipped at v1.0.0.'
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e906
+  elementType: text
+  bounds:
+  - 700
+  - 186
+  - 440
+  - 62
+  content:
+    text: '121'
+    fontSize: 52
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e907
+  elementType: text
+  bounds:
+  - 700
+  - 252
+  - 440
+  - 18
+  content:
+    text: AUTOMATED TESTS
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e908
+  elementType: text
+  bounds:
+  - 700
+  - 274
+  - 440
+  - 18
+  content:
+    text: all passing
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e909
+  elementType: text
+  bounds:
+  - 700
+  - 314
+  - 440
+  - 62
+  content:
+    text: '6'
+    fontSize: 52
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e910
+  elementType: text
+  bounds:
+  - 700
+  - 380
+  - 440
+  - 18
+  content:
+    text: JEST SUITES
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e911
+  elementType: text
+  bounds:
+  - 700
+  - 402
+  - 440
+  - 18
+  content:
+    text: domain · repos · routes · services
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e912
+  elementType: shape
+  bounds:
+  - 700
+  - 302
+  - 440
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e913
+  elementType: text
+  bounds:
+  - 700
+  - 442
+  - 440
+  - 62
+  content:
+    text: '2'
+    fontSize: 52
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e914
+  elementType: text
+  bounds:
+  - 700
+  - 508
+  - 440
+  - 18
+  content:
+    text: E2E JOURNEYS
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e915
+  elementType: text
+  bounds:
+  - 700
+  - 530
+  - 440
+  - 18
+  content:
+    text: Selenium headless Chrome
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e916
+  elementType: shape
+  bounds:
+  - 700
+  - 430
+  - 440
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e917
+  elementType: text
+  bounds:
+  - 700
+  - 566
+  - 508
+  - 60
+  content:
+    text: 'The split is the strategy: fast specs hold the rules; two slow journeys guard the wiring end to end.'
+    fontSize: 13.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e918
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e919
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e920
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 03 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

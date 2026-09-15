@@ -1,0 +1,643 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e525
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 2 · BACKLOG
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e526
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Ten epics, 126 points — the planning ledger
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e527
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e528
+  elementType: table
+  bounds:
+  - 72
+  - 190
+  - 548
+  - 300
+  columnWidths:
+  - 0.18
+  - 0.62
+  - 0.2
+  rowHeights:
+  - 0.16
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  rows:
+  - - text: EPIC
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: SCOPE
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: PTS
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: E1
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Foundation, Auth & Access
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: '11'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: E2
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Members
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: '6'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: E3
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Catalogue & Search (incl. US-37*)
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: '14'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: E4
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Copies & Barcodes
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: '11'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: E5
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Circulation
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: '16'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+- elementId: e529
+  elementType: table
+  bounds:
+  - 660
+  - 190
+  - 548
+  - 300
+  columnWidths:
+  - 0.18
+  - 0.62
+  - 0.2
+  rowHeights:
+  - 0.16
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  rows:
+  - - text: EPIC
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: SCOPE
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: PTS
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: E6
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Reservations
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: '19'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: E7
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Penalties & Policies
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: '10'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: E8
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Recommendations
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: '13'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: E9
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Notifications
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: '13'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: E10
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Reports, Admin & Release Quality
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: '13'
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#A8792C'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+- elementId: e530
+  elementType: text
+  bounds:
+  - 72
+  - 156
+  - 1136
+  - 22
+  content:
+    text: Fibonacci planning-level sizing · 37 stories live under these ten epics
+    fontSize: 13.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e531
+  elementType: shape
+  bounds:
+  - 72
+  - 524
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e532
+  elementType: text
+  bounds:
+  - 96
+  - 524
+  - 1090
+  - 44
+  content:
+    text: 125 of 126 points were delivered — US-37 (1 pt) was deferred at review rather than dilute the release.
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e533
+  elementType: text
+  bounds:
+  - 72
+  - 588
+  - 1136
+  - 30
+  content:
+    text: 'Epic sums reconcile to scope: 58 + 68 = 126 pts · Nidhish 61 + Kawaskar 64 = 125 delivered.'
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e534
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e535
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e536
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 05 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

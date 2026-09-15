@@ -1,0 +1,597 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e1203
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 4 · QUALITY SYSTEM
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1204
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: CMMI-3 habits, and four flavours of maintenance
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e1205
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1206
+  elementType: text
+  bounds:
+  - 72
+  - 176
+  - 380
+  - 16
+  content:
+    text: CMMI LEVEL-3 PRACTICES AS RUN
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e1207
+  elementType: shape
+  bounds:
+  - 72
+  - 198
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1208
+  elementType: table
+  bounds:
+  - 72
+  - 206
+  - 1136
+  - 208
+  columnWidths:
+  - 0.3
+  - 0.7
+  rowHeights:
+  - 0.16
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  - 0.16799999999999998
+  rows:
+  - - text: PRACTICE AREA
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: HOW v1.0.0 MET IT
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: Organizational Process Focus
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: cadence reused across all 7 sprints
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Project Planning (PP)
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: WBS + poker estimates + capacity check
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: Project Monitoring & Control
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: velocity vs plan; slips recovered fast
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Measurement & Analysis
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: coverage, CC, velocity as metrics
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: Peer Reviews
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: cross-review inside Definition of Done
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+- elementId: e1209
+  elementType: text
+  bounds:
+  - 72
+  - 442
+  - 380
+  - 16
+  content:
+    text: MAINTENANCE TYPES — EACH ALREADY HAPPENED
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e1210
+  elementType: shape
+  bounds:
+  - 72
+  - 464
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1211
+  elementType: shape
+  bounds:
+  - 72
+  - 474
+  - 268
+  - 124
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1212
+  elementType: shape
+  bounds:
+  - 72
+  - 474
+  - 268
+  - 6
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e1213
+  elementType: text
+  bounds:
+  - 92
+  - 492
+  - 228
+  - 24
+  content:
+    text: CORRECTIVE
+    fontSize: 13
+    color: '#96462F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1214
+  elementType: text
+  bounds:
+  - 92
+  - 522
+  - 228
+  - 60
+  content:
+    text: RES-001 hold stranding
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e1215
+  elementType: shape
+  bounds:
+  - 360
+  - 474
+  - 268
+  - 124
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1216
+  elementType: shape
+  bounds:
+  - 360
+  - 474
+  - 268
+  - 6
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1217
+  elementType: text
+  bounds:
+  - 380
+  - 492
+  - 228
+  - 24
+  content:
+    text: ADAPTIVE
+    fontSize: 13
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1218
+  elementType: text
+  bounds:
+  - 380
+  - 522
+  - 228
+  - 60
+  content:
+    text: policy term changes absorbed
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e1219
+  elementType: shape
+  bounds:
+  - 648
+  - 474
+  - 268
+  - 124
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1220
+  elementType: shape
+  bounds:
+  - 648
+  - 474
+  - 268
+  - 6
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+- elementId: e1221
+  elementType: text
+  bounds:
+  - 668
+  - 492
+  - 228
+  - 24
+  content:
+    text: PERFECTIVE
+    fontSize: 13
+    color: '#2E5646'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1222
+  elementType: text
+  bounds:
+  - 668
+  - 522
+  - 228
+  - 60
+  content:
+    text: recommendation reasons added
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e1223
+  elementType: shape
+  bounds:
+  - 936
+  - 474
+  - 268
+  - 124
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1224
+  elementType: shape
+  bounds:
+  - 936
+  - 474
+  - 268
+  - 6
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1225
+  elementType: text
+  bounds:
+  - 956
+  - 492
+  - 228
+  - 24
+  content:
+    text: PREVENTIVE
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1226
+  elementType: text
+  bounds:
+  - 956
+  - 522
+  - 228
+  - 60
+  content:
+    text: BVA pins block defect families
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e1227
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1228
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1229
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 14 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

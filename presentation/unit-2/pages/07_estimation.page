@@ -1,0 +1,665 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e566
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 2 · BACKLOG
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e567
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Planning poker on a Fibonacci ladder — disagreement is the point
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e568
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e569
+  elementType: shape
+  bounds:
+  - 72
+  - 186
+  - 80
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e570
+  elementType: text
+  bounds:
+  - 72
+  - 186
+  - 80
+  - 92
+  content:
+    text: '1'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e571
+  elementType: shape
+  bounds:
+  - 168
+  - 186
+  - 80
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EFEADC'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e572
+  elementType: text
+  bounds:
+  - 168
+  - 186
+  - 80
+  - 92
+  content:
+    text: '2'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e573
+  elementType: shape
+  bounds:
+  - 264
+  - 186
+  - 80
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e574
+  elementType: text
+  bounds:
+  - 264
+  - 186
+  - 80
+  - 92
+  content:
+    text: '3'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e575
+  elementType: shape
+  bounds:
+  - 360
+  - 186
+  - 80
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EFEADC'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e576
+  elementType: text
+  bounds:
+  - 360
+  - 186
+  - 80
+  - 92
+  content:
+    text: '5'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e577
+  elementType: shape
+  bounds:
+  - 456
+  - 186
+  - 80
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e578
+  elementType: text
+  bounds:
+  - 456
+  - 186
+  - 80
+  - 92
+  content:
+    text: '8'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e579
+  elementType: shape
+  bounds:
+  - 552
+  - 186
+  - 80
+  - 92
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EFEADC'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e580
+  elementType: text
+  bounds:
+  - 552
+  - 186
+  - 80
+  - 92
+  content:
+    text: '13'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e581
+  elementType: text
+  bounds:
+  - 72
+  - 290
+  - 560
+  - 20
+  content:
+    text: FIBONACCI STORY-POINT SCALE
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e582
+  elementType: text
+  bounds:
+  - 72
+  - 340
+  - 380
+  - 16
+  content:
+    text: WHY THIS WORKS FOR CLMS
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e583
+  elementType: shape
+  bounds:
+  - 72
+  - 362
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e584
+  elementType: text
+  bounds:
+  - 72
+  - 375
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e585
+  elementType: text
+  bounds:
+  - 96
+  - 374
+  - 199.84500000000003
+  - 48
+  content:
+    text: Silent first estimates
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e586
+  elementType: text
+  bounds:
+  - 291.845
+  - 374
+  - 414.155
+  - 48
+  content:
+    text: — no anchoring to the louder hat
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e587
+  elementType: text
+  bounds:
+  - 72
+  - 417
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e588
+  elementType: text
+  bounds:
+  - 96
+  - 416
+  - 115.37
+  - 48
+  content:
+    text: Coarse scale
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e589
+  elementType: text
+  bounds:
+  - 207.37
+  - 416
+  - 498.63
+  - 48
+  content:
+    text: — matches real uncertainty, not hours
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e590
+  elementType: text
+  bounds:
+  - 72
+  - 459
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e591
+  elementType: text
+  bounds:
+  - 96
+  - 458
+  - 174.5025
+  - 48
+  content:
+    text: Debate only on gaps
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e592
+  elementType: text
+  bounds:
+  - 266.5025
+  - 458
+  - 439.4975
+  - 48
+  content:
+    text: — cards within one step converge
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e593
+  elementType: text
+  bounds:
+  - 72
+  - 501
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e594
+  elementType: text
+  bounds:
+  - 96
+  - 500
+  - 182.95000000000002
+  - 48
+  content:
+    text: Capacity cross-check
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e595
+  elementType: text
+  bounds:
+  - 274.95000000000005
+  - 500
+  - 431.04999999999995
+  - 48
+  content:
+    text: — 126 pts over mean 18 is seven sprints
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e596
+  elementType: text
+  bounds:
+  - 860
+  - 196
+  - 340
+  - 66
+  content:
+    text: '126'
+    fontSize: 56
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e597
+  elementType: text
+  bounds:
+  - 860
+  - 266
+  - 340
+  - 18
+  content:
+    text: TOTAL SCOPE (PTS)
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e598
+  elementType: text
+  bounds:
+  - 860
+  - 340
+  - 340
+  - 66
+  content:
+    text: '18'
+    fontSize: 56
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e599
+  elementType: text
+  bounds:
+  - 860
+  - 410
+  - 340
+  - 18
+  content:
+    text: MEAN POINTS / SPRINT
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e600
+  elementType: text
+  bounds:
+  - 860
+  - 432
+  - 340
+  - 18
+  content:
+    text: over seven closed sprints
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e601
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e602
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e603
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 07 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

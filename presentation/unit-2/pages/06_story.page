@@ -1,0 +1,492 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e537
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 2 · BACKLOG
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e538
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: A story is done only when its acceptance reads like the code
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e539
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e540
+  elementType: text
+  bounds:
+  - 72
+  - 176
+  - 380
+  - 16
+  content:
+    text: STORY TEMPLATE
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e541
+  elementType: shape
+  bounds:
+  - 72
+  - 198
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e542
+  elementType: shape
+  bounds:
+  - 72
+  - 206
+  - 540
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e543
+  elementType: text
+  bounds:
+  - 94
+  - 206
+  - 500
+  - 96
+  content:
+    text: <p><span style="color:#DCC9A5;font-size:13px">As a [role],</span></p><p><span style="color:#FFFFFF;font-size:15px">I want [capability],</span></p><p><span style="color:#DCC9A5;font-size:13px">so that [value].</span></p>
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    align:
+    - left
+    - top
+    lineHeight: 1.45
+- elementId: e544
+  elementType: text
+  bounds:
+  - 72
+  - 336
+  - 380
+  - 16
+  content:
+    text: ONE REAL HOLD STORY
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e545
+  elementType: shape
+  bounds:
+  - 72
+  - 358
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e546
+  elementType: text
+  bounds:
+  - 72
+  - 366
+  - 540
+  - 24
+  content:
+    text: As a librarian,
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e547
+  elementType: text
+  bounds:
+  - 72
+  - 392
+  - 540
+  - 96
+  content:
+    text: I want a returned reserved copy to reach the queued member, so that holds keep their promised order.
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.35
+- elementId: e548
+  elementType: text
+  bounds:
+  - 660
+  - 176
+  - 380
+  - 16
+  content:
+    text: ACCEPTANCE CRITERIA · GIVEN / WHEN / THEN
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e549
+  elementType: shape
+  bounds:
+  - 660
+  - 198
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e550
+  elementType: text
+  bounds:
+  - 660
+  - 210
+  - 92
+  - 20
+  content:
+    text: GIVEN
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e551
+  elementType: text
+  bounds:
+  - 760
+  - 209
+  - 452
+  - 56
+  content:
+    text: a copy is returned and its reservation queue is non-empty
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e552
+  elementType: shape
+  bounds:
+  - 660
+  - 272
+  - 548
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e553
+  elementType: text
+  bounds:
+  - 660
+  - 296
+  - 92
+  - 20
+  content:
+    text: WHEN
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e554
+  elementType: text
+  bounds:
+  - 760
+  - 295
+  - 452
+  - 56
+  content:
+    text: the librarian completes the return at the desk
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e555
+  elementType: shape
+  bounds:
+  - 660
+  - 358
+  - 548
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e556
+  elementType: text
+  bounds:
+  - 660
+  - 382
+  - 92
+  - 20
+  content:
+    text: THEN
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e557
+  elementType: text
+  bounds:
+  - 760
+  - 381
+  - 452
+  - 56
+  content:
+    text: the next member — FACULTY, then FIFO, then ID — moves to READY; the 48 h window opens
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e558
+  elementType: shape
+  bounds:
+  - 660
+  - 444
+  - 548
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e559
+  elementType: text
+  bounds:
+  - 660
+  - 468
+  - 92
+  - 20
+  content:
+    text: AND
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e560
+  elementType: text
+  bounds:
+  - 760
+  - 467
+  - 452
+  - 56
+  content:
+    text: 'a cancelled READY hold re-dispatches: the RES-001 regression pin'
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e561
+  elementType: shape
+  bounds:
+  - 660
+  - 530
+  - 548
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e562
+  elementType: text
+  bounds:
+  - 72
+  - 520
+  - 560
+  - 60
+  content:
+    text: Acceptance criteria are written in test language — they become jest specs and Selenium assertions almost verbatim.
+    fontSize: 13.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e563
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e564
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e565
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 06 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

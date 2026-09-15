@@ -1,0 +1,790 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e151
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 3 · MODELLING
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e152
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: 'Use-case view: four actors, one shared catalogue'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e153
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e154
+  elementType: shape
+  bounds:
+  - 300
+  - 170
+  - 838
+  - 460
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#F5F2EA'
+  border:
+    style: solid
+    width: 2
+    color: '#1E3A2F'
+- elementId: e155
+  elementType: text
+  bounds:
+  - 316
+  - 180
+  - 806
+  - 20
+  content:
+    text: CLMS · COLLEGE LIBRARY MANAGEMENT SYSTEM
+    fontSize: 11
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e156
+  elementType: shape
+  bounds:
+  - 80
+  - 226
+  - 160
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e157
+  elementType: text
+  bounds:
+  - 86
+  - 226
+  - 148
+  - 40
+  content:
+    text: STUDENT
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e158
+  elementType: shape
+  bounds:
+  - 240
+  - 245.5
+  - 60
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e159
+  elementType: shape
+  bounds:
+  - 294.5
+  - 240.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e160
+  elementType: shape
+  bounds:
+  - 80
+  - 322
+  - 160
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e161
+  elementType: text
+  bounds:
+  - 86
+  - 322
+  - 148
+  - 40
+  content:
+    text: FACULTY
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e162
+  elementType: shape
+  bounds:
+  - 240
+  - 341.5
+  - 60
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e163
+  elementType: shape
+  bounds:
+  - 294.5
+  - 336.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e164
+  elementType: shape
+  bounds:
+  - 80
+  - 418
+  - 160
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e165
+  elementType: text
+  bounds:
+  - 86
+  - 418
+  - 148
+  - 40
+  content:
+    text: LIBRARIAN
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e166
+  elementType: shape
+  bounds:
+  - 240
+  - 437.5
+  - 60
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e167
+  elementType: shape
+  bounds:
+  - 294.5
+  - 432.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e168
+  elementType: shape
+  bounds:
+  - 80
+  - 512
+  - 160
+  - 40
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e169
+  elementType: text
+  bounds:
+  - 86
+  - 512
+  - 148
+  - 40
+  content:
+    text: ADMIN
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e170
+  elementType: shape
+  bounds:
+  - 240
+  - 531.5
+  - 60
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e171
+  elementType: shape
+  bounds:
+  - 294.5
+  - 526.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 90
+- elementId: e172
+  elementType: shape
+  bounds:
+  - 360
+  - 196
+  - 250
+  - 52
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 2
+    color: '#A8792C'
+- elementId: e173
+  elementType: text
+  bounds:
+  - 360
+  - 196
+  - 250
+  - 52
+  content:
+    text: Browse the catalogue
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e174
+  elementType: shape
+  bounds:
+  - 690
+  - 196
+  - 250
+  - 52
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 2
+    color: '#A8792C'
+- elementId: e175
+  elementType: text
+  bounds:
+  - 690
+  - 196
+  - 250
+  - 52
+  content:
+    text: Borrow a book
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e176
+  elementType: shape
+  bounds:
+  - 360
+  - 300
+  - 250
+  - 52
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 2
+    color: '#A8792C'
+- elementId: e177
+  elementType: text
+  bounds:
+  - 360
+  - 300
+  - 250
+  - 52
+  content:
+    text: Reserve a copy
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e178
+  elementType: shape
+  bounds:
+  - 690
+  - 300
+  - 250
+  - 52
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 2
+    color: '#A8792C'
+- elementId: e179
+  elementType: text
+  bounds:
+  - 690
+  - 300
+  - 250
+  - 52
+  content:
+    text: Fines & receipt view
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e180
+  elementType: shape
+  bounds:
+  - 360
+  - 404
+  - 250
+  - 52
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 2
+    color: '#A8792C'
+- elementId: e181
+  elementType: text
+  bounds:
+  - 360
+  - 404
+  - 250
+  - 52
+  content:
+    text: Issue / return stock
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e182
+  elementType: shape
+  bounds:
+  - 690
+  - 404
+  - 250
+  - 52
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 2
+    color: '#A8792C'
+- elementId: e183
+  elementType: text
+  bounds:
+  - 690
+  - 404
+  - 250
+  - 52
+  content:
+    text: Manage titles & members
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e184
+  elementType: shape
+  bounds:
+  - 525
+  - 520
+  - 250
+  - 52
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#F3EBD9'
+  border:
+    style: solid
+    width: 2
+    color: '#A8792C'
+- elementId: e185
+  elementType: text
+  bounds:
+  - 525
+  - 520
+  - 250
+  - 52
+  content:
+    text: Check limits & dues
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e186
+  elementType: shape
+  bounds:
+  - 940
+  - 221.5
+  - 174
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e187
+  elementType: shape
+  bounds:
+  - 1113.5
+  - 222
+  - 1
+  - 324
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e188
+  elementType: shape
+  bounds:
+  - 775
+  - 545.5
+  - 339
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e189
+  elementType: shape
+  bounds:
+  - 769.5
+  - 540.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+  rotation: 270
+- elementId: e190
+  elementType: text
+  bounds:
+  - 952
+  - 202
+  - 150
+  - 18
+  content:
+    text: «include»
+    fontSize: 10.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    italic: true
+    wrap: false
+- elementId: e191
+  elementType: shape
+  bounds:
+  - 484.5
+  - 356
+  - 1
+  - 190
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e192
+  elementType: shape
+  bounds:
+  - 485
+  - 545.5
+  - 40
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e193
+  elementType: shape
+  bounds:
+  - 519.5
+  - 540.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+  rotation: 90
+- elementId: e194
+  elementType: text
+  bounds:
+  - 492
+  - 424
+  - 150
+  - 18
+  content:
+    text: «include»
+    fontSize: 10.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    italic: true
+    wrap: false
+- elementId: e195
+  elementType: text
+  bounds:
+  - 72
+  - 636
+  - 1136
+  - 24
+  content:
+    text: Reserve a copy and Borrow a book share one guard — limits, dues and status resolve in the pure domain layer.
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e196
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e197
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e198
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 08 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

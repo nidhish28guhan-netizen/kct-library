@@ -1,0 +1,628 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e040
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 1 · FRAMING
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e041
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Manual counters left no record of anything
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e042
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e043
+  elementType: text
+  bounds:
+  - 72
+  - 170
+  - 380
+  - 16
+  content:
+    text: THE OLD DESK
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e044
+  elementType: shape
+  bounds:
+  - 72
+  - 192
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e045
+  elementType: text
+  bounds:
+  - 72
+  - 209
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e046
+  elementType: text
+  bounds:
+  - 96
+  - 208
+  - 500
+  - 44
+  content:
+    text: Card catalogue, handwritten ledgers
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+- elementId: e047
+  elementType: text
+  bounds:
+  - 72
+  - 247
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e048
+  elementType: text
+  bounds:
+  - 96
+  - 246
+  - 500
+  - 44
+  content:
+    text: No traceability — who took what, when
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+- elementId: e049
+  elementType: text
+  bounds:
+  - 72
+  - 285
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e050
+  elementType: text
+  bounds:
+  - 96
+  - 284
+  - 500
+  - 44
+  content:
+    text: Fine disputes with no computed record
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+- elementId: e051
+  elementType: text
+  bounds:
+  - 72
+  - 323
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e052
+  elementType: text
+  bounds:
+  - 96
+  - 322
+  - 500
+  - 44
+  content:
+    text: Walk-in only; no reservation queue
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+- elementId: e053
+  elementType: text
+  bounds:
+  - 72
+  - 361
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e054
+  elementType: text
+  bounds:
+  - 96
+  - 360
+  - 500
+  - 44
+  content:
+    text: Shelf stock drifted from the register
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+- elementId: e055
+  elementType: shape
+  bounds:
+  - 640
+  - 170
+  - 568
+  - 322
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e056
+  elementType: shape
+  bounds:
+  - 640
+  - 170
+  - 568
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e057
+  elementType: text
+  bounds:
+  - 664
+  - 196
+  - 380
+  - 16
+  content:
+    text: CLMS ANSWERS
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e058
+  elementType: shape
+  bounds:
+  - 664
+  - 218
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e059
+  elementType: text
+  bounds:
+  - 664
+  - 235
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e060
+  elementType: text
+  bounds:
+  - 688
+  - 234
+  - 123.81750000000001
+  - 46
+  content:
+    text: Express 4 API
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e061
+  elementType: text
+  bounds:
+  - 807.8175
+  - 234
+  - 370.1825
+  - 46
+  content:
+    text: + React 18 / Vite 5 SPA
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e062
+  elementType: text
+  bounds:
+  - 664
+  - 275
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e063
+  elementType: text
+  bounds:
+  - 688
+  - 274
+  - 132.26500000000001
+  - 46
+  content:
+    text: JWT + bcryptjs
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e064
+  elementType: text
+  bounds:
+  - 816.265
+  - 274
+  - 361.735
+  - 46
+  content:
+    text: sessions, RBAC on routes
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e065
+  elementType: text
+  bounds:
+  - 664
+  - 315
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e066
+  elementType: text
+  bounds:
+  - 688
+  - 314
+  - 149.16
+  - 46
+  content:
+    text: Code 128 barcode
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e067
+  elementType: text
+  bounds:
+  - 833.16
+  - 314
+  - 344.84000000000003
+  - 46
+  content:
+    text: on every physical copy
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e068
+  elementType: text
+  bounds:
+  - 664
+  - 355
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e069
+  elementType: text
+  bounds:
+  - 688
+  - 354
+  - 140.7125
+  - 46
+  content:
+    text: Stateful domain
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e070
+  elementType: text
+  bounds:
+  - 824.7125
+  - 354
+  - 353.2875
+  - 46
+  content:
+    text: holds, fines, renewals, queues
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e071
+  elementType: shape
+  bounds:
+  - 72
+  - 522
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e072
+  elementType: text
+  bounds:
+  - 96
+  - 522
+  - 1090
+  - 44
+  content:
+    text: 'Initial dataset in v1: 2 staff · 4 members · 12 titles · 34 copies · 11 loans · 3 reservations · 2 penalties'
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e073
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e074
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e075
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 03 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

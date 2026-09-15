@@ -1,0 +1,466 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e096
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 2 · METHOD
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e097
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Two kinds of requirements, two kinds of evidence
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e098
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e099
+  elementType: text
+  bounds:
+  - 72
+  - 170
+  - 380
+  - 16
+  content:
+    text: FUNCTIONAL SAMPLE
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e100
+  elementType: shape
+  bounds:
+  - 72
+  - 192
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e101
+  elementType: table
+  bounds:
+  - 72
+  - 202
+  - 540
+  - 270
+  columnWidths:
+  - 0.2
+  - 0.8
+  rowHeights:
+  - 0.16
+  - 0.21
+  - 0.21
+  - 0.21
+  - 0.21
+  rows:
+  - - text: ID
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: REQUIREMENT
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: FR-01
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Borrow within the role's book limit
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: FR-02
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Loan term ends at 23:59 on the due date
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: FR-03
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: 'Hold queue: FACULTY, then FIFO, then ID'
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: FR-04
+      fontFamily: Menlo
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Fine 1 rupee/day; account block at 50
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+- elementId: e102
+  elementType: text
+  bounds:
+  - 644
+  - 170
+  - 380
+  - 16
+  content:
+    text: NON-FUNCTIONAL + HOW MET
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e103
+  elementType: shape
+  bounds:
+  - 644
+  - 192
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e104
+  elementType: table
+  bounds:
+  - 644
+  - 202
+  - 564
+  - 270
+  columnWidths:
+  - 0.3
+  - 0.7
+  rowHeights:
+  - 0.16
+  - 0.21
+  - 0.21
+  - 0.21
+  - 0.21
+  rows:
+  - - text: NEED
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: HOW IT IS MET
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: Security
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: JWT · bcryptjs hashes · RBAC guards
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Reliability
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Atomic tmp + rename JSON writes
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: Portability
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Docker frontend, backend, compose
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Maintainability
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Five strict layers · avg CC 2.13
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+- elementId: e105
+  elementType: text
+  bounds:
+  - 72
+  - 508
+  - 1136
+  - 80
+  content:
+    text: Roughly 45 REST endpoints carry the functional side. The NFR table is the honest ledger — each need maps to a named mechanism in the code, not an aspiration.
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e106
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e107
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e108
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 06 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

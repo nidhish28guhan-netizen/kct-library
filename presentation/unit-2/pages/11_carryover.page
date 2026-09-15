@@ -1,0 +1,498 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e693
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 3 · EXECUTION
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e694
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Carry-over and deferral were decisions, not accidents
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e695
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e696
+  elementType: shape
+  bounds:
+  - 72
+  - 184
+  - 356
+  - 236
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e697
+  elementType: shape
+  bounds:
+  - 72
+  - 184
+  - 356
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e698
+  elementType: text
+  bounds:
+  - 94
+  - 204
+  - 312
+  - 26
+  content:
+    text: US-15 · US-30
+    fontSize: 16.5
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e699
+  elementType: text
+  bounds:
+  - 94
+  - 240
+  - 312
+  - 164
+  content:
+    text: Carried across sprint boundaries, re-estimated in poker, closed in the next review window.
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.4
+- elementId: e700
+  elementType: shape
+  bounds:
+  - 456
+  - 184
+  - 356
+  - 236
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e701
+  elementType: shape
+  bounds:
+  - 456
+  - 184
+  - 356
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e702
+  elementType: text
+  bounds:
+  - 478
+  - 204
+  - 312
+  - 26
+  content:
+    text: US-37 · 1 pt
+    fontSize: 16.5
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e703
+  elementType: text
+  bounds:
+  - 478
+  - 240
+  - 312
+  - 164
+  content:
+    text: Deferred at review — the only story that did not reach v1.0.0; recorded on the board, not in a footnote.
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.4
+- elementId: e704
+  elementType: shape
+  bounds:
+  - 840
+  - 184
+  - 356
+  - 236
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e705
+  elementType: shape
+  bounds:
+  - 840
+  - 184
+  - 356
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e706
+  elementType: text
+  bounds:
+  - 862
+  - 204
+  - 312
+  - 26
+  content:
+    text: The standing rule
+    fontSize: 16.5
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e707
+  elementType: text
+  bounds:
+  - 862
+  - 240
+  - 312
+  - 164
+  content:
+    text: A sprint may close with fewer points, never with looser acceptance criteria.
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.4
+- elementId: e708
+  elementType: text
+  bounds:
+  - 72
+  - 452
+  - 380
+  - 16
+  content:
+    text: WHAT THE TEAM LEARNED
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e709
+  elementType: shape
+  bounds:
+  - 72
+  - 474
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e710
+  elementType: text
+  bounds:
+  - 72
+  - 487
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e711
+  elementType: text
+  bounds:
+  - 96
+  - 486
+  - 233.63500000000002
+  - 50
+  content:
+    text: Buffers belong in the plan
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e712
+  elementType: text
+  bounds:
+  - 325.635
+  - 486
+  - 840.365
+  - 50
+  content:
+    text: — discovery always costs points
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e713
+  elementType: text
+  bounds:
+  - 72
+  - 531
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e714
+  elementType: text
+  bounds:
+  - 96
+  - 530
+  - 225.18750000000003
+  - 50
+  content:
+    text: Deferral is scope control
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e715
+  elementType: text
+  bounds:
+  - 317.1875
+  - 530
+  - 848.8125
+  - 50
+  content:
+    text: — it protected the release date
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e716
+  elementType: text
+  bounds:
+  - 72
+  - 575
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e717
+  elementType: text
+  bounds:
+  - 96
+  - 574
+  - 208.29250000000002
+  - 50
+  content:
+    text: Visibility over heroics
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e718
+  elementType: text
+  bounds:
+  - 300.2925
+  - 574
+  - 865.7075
+  - 50
+  content:
+    text: — carried stories re-enter poker like new work
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e719
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e720
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e721
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 11 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

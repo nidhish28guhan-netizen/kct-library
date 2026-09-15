@@ -1,0 +1,430 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e199
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 3 · MODELLING
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e200
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Eight entities carry the whole domain
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e201
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e202
+  elementType: table
+  bounds:
+  - 72
+  - 186
+  - 548
+  - 250
+  columnWidths:
+  - 0.28
+  - 0.72
+  rowHeights:
+  - 0.16
+  - 0.21
+  - 0.21
+  - 0.21
+  - 0.21
+  rows:
+  - - text: ENTITY
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: KEY FIELDS
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: Account
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: id · email · bcrypt hash · role
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Member
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: memberCode · type · status
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: Title
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: isbn · title · author · edition
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Copy
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: copyId (LIB-...) · status · shelf
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+- elementId: e203
+  elementType: table
+  bounds:
+  - 660
+  - 186
+  - 548
+  - 250
+  columnWidths:
+  - 0.28
+  - 0.72
+  rowHeights:
+  - 0.16
+  - 0.21
+  - 0.21
+  - 0.21
+  - 0.21
+  rows:
+  - - text: ENTITY
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: KEY FIELDS
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: Loan
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: issuedAt · dueAt 23:59 · renewals x2 max
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Reservation
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: queue position · 48 h pick-up window
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: Penalty
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: 1 rupee/day accrual · 50-rupee block
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Policy
+      fontFamily: Helvetica
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: term and limits per role (seeded)
+      fontFamily: Menlo
+      fontSize: 12
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+- elementId: e204
+  elementType: text
+  bounds:
+  - 72
+  - 466
+  - 1136
+  - 80
+  content:
+    text: Copy owns the state machine of the next slide. Loan and Reservation reference Member, Title and Copy by id — JsonStore persists one collection per entity, and joins happen in the domain layer.
+    fontSize: 14
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e205
+  elementType: shape
+  bounds:
+  - 72
+  - 560
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e206
+  elementType: text
+  bounds:
+  - 96
+  - 560
+  - 1090
+  - 44
+  content:
+    text: 'Relation map: Account 1:1 Member · Title 1:N Copy · Member 1:N Loan / Reservation / Penalty · Policy read by every guard'
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e207
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e208
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e209
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 09 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

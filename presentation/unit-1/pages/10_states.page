@@ -1,0 +1,899 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e210
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 3 · MODELLING
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e211
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: A copy is only ever in one of six states
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e212
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e213
+  elementType: shape
+  bounds:
+  - 520
+  - 360
+  - 176
+  - 52
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e214
+  elementType: text
+  bounds:
+  - 526
+  - 360
+  - 164
+  - 52
+  content:
+    text: AVAILABLE
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e215
+  elementType: shape
+  bounds:
+  - 860
+  - 360
+  - 176
+  - 52
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+- elementId: e216
+  elementType: text
+  bounds:
+  - 866
+  - 360
+  - 164
+  - 52
+  content:
+    text: ISSUED
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e217
+  elementType: shape
+  bounds:
+  - 860
+  - 204
+  - 176
+  - 52
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+- elementId: e218
+  elementType: text
+  bounds:
+  - 866
+  - 204
+  - 164
+  - 52
+  content:
+    text: RESERVED
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e219
+  elementType: shape
+  bounds:
+  - 520
+  - 204
+  - 176
+  - 52
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e220
+  elementType: text
+  bounds:
+  - 526
+  - 204
+  - 164
+  - 52
+  content:
+    text: DAMAGED
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e221
+  elementType: shape
+  bounds:
+  - 150
+  - 204
+  - 176
+  - 52
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e222
+  elementType: text
+  bounds:
+  - 156
+  - 204
+  - 164
+  - 52
+  content:
+    text: MAINTENANCE
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e223
+  elementType: shape
+  bounds:
+  - 150
+  - 520
+  - 176
+  - 52
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e224
+  elementType: text
+  bounds:
+  - 156
+  - 520
+  - 164
+  - 52
+  content:
+    text: LOST
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e225
+  elementType: shape
+  bounds:
+  - 696
+  - 371.0
+  - 164
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e226
+  elementType: shape
+  bounds:
+  - 852.5
+  - 364.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+  rotation: 90
+- elementId: e227
+  elementType: text
+  bounds:
+  - 716
+  - 352
+  - 140
+  - 16
+  content:
+    text: issue · 14/30 d
+    fontSize: 10.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e228
+  elementType: shape
+  bounds:
+  - 696
+  - 395.0
+  - 164
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e229
+  elementType: shape
+  bounds:
+  - 688.5
+  - 388.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+  rotation: 270
+- elementId: e230
+  elementType: text
+  bounds:
+  - 716
+  - 402
+  - 140
+  - 16
+  content:
+    text: return · fine
+    fontSize: 10.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e231
+  elementType: shape
+  bounds:
+  - 607.0
+  - 262
+  - 2
+  - 98
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e232
+  elementType: shape
+  bounds:
+  - 600.5
+  - 254.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e233
+  elementType: text
+  bounds:
+  - 438
+  - 300
+  - 140
+  - 16
+  content:
+    text: mark damaged
+    fontSize: 10.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e234
+  elementType: shape
+  bounds:
+  - 332
+  - 229.0
+  - 188
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e235
+  elementType: shape
+  bounds:
+  - 324.5
+  - 222.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+  rotation: 270
+- elementId: e236
+  elementType: text
+  bounds:
+  - 366
+  - 238
+  - 140
+  - 16
+  content:
+    text: repair
+    fontSize: 10.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e237
+  elementType: shape
+  bounds:
+  - 237.0
+  - 256
+  - 2
+  - 130
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e238
+  elementType: shape
+  bounds:
+  - 238
+  - 385.0
+  - 282
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e239
+  elementType: shape
+  bounds:
+  - 512.5
+  - 378.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+  rotation: 90
+- elementId: e240
+  elementType: text
+  bounds:
+  - 250
+  - 324
+  - 140
+  - 16
+  content:
+    text: back on shelf
+    fontSize: 10.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e241
+  elementType: shape
+  bounds:
+  - 659.0
+  - 286
+  - 2
+  - 74
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e242
+  elementType: shape
+  bounds:
+  - 660
+  - 285.0
+  - 100
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e243
+  elementType: shape
+  bounds:
+  - 759.0
+  - 230
+  - 2
+  - 56
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e244
+  elementType: shape
+  bounds:
+  - 760
+  - 229.0
+  - 100
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e245
+  elementType: shape
+  bounds:
+  - 852.5
+  - 222.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+  rotation: 90
+- elementId: e246
+  elementType: text
+  bounds:
+  - 770
+  - 266
+  - 200
+  - 16
+  content:
+    text: hold placed · 48 h
+    fontSize: 10.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e247
+  elementType: shape
+  bounds:
+  - 947.0
+  - 256
+  - 2
+  - 104
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+- elementId: e248
+  elementType: shape
+  bounds:
+  - 940.5
+  - 352.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+  rotation: 180
+- elementId: e249
+  elementType: text
+  bounds:
+  - 958
+  - 300
+  - 170
+  - 16
+  content:
+    text: READY · collect
+    fontSize: 10.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e250
+  elementType: shape
+  bounds:
+  - 238
+  - 411.0
+  - 282
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e251
+  elementType: shape
+  bounds:
+  - 237.0
+  - 412
+  - 2
+  - 108
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e252
+  elementType: shape
+  bounds:
+  - 230.5
+  - 512.5
+  - 15
+  - 15
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+  rotation: 180
+- elementId: e253
+  elementType: text
+  bounds:
+  - 248
+  - 448
+  - 200
+  - 16
+  content:
+    text: reported lost
+    fontSize: 10.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e254
+  elementType: shape
+  bounds:
+  - 1062
+  - 360
+  - 146
+  - 52
+  shapeName: ellipse
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 2
+    color: '#A8792C'
+- elementId: e255
+  elementType: text
+  bounds:
+  - 1062
+  - 360
+  - 146
+  - 52
+  content:
+    text: cancel READY
+    fontSize: 10.5
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+- elementId: e256
+  elementType: shape
+  bounds:
+  - 1134.5
+  - 243
+  - 1
+  - 117
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e257
+  elementType: shape
+  bounds:
+  - 1036
+  - 242.5
+  - 99
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+- elementId: e258
+  elementType: shape
+  bounds:
+  - 1030.5
+  - 237.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#96462F'
+  border:
+    style: solid
+    width: 1
+    color: '#96462F'
+  rotation: 270
+- elementId: e259
+  elementType: text
+  bounds:
+  - 1042
+  - 182
+  - 166
+  - 16
+  content:
+    text: re-dispatch RES-001
+    fontSize: 10.5
+    color: '#96462F'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e260
+  elementType: shape
+  bounds:
+  - 72
+  - 606
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e261
+  elementType: text
+  bounds:
+  - 96
+  - 606
+  - 1090
+  - 44
+  content:
+    text: 'RES-001 guard: a cancelled READY hold snapshots its pre-state and re-dispatches to the next queue member — no copy is ever stranded.'
+    fontSize: 12.5
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e262
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e263
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e264
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 10 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

@@ -1,0 +1,460 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e722
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 3 · EXECUTION
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e723
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Jira CLMS is the paper trail — a live, company-managed Scrum board
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e724
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e725
+  elementType: text
+  bounds:
+  - 72
+  - 188
+  - 280
+  - 72
+  content:
+    text: '55'
+    fontSize: 62
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e726
+  elementType: text
+  bounds:
+  - 72
+  - 264
+  - 280
+  - 18
+  content:
+    text: TOTAL ISSUES
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e727
+  elementType: shape
+  bounds:
+  - 412
+  - 194
+  - 2
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e728
+  elementType: text
+  bounds:
+  - 452
+  - 188
+  - 280
+  - 72
+  content:
+    text: '10'
+    fontSize: 62
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e729
+  elementType: text
+  bounds:
+  - 452
+  - 264
+  - 280
+  - 18
+  content:
+    text: EPICS
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e730
+  elementType: shape
+  bounds:
+  - 792
+  - 194
+  - 2
+  - 96
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e731
+  elementType: text
+  bounds:
+  - 832
+  - 188
+  - 280
+  - 72
+  content:
+    text: '37'
+    fontSize: 62
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e732
+  elementType: text
+  bounds:
+  - 832
+  - 264
+  - 280
+  - 18
+  content:
+    text: STORIES
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e733
+  elementType: text
+  bounds:
+  - 72
+  - 345
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e734
+  elementType: text
+  bounds:
+  - 96
+  - 344
+  - 242.0825
+  - 48
+  content:
+    text: Company-managed Scrum board
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e735
+  elementType: text
+  bounds:
+  - 334.0825
+  - 344
+  - 831.9175
+  - 48
+  content:
+    text: — sprints started and completed on schedule
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e736
+  elementType: text
+  bounds:
+  - 72
+  - 387
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e737
+  elementType: text
+  bounds:
+  - 96
+  - 386
+  - 157.60750000000002
+  - 48
+  content:
+    text: All seven sprints
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e738
+  elementType: text
+  bounds:
+  - 249.60750000000002
+  - 386
+  - 916.3924999999999
+  - 48
+  content:
+    text: show a sprint-closed event on the board
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e739
+  elementType: text
+  bounds:
+  - 72
+  - 429
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e740
+  elementType: text
+  bounds:
+  - 96
+  - 428
+  - 284.32
+  - 48
+  content:
+    text: Issue keys run CLMS-1 to CLMS-55
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e741
+  elementType: text
+  bounds:
+  - 376.32
+  - 428
+  - 789.6800000000001
+  - 48
+  content:
+    text: — stories, tasks and defects share one ledger
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e742
+  elementType: shape
+  bounds:
+  - 72
+  - 508
+  - 340
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e743
+  elementType: text
+  bounds:
+  - 78
+  - 508
+  - 328
+  - 44
+  content:
+    text: 'project: CLMS · Scrum (company-managed)'
+    fontSize: 11.5
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e744
+  elementType: text
+  bounds:
+  - 428
+  - 508
+  - 780
+  - 44
+  content:
+    text: Board numbers are quoted as text evidence — the live board is available for the seminar walkthrough.
+    fontSize: 13
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+- elementId: e745
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e746
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e747
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 12 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

@@ -1,0 +1,347 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e1257
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · RECAP
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1258
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Quality was designed in, not tested on at the end
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e1259
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1260
+  elementType: text
+  bounds:
+  - 72
+  - 184
+  - 64
+  - 30
+  content:
+    text: '01'
+    fontSize: 16
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1261
+  elementType: text
+  bounds:
+  - 134
+  - 181
+  - 1074
+  - 56
+  content:
+    text: 'Pyramid economics: fast specs hold the rules, two journeys guard the wiring.'
+    fontSize: 18
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1262
+  elementType: text
+  bounds:
+  - 72
+  - 246
+  - 64
+  - 30
+  content:
+    text: '02'
+    fontSize: 16
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1263
+  elementType: text
+  bounds:
+  - 134
+  - 243
+  - 1074
+  - 56
+  content:
+    text: EP, BVA and decision tables turned policy into a testable contract.
+    fontSize: 18
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1264
+  elementType: text
+  bounds:
+  - 72
+  - 308
+  - 64
+  - 30
+  content:
+    text: '03'
+    fontSize: 16
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1265
+  elementType: text
+  bounds:
+  - 134
+  - 305
+  - 1074
+  - 56
+  content:
+    text: Coverage, CC and ISO evidence were measured, published — misses included.
+    fontSize: 18
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1266
+  elementType: text
+  bounds:
+  - 72
+  - 370
+  - 64
+  - 30
+  content:
+    text: '04'
+    fontSize: 16
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1267
+  elementType: text
+  bounds:
+  - 134
+  - 367
+  - 1074
+  - 56
+  content:
+    text: CI, Docker and CMMI-3 habits made v1.0.0 repeatable, not lucky.
+    fontSize: 18
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1268
+  elementType: shape
+  bounds:
+  - 72
+  - 446
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1269
+  elementType: text
+  bounds:
+  - 72
+  - 462
+  - 700
+  - 44
+  content:
+    text: Thank you — questions welcome.
+    fontSize: 28
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1270
+  elementType: shape
+  bounds:
+  - 72
+  - 522
+  - 330
+  - 44
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1271
+  elementType: text
+  bounds:
+  - 78
+  - 522
+  - 318
+  - 44
+  content:
+    text: Delivered v1.0.0 · 4 Sep 2026
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e1272
+  elementType: text
+  bounds:
+  - 432
+  - 522
+  - 776
+  - 44
+  content:
+    text: 'Whole seminar: design in Unit I · process in Unit II · this evidence trail in Unit III.'
+    fontSize: 13.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+- elementId: e1273
+  elementType: text
+  bounds:
+  - 72
+  - 600
+  - 1136
+  - 24
+  content:
+    text: S. Nidhish Guhan S · Kawaskar J — 24CSI015 Software Engineering with Agile Practices
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1274
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1275
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1276
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 16 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

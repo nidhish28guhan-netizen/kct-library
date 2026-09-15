@@ -1,0 +1,791 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e777
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 4 · PLANNING EVIDENCE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e778
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: WBS to three levels — and a COCOMO II sanity check
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e779
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e780
+  elementType: shape
+  bounds:
+  - 72
+  - 176
+  - 218
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e781
+  elementType: text
+  bounds:
+  - 72
+  - 176
+  - 218
+  - 44
+  content:
+    text: 1 · CLMS
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e782
+  elementType: shape
+  bounds:
+  - 180.5
+  - 220
+  - 1
+  - 49
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e783
+  elementType: shape
+  bounds:
+  - 72
+  - 268.5
+  - 109
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e784
+  elementType: shape
+  bounds:
+  - 72
+  - 248
+  - 252
+  - 42
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e785
+  elementType: text
+  bounds:
+  - 84
+  - 248
+  - 240
+  - 42
+  content:
+    text: 1.1 Foundation
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e786
+  elementType: text
+  bounds:
+  - 344
+  - 252
+  - 250
+  - 18
+  content:
+    text: auth+RBAC · JsonStore
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e787
+  elementType: shape
+  bounds:
+  - 180.5
+  - 220
+  - 1
+  - 107
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e788
+  elementType: shape
+  bounds:
+  - 72
+  - 326.5
+  - 109
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e789
+  elementType: shape
+  bounds:
+  - 72
+  - 306
+  - 252
+  - 42
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e790
+  elementType: text
+  bounds:
+  - 84
+  - 306
+  - 240
+  - 42
+  content:
+    text: 1.2 Circulation
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e791
+  elementType: text
+  bounds:
+  - 344
+  - 310
+  - 250
+  - 18
+  content:
+    text: loans · holds · fines
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e792
+  elementType: shape
+  bounds:
+  - 180.5
+  - 220
+  - 1
+  - 165
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e793
+  elementType: shape
+  bounds:
+  - 72
+  - 384.5
+  - 109
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e794
+  elementType: shape
+  bounds:
+  - 72
+  - 364
+  - 252
+  - 42
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e795
+  elementType: text
+  bounds:
+  - 84
+  - 364
+  - 240
+  - 42
+  content:
+    text: 1.3 Experience
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e796
+  elementType: text
+  bounds:
+  - 344
+  - 368
+  - 250
+  - 18
+  content:
+    text: SPA · receipts · a11y
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e797
+  elementType: shape
+  bounds:
+  - 180.5
+  - 220
+  - 1
+  - 223
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e798
+  elementType: shape
+  bounds:
+  - 72
+  - 442.5
+  - 109
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e799
+  elementType: shape
+  bounds:
+  - 72
+  - 422
+  - 252
+  - 42
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e800
+  elementType: text
+  bounds:
+  - 84
+  - 422
+  - 240
+  - 42
+  content:
+    text: 1.4 Quality & release
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e801
+  elementType: text
+  bounds:
+  - 344
+  - 426
+  - 250
+  - 18
+  content:
+    text: tests · CI · Docker
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e802
+  elementType: text
+  bounds:
+  - 72
+  - 500
+  - 540
+  - 20
+  content:
+    text: LEVEL 3 · WORK PACKAGES
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e803
+  elementType: text
+  bounds:
+  - 72
+  - 528
+  - 540
+  - 44
+  content:
+    text: 'e.g. 1.2.3 — the FACULTY-first hold queue: sized in planning poker, exercised in S3.'
+    fontSize: 13
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e804
+  elementType: shape
+  bounds:
+  - 616
+  - 176
+  - 2
+  - 392
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e805
+  elementType: text
+  bounds:
+  - 660
+  - 176
+  - 380
+  - 16
+  content:
+    text: COCOMO II · BASIC, ORGANIC MODE
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e806
+  elementType: shape
+  bounds:
+  - 660
+  - 198
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e807
+  elementType: shape
+  bounds:
+  - 660
+  - 210
+  - 548
+  - 120
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e808
+  elementType: text
+  bounds:
+  - 684
+  - 210
+  - 500
+  - 120
+  content:
+    text: <p><span style="color:#DCC9A5;font-size:14px">E = a × (KLOC)^b,  a=2.4 · b=1.05</span></p><p><span style="color:#FFFFFF;font-size:17px">E = 2.4 × (1.498 KLOC)^1.05 ≈ 3.7 person-months</span></p>
+    fontSize: 14
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    align:
+    - left
+    - top
+    lineHeight: 1.7
+- elementId: e809
+  elementType: text
+  bounds:
+  - 660
+  - 357
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e810
+  elementType: text
+  bounds:
+  - 684
+  - 356
+  - 98.47500000000001
+  - 48
+  content:
+    text: 1.498 KLOC
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e811
+  elementType: text
+  bounds:
+  - 778.475
+  - 356
+  - 423.525
+  - 48
+  content:
+    text: = 1,498 measured LOC of the shipped system
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e812
+  elementType: text
+  bounds:
+  - 660
+  - 399
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e813
+  elementType: text
+  bounds:
+  - 684
+  - 398
+  - 157.60750000000002
+  - 48
+  content:
+    text: Schedule estimate
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e814
+  elementType: text
+  bounds:
+  - 837.6075000000001
+  - 398
+  - 364.3925
+  - 48
+  content:
+    text: ≈ 5.8 months for the modelled effort
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e815
+  elementType: text
+  bounds:
+  - 660
+  - 441
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e816
+  elementType: text
+  bounds:
+  - 684
+  - 440
+  - 123.81750000000001
+  - 48
+  content:
+    text: Actual window
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e817
+  elementType: text
+  bounds:
+  - 803.8175
+  - 440
+  - 398.1825
+  - 48
+  content:
+    text: 1 Jun – 4 Sep 2026 · two people, 7 sprints
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e818
+  elementType: text
+  bounds:
+  - 660
+  - 500
+  - 548
+  - 40
+  content:
+    text: A Jun–Sep Gantt was maintained over the same window, branch by WBS branch.
+    fontSize: 13
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e819
+  elementType: shape
+  bounds:
+  - 72
+  - 560
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e820
+  elementType: text
+  bounds:
+  - 96
+  - 560
+  - 1090
+  - 44
+  content:
+    text: 'Estimate vs reality: the model said 3.7 person-months over 5.8 months; two builders crossed it in one summer.'
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e821
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e822
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e823
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 14 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

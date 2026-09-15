@@ -1,0 +1,706 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e748
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 3 · EXECUTION
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e749
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Two builders, balanced load, one shared finish line
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e750
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e751
+  elementType: table
+  bounds:
+  - 72
+  - 184
+  - 1136
+  - 170
+  columnWidths:
+  - 0.26
+  - 0.18
+  - 0.42
+  - 0.14
+  rowHeights:
+  - 0.16
+  - 0.27999999999999997
+  - 0.27999999999999997
+  - 0.27999999999999997
+  rows:
+  - - text: MEMBER
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: HAT
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: AREA OF GRAVITY
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: PTS
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: S. Nidhish Guhan S
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Product Owner
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: Backend · domain · DevOps
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: '61'
+      fontFamily: Menlo
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: Kawaskar J
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Scrum Master
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: Frontend · E2E · docs
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: '64'
+      fontFamily: Menlo
+      fontSize: 13
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: TOTAL DELIVERED
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: —
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: of 126 points scoped
+      fontFamily: Helvetica
+      fontSize: 13
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: '125'
+      fontFamily: Menlo
+      fontSize: 13
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - right
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+- elementId: e752
+  elementType: text
+  bounds:
+  - 72
+  - 372
+  - 1136
+  - 20
+  content:
+    text: POINT SPLIT — THE 125-POINT DELIVERED SCOPE
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e753
+  elementType: text
+  bounds:
+  - 72
+  - 416
+  - 380
+  - 16
+  content:
+    text: DEFINITION OF DONE (PER STORY)
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e754
+  elementType: shape
+  bounds:
+  - 72
+  - 438
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e755
+  elementType: text
+  bounds:
+  - 72
+  - 451
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e756
+  elementType: text
+  bounds:
+  - 96
+  - 450
+  - 219.465
+  - 46
+  content:
+    text: Acceptance criteria proven
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e757
+  elementType: text
+  bounds:
+  - 311.46500000000003
+  - 450
+  - 314.53499999999997
+  - 46
+  content:
+    text: at API level, not just visually
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e758
+  elementType: text
+  bounds:
+  - 72
+  - 491
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e759
+  elementType: text
+  bounds:
+  - 96
+  - 490
+  - 100.92750000000001
+  - 46
+  content:
+    text: Tests green
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e760
+  elementType: text
+  bounds:
+  - 192.9275
+  - 490
+  - 433.0725
+  - 46
+  content:
+    text: — module coverage floor respected (80% target)
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e761
+  elementType: text
+  bounds:
+  - 72
+  - 531
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e762
+  elementType: text
+  bounds:
+  - 96
+  - 530
+  - 187.85500000000002
+  - 46
+  content:
+    text: Receipt + barcode path
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e763
+  elementType: text
+  bounds:
+  - 279.855
+  - 530
+  - 346.145
+  - 46
+  content:
+    text: smoke-checked on a real flow
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e764
+  elementType: text
+  bounds:
+  - 72
+  - 571
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e765
+  elementType: text
+  bounds:
+  - 96
+  - 570
+  - 148.3425
+  - 46
+  content:
+    text: Seed docs updated
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e766
+  elementType: text
+  bounds:
+  - 240.3425
+  - 570
+  - 385.6575
+  - 46
+  content:
+    text: so the next sprint starts from truth
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e767
+  elementType: text
+  bounds:
+  - 72
+  - 611
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e768
+  elementType: text
+  bounds:
+  - 96
+  - 610
+  - 195.75750000000002
+  - 46
+  content:
+    text: Shown on localhost:4000
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e769
+  elementType: text
+  bounds:
+  - 287.75750000000005
+  - 610
+  - 338.24249999999995
+  - 46
+  content:
+    text: at the sprint review
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e770
+  elementType: shape
+  bounds:
+  - 660
+  - 450
+  - 548
+  - 158
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e771
+  elementType: shape
+  bounds:
+  - 660
+  - 450
+  - 548
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e772
+  elementType: text
+  bounds:
+  - 684
+  - 468
+  - 500
+  - 22
+  content:
+    text: WHY THE SPLIT LOOKS LIKE THIS
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e773
+  elementType: text
+  bounds:
+  - 684
+  - 496
+  - 500
+  - 100
+  content:
+    text: 'Backend and DevOps carry heavier discovery (state machine, store); frontend carries surface area (SPA, receipts, docs). Neither hat outranks: cross-review is baked into DoD.'
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.35
+- elementId: e774
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e775
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e776
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 13 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

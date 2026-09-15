@@ -1,0 +1,681 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e1163
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 4 · QUALITY SYSTEM
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1164
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: 'CI is the referee: lint, jest, coverage, build, ship'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e1165
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1166
+  elementType: shape
+  bounds:
+  - 72
+  - 200
+  - 156
+  - 62
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1167
+  elementType: text
+  bounds:
+  - 90
+  - 200
+  - 132
+  - 62
+  content:
+    text: install
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1168
+  elementType: shape
+  bounds:
+  - 238
+  - 200
+  - 156
+  - 62
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1169
+  elementType: text
+  bounds:
+  - 256
+  - 200
+  - 132
+  - 62
+  content:
+    text: lint
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1170
+  elementType: shape
+  bounds:
+  - 404
+  - 200
+  - 156
+  - 62
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1171
+  elementType: text
+  bounds:
+  - 422
+  - 200
+  - 132
+  - 62
+  content:
+    text: jest
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1172
+  elementType: shape
+  bounds:
+  - 570
+  - 200
+  - 156
+  - 62
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1173
+  elementType: text
+  bounds:
+  - 588
+  - 200
+  - 132
+  - 62
+  content:
+    text: coverage
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1174
+  elementType: shape
+  bounds:
+  - 736
+  - 200
+  - 156
+  - 62
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1175
+  elementType: text
+  bounds:
+  - 754
+  - 200
+  - 132
+  - 62
+  content:
+    text: vite build
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1176
+  elementType: shape
+  bounds:
+  - 902
+  - 200
+  - 156
+  - 62
+  shapeName: chevron
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1177
+  elementType: text
+  bounds:
+  - 920
+  - 200
+  - 132
+  - 62
+  content:
+    text: docker
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1178
+  elementType: text
+  bounds:
+  - 72
+  - 288
+  - 1136
+  - 20
+  content:
+    text: GITHUB ACTIONS · EVERY PUSH AND PULL REQUEST
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e1179
+  elementType: text
+  bounds:
+  - 72
+  - 329
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1180
+  elementType: text
+  bounds:
+  - 96
+  - 328
+  - 250.53000000000003
+  - 46
+  content:
+    text: jest + coverage + vite build
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1181
+  elementType: text
+  bounds:
+  - 342.53000000000003
+  - 328
+  - 823.47
+  - 46
+  content:
+    text: run in one workflow file
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1182
+  elementType: text
+  bounds:
+  - 72
+  - 369
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1183
+  elementType: text
+  bounds:
+  - 96
+  - 368
+  - 233.63500000000002
+  - 46
+  content:
+    text: Workflow paths fixed early
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1184
+  elementType: text
+  bounds:
+  - 325.635
+  - 368
+  - 840.365
+  - 46
+  content:
+    text: — the YAML lives at the repo root
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1185
+  elementType: text
+  bounds:
+  - 72
+  - 409
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1186
+  elementType: text
+  bounds:
+  - 96
+  - 408
+  - 258.9775
+  - 46
+  content:
+    text: Coverage floor enforced in CI
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1187
+  elementType: text
+  bounds:
+  - 350.9775
+  - 408
+  - 815.0225
+  - 46
+  content:
+    text: ', so a drop fails the build, not a review'
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1188
+  elementType: shape
+  bounds:
+  - 72
+  - 470
+  - 356
+  - 130
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1189
+  elementType: shape
+  bounds:
+  - 72
+  - 470
+  - 356
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1190
+  elementType: text
+  bounds:
+  - 94
+  - 488
+  - 312
+  - 22
+  content:
+    text: FRONTEND IMAGE
+    fontSize: 12.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1191
+  elementType: text
+  bounds:
+  - 94
+  - 516
+  - 312
+  - 70
+  content:
+    text: 'multi-stage: build with node, serve static — slim final layer'
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e1192
+  elementType: shape
+  bounds:
+  - 456
+  - 470
+  - 356
+  - 130
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1193
+  elementType: shape
+  bounds:
+  - 456
+  - 470
+  - 356
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1194
+  elementType: text
+  bounds:
+  - 478
+  - 488
+  - 312
+  - 22
+  content:
+    text: BACKEND IMAGE
+    fontSize: 12.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1195
+  elementType: text
+  bounds:
+  - 478
+  - 516
+  - 312
+  - 70
+  content:
+    text: slim node runtime for the Express 4 API
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e1196
+  elementType: shape
+  bounds:
+  - 840
+  - 470
+  - 356
+  - 130
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1197
+  elementType: shape
+  bounds:
+  - 840
+  - 470
+  - 356
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1198
+  elementType: text
+  bounds:
+  - 862
+  - 488
+  - 312
+  - 22
+  content:
+    text: COMPOSE
+    fontSize: 12.5
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1199
+  elementType: text
+  bounds:
+  - 862
+  - 516
+  - 312
+  - 70
+  content:
+    text: frontend + backend + shared data volume, one command up
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e1200
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1201
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1202
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 13 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

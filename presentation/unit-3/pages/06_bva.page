@@ -1,0 +1,592 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e969
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 2 · BLACK-BOX TECHNIQUES
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e970
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: 'Boundary values: policy lives on the edges'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e971
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e972
+  elementType: table
+  bounds:
+  - 72
+  - 178
+  - 700
+  - 348
+  columnWidths:
+  - 0.42
+  - 0.3
+  - 0.28
+  rowHeights:
+  - 0.16
+  - 0.13999999999999999
+  - 0.13999999999999999
+  - 0.13999999999999999
+  - 0.13999999999999999
+  - 0.13999999999999999
+  - 0.13999999999999999
+  rows:
+  - - text: BOUNDARY TESTED
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: VALUE
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+    - text: OUTCOME
+      fontFamily: Helvetica
+      fontSize: 11.5
+      color: '#FFFFFF'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#1E3A2F'
+      lineHeight: 1.12
+  - - text: renewals count
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: 1st renewal (of 2)
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: allowed
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: renewals count
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: 2nd renewal — last one
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: allowed
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: renewals count
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: 3rd renewal — over max
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: refused
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: due date
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: returned on due day, 23:59
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: 0 rupees fine
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+  - - text: due date
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: returned 1 day late
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+    - text: 1 rupee accrued
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#F5F2EA'
+      lineHeight: 1.12
+  - - text: fine ceiling
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: true
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: accrual reaching 50 rupees
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+    - text: account blocked
+      fontFamily: Helvetica
+      fontSize: 12.5
+      color: '#1E3A2F'
+      bold: false
+      align:
+      - left
+      - middle
+      fill:
+        type: solid
+        color: '#EFEADC'
+      lineHeight: 1.12
+- elementId: e973
+  elementType: text
+  bounds:
+  - 800
+  - 186
+  - 380
+  - 16
+  content:
+    text: WHY EDGES OVER MIDDLE
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e974
+  elementType: shape
+  bounds:
+  - 800
+  - 208
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e975
+  elementType: text
+  bounds:
+  - 800
+  - 223
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 13.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e976
+  elementType: text
+  bounds:
+  - 824
+  - 222
+  - 131.72000000000003
+  - 70
+  content:
+    text: Off-by-one lurks
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e977
+  elementType: text
+  bounds:
+  - 951.72
+  - 222
+  - 250.27999999999997
+  - 70
+  content:
+    text: ': 00:00 vs 23:59 — a real RED'
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e978
+  elementType: text
+  bounds:
+  - 800
+  - 287
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 13.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e979
+  elementType: text
+  bounds:
+  - 824
+  - 286
+  - 124.36250000000001
+  - 70
+  content:
+    text: 2 vs 3 renewals
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e980
+  elementType: text
+  bounds:
+  - 944.3625
+  - 286
+  - 257.6375
+  - 70
+  content:
+    text: — the exact policy line per role
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e981
+  elementType: text
+  bounds:
+  - 800
+  - 351
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 13.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e982
+  elementType: text
+  bounds:
+  - 824
+  - 350
+  - 168.50750000000002
+  - 70
+  content:
+    text: Reaches 50, passes 50
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e983
+  elementType: text
+  bounds:
+  - 988.5075
+  - 350
+  - 213.49249999999998
+  - 70
+  content:
+    text: — block fires once
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e984
+  elementType: text
+  bounds:
+  - 72
+  - 548
+  - 1136
+  - 40
+  content:
+    text: These pins are the 'preventive maintenance' evidence on the CMMI slide — BVA tests pre-empt whole defect families.
+    fontSize: 13.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e985
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e986
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e987
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 06 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

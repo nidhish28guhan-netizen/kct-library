@@ -1,0 +1,50 @@
+version: v2
+title: CLMS Unit II — Agile Practices & Project Management
+size:
+- 1280
+- 720
+theme:
+  colors:
+    paper: '#F5F2EA'
+    ink: '#1E3A2F'
+    brass: '#A8792C'
+    muted: '#66756A'
+    line: '#D9D2C0'
+    panel: '#EDE7D8'
+    faint: '#E3DCC8'
+    white: '#FFFFFF'
+    brick: '#96462F'
+    text: '#1E3A2F'
+  textStyles:
+    display:
+      fontFamily: Georgia
+      color: '#1E3A2F'
+    body:
+      fontFamily: Helvetica
+      color: '#1E3A2F'
+    mono:
+      fontFamily: Menlo
+      color: '#1E3A2F'
+    kicker:
+      fontFamily: Helvetica
+      color: '#A8792C'
+    muted:
+      fontFamily: Helvetica
+      color: '#66756A'
+pages:
+- pages/01_cover.page
+- pages/02_agenda.page
+- pages/03_frameworks.page
+- pages/04_ceremonies.page
+- pages/05_backlog.page
+- pages/06_story.page
+- pages/07_estimation.page
+- pages/08_cadence.page
+- pages/09_velocity.page
+- pages/10_burndown.page
+- pages/11_carryover.page
+- pages/12_jira.page
+- pages/13_team.page
+- pages/14_wbs.page
+- pages/15_risks.page
+- pages/16_recap.page

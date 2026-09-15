@@ -1,0 +1,736 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e1085
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 3 · EVIDENCE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1086
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Statement coverage by layer — with the miss disclosed
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e1087
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1088
+  elementType: text
+  bounds:
+  - 72
+  - 200
+  - 170
+  - 24
+  content:
+    text: domain
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1089
+  elementType: shape
+  bounds:
+  - 250
+  - 196
+  - 520
+  - 26
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EBE5D6'
+  border:
+    style: solid
+    width: 1
+    color: '#EBE5D6'
+- elementId: e1090
+  elementType: shape
+  bounds:
+  - 250
+  - 196
+  - 503.36
+  - 26
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+- elementId: e1091
+  elementType: text
+  bounds:
+  - 788
+  - 199
+  - 130
+  - 24
+  content:
+    text: 96.8%
+    fontSize: 15
+    color: '#2E5646'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1092
+  elementType: text
+  bounds:
+  - 72
+  - 248
+  - 170
+  - 24
+  content:
+    text: repositories
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1093
+  elementType: shape
+  bounds:
+  - 250
+  - 244
+  - 520
+  - 26
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EBE5D6'
+  border:
+    style: solid
+    width: 1
+    color: '#EBE5D6'
+- elementId: e1094
+  elementType: shape
+  bounds:
+  - 250
+  - 244
+  - 504.92
+  - 26
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+- elementId: e1095
+  elementType: text
+  bounds:
+  - 788
+  - 247
+  - 130
+  - 24
+  content:
+    text: 97.1%
+    fontSize: 15
+    color: '#2E5646'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1096
+  elementType: text
+  bounds:
+  - 72
+  - 296
+  - 170
+  - 24
+  content:
+    text: routes
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1097
+  elementType: shape
+  bounds:
+  - 250
+  - 292
+  - 520
+  - 26
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EBE5D6'
+  border:
+    style: solid
+    width: 1
+    color: '#EBE5D6'
+- elementId: e1098
+  elementType: shape
+  bounds:
+  - 250
+  - 292
+  - 444.08
+  - 26
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#2E5646'
+  border:
+    style: solid
+    width: 1
+    color: '#2E5646'
+- elementId: e1099
+  elementType: text
+  bounds:
+  - 788
+  - 295
+  - 130
+  - 24
+  content:
+    text: 85.4%
+    fontSize: 15
+    color: '#2E5646'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1100
+  elementType: text
+  bounds:
+  - 72
+  - 344
+  - 170
+  - 24
+  content:
+    text: services
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1101
+  elementType: shape
+  bounds:
+  - 250
+  - 340
+  - 520
+  - 26
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EBE5D6'
+  border:
+    style: solid
+    width: 1
+    color: '#EBE5D6'
+- elementId: e1102
+  elementType: shape
+  bounds:
+  - 250
+  - 340
+  - 384.28
+  - 26
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1103
+  elementType: text
+  bounds:
+  - 788
+  - 343
+  - 130
+  - 24
+  content:
+    text: 73.9%
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1104
+  elementType: shape
+  bounds:
+  - 666.0
+  - 188
+  - 2
+  - 200
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1105
+  elementType: text
+  bounds:
+  - 596.0
+  - 168
+  - 140
+  - 20
+  content:
+    text: target 80%
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1106
+  elementType: shape
+  bounds:
+  - 72
+  - 412
+  - 880
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1107
+  elementType: text
+  bounds:
+  - 72
+  - 424
+  - 880
+  - 24
+  content:
+    text: 'all files: 82.0% stmts · 88.1% lines'
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1108
+  elementType: text
+  bounds:
+  - 72
+  - 465
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1109
+  elementType: text
+  bounds:
+  - 96
+  - 464
+  - 166.055
+  - 44
+  content:
+    text: Blueprint rule met
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1110
+  elementType: text
+  bounds:
+  - 258.055
+  - 464
+  - 687.9449999999999
+  - 44
+  content:
+    text: ': three core modules clear the 80% target'
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1111
+  elementType: text
+  bounds:
+  - 72
+  - 503
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1112
+  elementType: text
+  bounds:
+  - 96
+  - 502
+  - 191.3975
+  - 44
+  content:
+    text: Services sit at 73.9%
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1113
+  elementType: text
+  bounds:
+  - 283.39750000000004
+  - 502
+  - 662.6025
+  - 44
+  content:
+    text: — thin glue; assertions live in domain specs
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1114
+  elementType: text
+  bounds:
+  - 72
+  - 541
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1115
+  elementType: text
+  bounds:
+  - 96
+  - 540
+  - 174.5025
+  - 44
+  content:
+    text: Coverage is a floor
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1116
+  elementType: text
+  bounds:
+  - 266.5025
+  - 540
+  - 679.4975
+  - 44
+  content:
+    text: ': enforced in CI, discussed in retrospectives'
+    fontSize: 15.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1117
+  elementType: shape
+  bounds:
+  - 960
+  - 196
+  - 248
+  - 240
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1118
+  elementType: shape
+  bounds:
+  - 960
+  - 196
+  - 248
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1119
+  elementType: text
+  bounds:
+  - 978
+  - 214
+  - 212
+  - 20
+  content:
+    text: MEASURED
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e1120
+  elementType: text
+  bounds:
+  - 978
+  - 244
+  - 212
+  - 44
+  content:
+    text: '121'
+    fontSize: 34
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e1121
+  elementType: text
+  bounds:
+  - 978
+  - 292
+  - 212
+  - 18
+  content:
+    text: TESTS PASSING
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e1122
+  elementType: shape
+  bounds:
+  - 978
+  - 330
+  - 212
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1123
+  elementType: text
+  bounds:
+  - 978
+  - 344
+  - 212
+  - 44
+  content:
+    text: '6'
+    fontSize: 34
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e1124
+  elementType: text
+  bounds:
+  - 978
+  - 392
+  - 212
+  - 18
+  content:
+    text: SUITES
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e1125
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1126
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1127
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 10 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

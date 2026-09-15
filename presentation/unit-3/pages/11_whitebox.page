@@ -1,0 +1,424 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e1128
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 3 · EVIDENCE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1129
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: 'White-box: complexity kept in a ledger'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e1130
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1131
+  elementType: text
+  bounds:
+  - 72
+  - 190
+  - 420
+  - 74
+  content:
+    text: '2.13'
+    fontSize: 64
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e1132
+  elementType: text
+  bounds:
+  - 72
+  - 268
+  - 420
+  - 18
+  content:
+    text: AVERAGE MCCABE CC
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e1133
+  elementType: text
+  bounds:
+  - 72
+  - 290
+  - 420
+  - 18
+  content:
+    text: across the backend
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1134
+  elementType: text
+  bounds:
+  - 72
+  - 348
+  - 420
+  - 74
+  content:
+    text: '14'
+    fontSize: 64
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e1135
+  elementType: text
+  bounds:
+  - 72
+  - 426
+  - 420
+  - 18
+  content:
+    text: MAXIMUM CC — ONE OUTLIER
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e1136
+  elementType: text
+  bounds:
+  - 72
+  - 448
+  - 420
+  - 18
+  content:
+    text: the hold-redispatch branch from RES-001
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e1137
+  elementType: shape
+  bounds:
+  - 560
+  - 196
+  - 2
+  - 240
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1138
+  elementType: text
+  bounds:
+  - 600
+  - 201
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1139
+  elementType: text
+  bounds:
+  - 624
+  - 200
+  - 128.45
+  - 72
+  content:
+    text: Average CC 2.13
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1140
+  elementType: text
+  bounds:
+  - 748.45
+  - 200
+  - 453.55
+  - 72
+  content:
+    text: — guards stay linear by design
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1141
+  elementType: text
+  bounds:
+  - 600
+  - 267
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1142
+  elementType: text
+  bounds:
+  - 624
+  - 266
+  - 174.23000000000002
+  - 72
+  content:
+    text: Peak 14 is deliberate
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1143
+  elementType: text
+  bounds:
+  - 794.23
+  - 266
+  - 407.77
+  - 72
+  content:
+    text: — redispatch is branchy, pinned by tests
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1144
+  elementType: text
+  bounds:
+  - 600
+  - 333
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1145
+  elementType: text
+  bounds:
+  - 624
+  - 332
+  - 212.38000000000002
+  - 72
+  content:
+    text: Halstead effort N × log2 n
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1146
+  elementType: text
+  bounds:
+  - 832.38
+  - 332
+  - 369.62
+  - 72
+  content:
+    text: — a review smell meter, not a gate
+    fontSize: 14
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1147
+  elementType: shape
+  bounds:
+  - 72
+  - 500
+  - 1136
+  - 44
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1148
+  elementType: text
+  bounds:
+  - 96
+  - 500
+  - 1090
+  - 44
+  content:
+    text: Low average complexity is what let a two-person team hold 1,498 LOC and 314 functions in their heads.
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e1149
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1150
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1151
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 11 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

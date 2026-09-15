@@ -1,0 +1,304 @@
+pageType: cover
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e862
+  elementType: shape
+  bounds:
+  - 0
+  - 0
+  - 16
+  - 720
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e863
+  elementType: text
+  bounds:
+  - 848
+  - 250
+  - 400
+  - 380
+  content:
+    text: III
+    fontSize: 280
+    color: '#E3DCC8'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - right
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e864
+  elementType: text
+  bounds:
+  - 72
+  - 60
+  - 1000
+  - 20
+  content:
+    text: COLLEGE LIBRARY MANAGEMENT SYSTEM · UNIVERSITY PROJECT SEMINAR
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2.2
+    wrap: false
+- elementId: e865
+  elementType: text
+  bounds:
+  - 72
+  - 92
+  - 700
+  - 22
+  content:
+    text: COURSE 24CSI015 · SOFTWARE ENGINEERING WITH AGILE PRACTICES
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e866
+  elementType: text
+  bounds:
+  - 72
+  - 168
+  - 700
+  - 26
+  content:
+    text: Unit III of III
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    italic: true
+    wrap: false
+- elementId: e867
+  elementType: text
+  bounds:
+  - 72
+  - 202
+  - 860
+  - 64
+  content:
+    text: Testing, Quality
+    fontSize: 46
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e868
+  elementType: text
+  bounds:
+  - 72
+  - 266
+  - 860
+  - 64
+  content:
+    text: '& DevOps'
+    fontSize: 46
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e869
+  elementType: shape
+  bounds:
+  - 72
+  - 352
+  - 96
+  - 4
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e870
+  elementType: text
+  bounds:
+  - 72
+  - 380
+  - 820
+  - 48
+  content:
+    text: 121 tests, 82% coverage and two Selenium journeys — the evidence behind v1.0.0.
+    fontSize: 16
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e871
+  elementType: shape
+  bounds:
+  - 72
+  - 470
+  - 2
+  - 132
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e872
+  elementType: text
+  bounds:
+  - 96
+  - 472
+  - 300
+  - 20
+  content:
+    text: TEAM
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e873
+  elementType: text
+  bounds:
+  - 96
+  - 504
+  - 240
+  - 26
+  content:
+    text: S. Nidhish Guhan S
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e874
+  elementType: text
+  bounds:
+  - 276
+  - 504
+  - 420
+  - 26
+  content:
+    text: — Product Owner / Developer
+    fontSize: 15
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e875
+  elementType: text
+  bounds:
+  - 96
+  - 538
+  - 240
+  - 26
+  content:
+    text: Kawaskar J
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e876
+  elementType: text
+  bounds:
+  - 276
+  - 538
+  - 420
+  - 26
+  content:
+    text: — Scrum Master / Developer
+    fontSize: 15
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e877
+  elementType: text
+  bounds:
+  - 72
+  - 644
+  - 700
+  - 20
+  content:
+    text: Project seminar · September 2026
+    fontSize: 13
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e878
+  elementType: text
+  bounds:
+  - 860
+  - 644
+  - 348
+  - 20
+  content:
+    text: deck 3 / 3
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

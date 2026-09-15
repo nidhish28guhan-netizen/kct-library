@@ -1,0 +1,387 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e647
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT II · PART 3 · EXECUTION
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e648
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Velocity held at 18 — and both dips explain themselves
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e649
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e650
+  elementType: image
+  bounds:
+  - 72
+  - 172
+  - 704
+  - 392
+  src: media/velocity.png
+  fit:
+    mode: contain
+- elementId: e651
+  elementType: text
+  bounds:
+  - 824
+  - 186
+  - 380
+  - 62
+  content:
+    text: '18'
+    fontSize: 52
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e652
+  elementType: text
+  bounds:
+  - 824
+  - 252
+  - 380
+  - 18
+  content:
+    text: MEAN COMPLETED PTS
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e653
+  elementType: text
+  bounds:
+  - 824
+  - 292
+  - 380
+  - 54
+  content:
+    text: 13–24
+    fontSize: 44
+    color: '#A8792C'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+    wrap: false
+- elementId: e654
+  elementType: text
+  bounds:
+  - 824
+  - 350
+  - 380
+  - 18
+  content:
+    text: SPRINT RANGE
+    fontSize: 11
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.4
+    wrap: false
+- elementId: e655
+  elementType: text
+  bounds:
+  - 824
+  - 372
+  - 380
+  - 18
+  content:
+    text: low S5 · peak S7
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e656
+  elementType: text
+  bounds:
+  - 824
+  - 405
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 13.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e657
+  elementType: text
+  bounds:
+  - 848
+  - 404
+  - 161.15
+  - 48
+  content:
+    text: Planned vs completed
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e658
+  elementType: text
+  bounds:
+  - 1005.15
+  - 404
+  - 202.85
+  - 48
+  content:
+    text: tracked every sprint
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e659
+  elementType: text
+  bounds:
+  - 824
+  - 447
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 13.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e660
+  elementType: text
+  bounds:
+  - 848
+  - 446
+  - 131.72000000000003
+  - 48
+  content:
+    text: Dips were honest
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e661
+  elementType: text
+  bounds:
+  - 975.72
+  - 446
+  - 232.27999999999997
+  - 48
+  content:
+    text: — found defects, not lost effort
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e662
+  elementType: text
+  bounds:
+  - 824
+  - 489
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 13.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e663
+  elementType: text
+  bounds:
+  - 848
+  - 488
+  - 153.79250000000002
+  - 48
+  content:
+    text: Recovery systematic
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e664
+  elementType: text
+  bounds:
+  - 997.7925
+  - 488
+  - 210.20749999999998
+  - 48
+  content:
+    text: — next sprint absorbed it
+    fontSize: 13.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e665
+  elementType: text
+  bounds:
+  - 72
+  - 586
+  - 1136
+  - 40
+  content:
+    text: 'Completed: 17, 16, 18, 22, 13, 16, 24 = 126 pts · Planned: 17, 16, 21, 22, 13, 18, 21'
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e666
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e667
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e668
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 09 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

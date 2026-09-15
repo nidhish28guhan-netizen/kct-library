@@ -1,0 +1,663 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e303
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT I · PART 4 · ARCHITECTURE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e304
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Five strict layers, one atomic store
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e305
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e306
+  elementType: shape
+  bounds:
+  - 72
+  - 166
+  - 620
+  - 38
+  shapeName: roundRect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e307
+  elementType: text
+  bounds:
+  - 78
+  - 166
+  - 608
+  - 38
+  content:
+    text: React 18 + Vite 5 SPA · REST · Express 4 on :4000
+    fontSize: 12.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.0
+    wrap: false
+- elementId: e308
+  elementType: shape
+  bounds:
+  - 72
+  - 220
+  - 560
+  - 58
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e309
+  elementType: text
+  bounds:
+  - 94
+  - 220
+  - 520
+  - 58
+  content:
+    text: routes
+    fontSize: 16
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e310
+  elementType: text
+  bounds:
+  - 672
+  - 228
+  - 540
+  - 20
+  content:
+    text: L1 · ROUTES
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e311
+  elementType: text
+  bounds:
+  - 672
+  - 250
+  - 540
+  - 26
+  content:
+    text: JWT + RBAC guard ahead of every endpoint
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e312
+  elementType: shape
+  bounds:
+  - 349.0
+  - 278
+  - 2
+  - 12
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e313
+  elementType: shape
+  bounds:
+  - 344.5
+  - 284.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 180
+- elementId: e314
+  elementType: shape
+  bounds:
+  - 72
+  - 290
+  - 560
+  - 58
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e315
+  elementType: text
+  bounds:
+  - 94
+  - 290
+  - 520
+  - 58
+  content:
+    text: services
+    fontSize: 16
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e316
+  elementType: text
+  bounds:
+  - 672
+  - 298
+  - 540
+  - 20
+  content:
+    text: L2 · SERVICES
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e317
+  elementType: text
+  bounds:
+  - 672
+  - 320
+  - 540
+  - 26
+  content:
+    text: orchestration only — no business rules
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e318
+  elementType: shape
+  bounds:
+  - 349.0
+  - 348
+  - 2
+  - 12
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e319
+  elementType: shape
+  bounds:
+  - 344.5
+  - 354.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 180
+- elementId: e320
+  elementType: shape
+  bounds:
+  - 72
+  - 360
+  - 560
+  - 58
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e321
+  elementType: text
+  bounds:
+  - 94
+  - 360
+  - 520
+  - 58
+  content:
+    text: domain
+    fontSize: 16
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e322
+  elementType: text
+  bounds:
+  - 672
+  - 368
+  - 540
+  - 20
+  content:
+    text: L3 · DOMAIN
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e323
+  elementType: text
+  bounds:
+  - 672
+  - 390
+  - 540
+  - 26
+  content:
+    text: 'pure functions: policies, state, fines'
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e324
+  elementType: shape
+  bounds:
+  - 349.0
+  - 418
+  - 2
+  - 12
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e325
+  elementType: shape
+  bounds:
+  - 344.5
+  - 424.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 180
+- elementId: e326
+  elementType: shape
+  bounds:
+  - 72
+  - 430
+  - 560
+  - 58
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e327
+  elementType: text
+  bounds:
+  - 94
+  - 430
+  - 520
+  - 58
+  content:
+    text: repositories
+    fontSize: 16
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e328
+  elementType: text
+  bounds:
+  - 672
+  - 438
+  - 540
+  - 20
+  content:
+    text: L4 · REPOSITORIES
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e329
+  elementType: text
+  bounds:
+  - 672
+  - 460
+  - 540
+  - 26
+  content:
+    text: one accessor per entity collection
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e330
+  elementType: shape
+  bounds:
+  - 349.0
+  - 488
+  - 2
+  - 12
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e331
+  elementType: shape
+  bounds:
+  - 344.5
+  - 494.5
+  - 11
+  - 11
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 180
+- elementId: e332
+  elementType: shape
+  bounds:
+  - 72
+  - 500
+  - 560
+  - 58
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e333
+  elementType: text
+  bounds:
+  - 94
+  - 500
+  - 520
+  - 58
+  content:
+    text: JsonStore
+    fontSize: 16
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e334
+  elementType: text
+  bounds:
+  - 672
+  - 508
+  - 540
+  - 20
+  content:
+    text: L5 · JSONSTORE
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.5
+    wrap: false
+- elementId: e335
+  elementType: text
+  bounds:
+  - 672
+  - 530
+  - 540
+  - 26
+  content:
+    text: tmp file + atomic rename · crash-safe
+    fontSize: 12.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e336
+  elementType: shape
+  bounds:
+  - 72
+  - 580
+  - 1136
+  - 48
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e337
+  elementType: text
+  bounds:
+  - 96
+  - 580
+  - 1090
+  - 48
+  content:
+    text: JSON files instead of Postgres — an explicit requirement, answered with atomic persistence
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e338
+  elementType: text
+  bounds:
+  - 72
+  - 646
+  - 1136
+  - 16
+  content:
+    text: 'System scale: 29 source files · 1,498 LOC · 314 functions · ~45 REST endpoints'
+    fontSize: 11.5
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+- elementId: e339
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e340
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e341
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 12 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

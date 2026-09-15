@@ -1,0 +1,379 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e018
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: AGENDA · UNIT I
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e019
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: What this unit covers
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e020
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e021
+  elementType: shape
+  bounds:
+  - 72
+  - 174
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e022
+  elementType: text
+  bounds:
+  - 72
+  - 190
+  - 70
+  - 30
+  content:
+    text: '01'
+    fontSize: 17
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e023
+  elementType: text
+  bounds:
+  - 164
+  - 187
+  - 500
+  - 34
+  content:
+    text: FRAMING
+    fontSize: 21
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e024
+  elementType: text
+  bounds:
+  - 608
+  - 192
+  - 600
+  - 28
+  content:
+    text: Problem statement · stakeholders and roles
+    fontSize: 14.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+- elementId: e025
+  elementType: shape
+  bounds:
+  - 72
+  - 284
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e026
+  elementType: text
+  bounds:
+  - 72
+  - 300
+  - 70
+  - 30
+  content:
+    text: '02'
+    fontSize: 17
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e027
+  elementType: text
+  bounds:
+  - 164
+  - 297
+  - 500
+  - 34
+  content:
+    text: METHOD
+    fontSize: 21
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e028
+  elementType: text
+  bounds:
+  - 608
+  - 302
+  - 600
+  - 28
+  content:
+    text: SDLC choice · requirements engineering · traceability
+    fontSize: 14.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+- elementId: e029
+  elementType: shape
+  bounds:
+  - 72
+  - 394
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e030
+  elementType: text
+  bounds:
+  - 72
+  - 410
+  - 70
+  - 30
+  content:
+    text: '03'
+    fontSize: 17
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e031
+  elementType: text
+  bounds:
+  - 164
+  - 407
+  - 500
+  - 34
+  content:
+    text: MODELLING
+    fontSize: 21
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e032
+  elementType: text
+  bounds:
+  - 608
+  - 412
+  - 600
+  - 28
+  content:
+    text: Use cases · class model · state machine · issue sequence
+    fontSize: 14.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+- elementId: e033
+  elementType: shape
+  bounds:
+  - 72
+  - 504
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e034
+  elementType: text
+  bounds:
+  - 72
+  - 520
+  - 70
+  - 30
+  content:
+    text: '04'
+    fontSize: 17
+    color: '#A8792C'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e035
+  elementType: text
+  bounds:
+  - 164
+  - 517
+  - 500
+  - 34
+  content:
+    text: ARCHITECTURE
+    fontSize: 21
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e036
+  elementType: text
+  bounds:
+  - 608
+  - 522
+  - 600
+  - 28
+  content:
+    text: Layered backend · JsonStore · barcodes · data · principles
+    fontSize: 14.5
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+- elementId: e037
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e038
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e039
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 02 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

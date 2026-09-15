@@ -1,0 +1,480 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e1230
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 4 · QUALITY SYSTEM
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1231
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: 'Release ledger: v1.0.0 · 4 Sep 2026'
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e1232
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1233
+  elementType: shape
+  bounds:
+  - 72
+  - 178
+  - 1136
+  - 118
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1234
+  elementType: text
+  bounds:
+  - 106
+  - 196
+  - 500
+  - 82
+  content:
+    text: v1.0.0
+    fontSize: 54
+    color: '#FFFFFF'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1235
+  elementType: text
+  bounds:
+  - 560
+  - 196
+  - 380
+  - 30
+  content:
+    text: SHIPPED 4 SEP 2026
+    fontSize: 13
+    color: '#DCC9A5'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1236
+  elementType: text
+  bounds:
+  - 560
+  - 230
+  - 620
+  - 50
+  content:
+    text: 10 epics · 37 stories · 125 of 126 points · all seven sprints closed
+    fontSize: 15
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.3
+- elementId: e1237
+  elementType: text
+  bounds:
+  - 72
+  - 333
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1238
+  elementType: text
+  bounds:
+  - 96
+  - 332
+  - 87.575
+  - 64
+  content:
+    text: Delivered
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1239
+  elementType: text
+  bounds:
+  - 179.575
+  - 332
+  - 986.425
+  - 64
+  content:
+    text: ': catalogue, circulation, holds queue, fines, barcodes, RBAC desks, React SPA, Docker stack'
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1240
+  elementType: text
+  bounds:
+  - 72
+  - 391
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 15
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1241
+  elementType: text
+  bounds:
+  - 96
+  - 390
+  - 169.32500000000002
+  - 64
+  content:
+    text: Quality at the gate
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1242
+  elementType: text
+  bounds:
+  - 261.32500000000005
+  - 390
+  - 904.675
+  - 64
+  content:
+    text: ': 121 tests green · 82.0% stmts / 88.1% lines · 2 E2E journeys passing'
+    fontSize: 15
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1243
+  elementType: text
+  bounds:
+  - 72
+  - 458
+  - 380
+  - 16
+  content:
+    text: KNOWN LIMITS, ON THE RECORD
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e1244
+  elementType: shape
+  bounds:
+  - 72
+  - 480
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1245
+  elementType: text
+  bounds:
+  - 72
+  - 491
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1246
+  elementType: text
+  bounds:
+  - 96
+  - 490
+  - 124.635
+  - 46
+  content:
+    text: US-37 deferred
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1247
+  elementType: text
+  bounds:
+  - 216.635
+  - 490
+  - 949.365
+  - 46
+  content:
+    text: — the one point that did not make the date
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1248
+  elementType: text
+  bounds:
+  - 72
+  - 531
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1249
+  elementType: text
+  bounds:
+  - 96
+  - 530
+  - 227.3675
+  - 46
+  content:
+    text: Single instance, JSON store
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1250
+  elementType: text
+  bounds:
+  - 319.3675
+  - 530
+  - 846.6324999999999
+  - 46
+  content:
+    text: — a requirement trade-off, made crash-safe
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1251
+  elementType: text
+  bounds:
+  - 72
+  - 571
+  - 16
+  - 22
+  content:
+    text: •
+    fontSize: 14.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1252
+  elementType: text
+  bounds:
+  - 96
+  - 570
+  - 195.75750000000002
+  - 46
+  content:
+    text: Services at 73.9% stmts
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1253
+  elementType: text
+  bounds:
+  - 287.75750000000005
+  - 570
+  - 878.2425
+  - 46
+  content:
+    text: — thin glue, asserted where it matters
+    fontSize: 14.5
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.18
+    wrap: false
+- elementId: e1254
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1255
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1256
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 15 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false

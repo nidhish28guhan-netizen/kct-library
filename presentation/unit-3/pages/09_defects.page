@@ -1,0 +1,727 @@
+pageType: content
+background:
+  type: solid
+  color: '#F5F2EA'
+elements:
+- elementId: e1042
+  elementType: text
+  bounds:
+  - 72
+  - 44
+  - 1100
+  - 20
+  content:
+    text: UNIT III · PART 3 · EVIDENCE
+    fontSize: 12
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 2
+    wrap: false
+- elementId: e1043
+  elementType: text
+  bounds:
+  - 72
+  - 66
+  - 1136
+  - 44
+  content:
+    text: Three defects found, three durable fixes
+    fontSize: 30
+    color: '#1E3A2F'
+    fontFamily: Georgia
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.0
+- elementId: e1044
+  elementType: shape
+  bounds:
+  - 72
+  - 122
+  - 56
+  - 3
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1045
+  elementType: text
+  bounds:
+  - 72
+  - 178
+  - 380
+  - 16
+  content:
+    text: RES-001 · THE ONE WORTH TELLING
+    fontSize: 11.5
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.6
+    wrap: false
+- elementId: e1046
+  elementType: shape
+  bounds:
+  - 72
+  - 200
+  - 28
+  - 2
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1047
+  elementType: shape
+  bounds:
+  - 72
+  - 212
+  - 160
+  - 46
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1048
+  elementType: text
+  bounds:
+  - 72
+  - 212
+  - 160
+  - 46
+  content:
+    text: FOUND
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1049
+  elementType: text
+  bounds:
+  - 248
+  - 215
+  - 280
+  - 20
+  content:
+    text: S3 REVIEW
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.2
+    wrap: false
+- elementId: e1050
+  elementType: text
+  bounds:
+  - 248
+  - 234
+  - 540
+  - 24
+  content:
+    text: cancelled READY hold could strand a copy
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1051
+  elementType: shape
+  bounds:
+  - 151.5
+  - 258
+  - 1
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e1052
+  elementType: shape
+  bounds:
+  - 147.5
+  - 269.5
+  - 9
+  - 9
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 180
+- elementId: e1053
+  elementType: shape
+  bounds:
+  - 72
+  - 274
+  - 160
+  - 46
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1054
+  elementType: text
+  bounds:
+  - 72
+  - 274
+  - 160
+  - 46
+  content:
+    text: ROOT CAUSE
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1055
+  elementType: text
+  bounds:
+  - 248
+  - 277
+  - 280
+  - 20
+  content:
+    text: STATE MODEL
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.2
+    wrap: false
+- elementId: e1056
+  elementType: text
+  bounds:
+  - 248
+  - 296
+  - 540
+  - 24
+  content:
+    text: queue re-dispatch happened only on happy-path return
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1057
+  elementType: shape
+  bounds:
+  - 151.5
+  - 320
+  - 1
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e1058
+  elementType: shape
+  bounds:
+  - 147.5
+  - 331.5
+  - 9
+  - 9
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 180
+- elementId: e1059
+  elementType: shape
+  bounds:
+  - 72
+  - 336
+  - 160
+  - 46
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1060
+  elementType: text
+  bounds:
+  - 72
+  - 336
+  - 160
+  - 46
+  content:
+    text: FIX
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1061
+  elementType: text
+  bounds:
+  - 248
+  - 339
+  - 280
+  - 20
+  content:
+    text: DOMAIN
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.2
+    wrap: false
+- elementId: e1062
+  elementType: text
+  bounds:
+  - 248
+  - 358
+  - 540
+  - 24
+  content:
+    text: snapshot pre-state · redispatch to next queue member
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1063
+  elementType: shape
+  bounds:
+  - 151.5
+  - 382
+  - 1
+  - 16
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+- elementId: e1064
+  elementType: shape
+  bounds:
+  - 147.5
+  - 393.5
+  - 9
+  - 9
+  shapeName: triangle
+  fill:
+    type: solid
+    color: '#66756A'
+  border:
+    style: solid
+    width: 1
+    color: '#66756A'
+  rotation: 180
+- elementId: e1065
+  elementType: shape
+  bounds:
+  - 72
+  - 398
+  - 160
+  - 46
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1066
+  elementType: text
+  bounds:
+  - 72
+  - 398
+  - 160
+  - 46
+  content:
+    text: PIN
+    fontSize: 12
+    color: '#FFFFFF'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - center
+    - middle
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1067
+  elementType: text
+  bounds:
+  - 248
+  - 401
+  - 280
+  - 20
+  content:
+    text: REGRESSION
+    fontSize: 11
+    color: '#A8792C'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    letterSpacing: 1.2
+    wrap: false
+- elementId: e1068
+  elementType: text
+  bounds:
+  - 248
+  - 420
+  - 540
+  - 24
+  content:
+    text: a spec now replays the cancel path every CI run
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1069
+  elementType: shape
+  bounds:
+  - 796
+  - 212
+  - 3
+  - 250
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1070
+  elementType: shape
+  bounds:
+  - 820
+  - 212
+  - 388
+  - 118
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1071
+  elementType: shape
+  bounds:
+  - 820
+  - 212
+  - 388
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1072
+  elementType: text
+  bounds:
+  - 840
+  - 226
+  - 348
+  - 22
+  content:
+    text: UI-002 · Sprint 6
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1073
+  elementType: text
+  bounds:
+  - 840
+  - 254
+  - 348
+  - 24
+  content:
+    text: Symptom — Image tags cannot send JWT for the barcode SVG.
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1074
+  elementType: text
+  bounds:
+  - 840
+  - 278
+  - 348
+  - 44
+  content:
+    text: Fix — Authenticated fetch, then paint the SVG from memory.
+    fontSize: 12
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e1075
+  elementType: shape
+  bounds:
+  - 820
+  - 344
+  - 388
+  - 118
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#EDE7D8'
+  border:
+    style: solid
+    width: 1
+    color: '#EDE7D8'
+- elementId: e1076
+  elementType: shape
+  bounds:
+  - 820
+  - 344
+  - 388
+  - 5
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#A8792C'
+  border:
+    style: solid
+    width: 1
+    color: '#A8792C'
+- elementId: e1077
+  elementType: text
+  bounds:
+  - 840
+  - 358
+  - 348
+  - 22
+  content:
+    text: E2E-003 · Test flake
+    fontSize: 13
+    color: '#1E3A2F'
+    fontFamily: Menlo
+    bold: true
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1078
+  elementType: text
+  bounds:
+  - 840
+  - 386
+  - 348
+  - 24
+  content:
+    text: Symptom — Autofocus login selector raced page render.
+    fontSize: 12
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1079
+  elementType: text
+  bounds:
+  - 840
+  - 410
+  - 348
+  - 44
+  content:
+    text: Fix — Explicit selectors rule written into the Definition of Done.
+    fontSize: 12
+    color: '#1E3A2F'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.2
+- elementId: e1080
+  elementType: shape
+  bounds:
+  - 72
+  - 586
+  - 1136
+  - 42
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#1E3A2F'
+  border:
+    style: solid
+    width: 1
+    color: '#1E3A2F'
+- elementId: e1081
+  elementType: text
+  bounds:
+  - 96
+  - 586
+  - 1090
+  - 42
+  content:
+    text: Each defect left the codebase stronger than it was before it was found.
+    fontSize: 13
+    color: '#FFFFFF'
+    fontFamily: Helvetica
+    bold: true
+    align:
+    - left
+    - middle
+    lineHeight: 1.05
+- elementId: e1082
+  elementType: shape
+  bounds:
+  - 72
+  - 668
+  - 1136
+  - 1
+  shapeName: rect
+  fill:
+    type: solid
+    color: '#D9D2C0'
+  border:
+    style: solid
+    width: 1
+    color: '#D9D2C0'
+- elementId: e1083
+  elementType: text
+  bounds:
+  - 72
+  - 676
+  - 820
+  - 16
+  content:
+    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Helvetica
+    bold: false
+    align:
+    - left
+    - top
+    lineHeight: 1.25
+    wrap: false
+- elementId: e1084
+  elementType: text
+  bounds:
+  - 1060
+  - 676
+  - 148
+  - 16
+  content:
+    text: 09 / 16
+    fontSize: 10
+    color: '#66756A'
+    fontFamily: Menlo
+    bold: false
+    align:
+    - right
+    - top
+    lineHeight: 1.25
+    wrap: false
