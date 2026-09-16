@@ -268,7 +268,7 @@ def build():
     els.append(R(M, 176, 218, 44, INK))
     els.append(T(M, 176, 218, 44, "1 · CLMS", size=14, color=WHITE, font=DISPLAY, bold=True,
                  align="center", valign="middle", wrap=False))
-    branches = [("1.1 Foundation", "auth+RBAC · JsonStore"),
+    branches = [("1.1 Foundation", "auth+RBAC · binary store"),
                 ("1.2 Circulation", "loans · holds · fines"),
                 ("1.3 Experience", "SPA · receipts · a11y"),
                 ("1.4 Quality & release", "tests · CI · Docker")]
@@ -288,15 +288,15 @@ def build():
     els.append(R(660, 210, 548, 120, INK))
     els.append(P(684, 210, 500, 120,
         ["<span style=\"color:#DCC9A5;font-size:14px\">E = a × (KLOC)^b,  a=2.4 · b=1.05</span>",
-         "<span style=\"color:#FFFFFF;font-size:17px\">E = 2.4 × (1.498 KLOC)^1.05 ≈ 3.7 person-months</span>"],
+         "<span style=\"color:#FFFFFF;font-size:17px\">E = 2.4 × (1.585 KLOC)^1.05 ≈ 3.9 person-months</span>"],
         size=14, color=WHITE, lh=1.7))
     els += BUL(660, 356, [
-        "1.498 KLOC| = 1,498 measured LOC of the shipped system",
-        "Schedule estimate| ≈ 5.8 months for the modelled effort",
+        "1.585 KLOC| = 1,585 measured LOC of the shipped system",
+        "Schedule estimate| ≈ 3.9 months for the modelled effort",
         "Actual window| 1 Jun – 4 Sep 2026 · two people, 7 sprints"], w=548, step=42)
     els.append(T(660, 500, 548, 40, "A Jun–Sep Gantt was maintained over the same window, branch by WBS branch.",
                  size=13, color=MUTED, lh=1.3))
-    els += BAR(560, "Estimate vs reality: the model said 3.7 person-months over 5.8 months; two builders crossed it in one summer.",
+    els += BAR(560, "Estimate vs reality: the model said 3.9 person-months over 3.9 months; two builders landed it in one summer.",
                size=13, h=44)
     footer(els, 14); P_("14_wbs.page", els)
 

@@ -15,7 +15,7 @@ The process follows the blueprint's four-way combination; each school owns one c
 | Lean | Value + waste reduction | Barcode scanning removes repetitive manual entry at the circulation desk; MVP feature freeze (§42) rejected non-essential scope (e.g. no payment gateway — penalties stay a library rule, §9); policies stored as editable data instead of code changes |
 | Scrum | Planning + incremental delivery | 7 two-week sprints, sprint goal per increment, review with the product owner after each, retrospective action fed into the next sprint (§39 improvement loop) |
 | Kanban | Flow visibility + WIP | JIRA board CLMS-35 workflow `TO DO → IN PROGRESS → CODE REVIEW → TESTING → DONE`; WIP limit 2–3 active dev tasks per developer; defects (RES-001, UI-002, E2E-003) entered as cards and pulled by whoever was free in the affected module |
-| XP | Engineering quality | TDD on domain rules (Unit III §4); pair programming on the issue/return paths (both developers' commits co-located in circulation files); continuous integration via GitHub Actions (`.github/workflows/ci.yml`); refactoring passes kept McCabe average at 2.13 |
+| XP | Engineering quality | TDD on domain rules (Unit III §4); pair programming on the issue/return paths (both developers' commits co-located in circulation files); continuous integration via GitHub Actions (`.github/workflows/ci.yml`); refactoring passes kept McCabe average at 2.15 |
 
 **Integration worked example (blueprint §19 "Barcode Issue"):** Lean justified scan-first checkout; Scrum placed the story (US-13/US-14) in Sprint 3; Kanban visualised its move through review/testing with RES-001 stopping it in TESTING; XP supplied the failing-test-first fix and the regression test that now pins the redispatch behaviour.
 
@@ -23,7 +23,7 @@ The process follows the blueprint's four-way combination; each school owns one c
 
 | Role | Person | Responsibilities in CLMS |
 |---|---|---|
-| Product Owner + developer | S. Nidhish Guhan S | backlog order, MVP freeze, release decision (incl. US-37 deferral); architecture, JsonStore, domain rules, backend services, CI/DevOps — 61 delivered story points |
+| Product Owner + developer | S. Nidhish Guhan S | backlog order, MVP freeze, release decision (incl. US-37 deferral); architecture, BinaryStore, domain rules, backend services, CI/DevOps — 61 delivered story points |
 | Scrum Master + developer | Kawaskar J | ceremony facilitation, board hygiene, impediment log; frontend, auth UX, barcode UI, E2E suites, documentation — 64 delivered story points |
 
 | Ceremony | Cadence | Output recorded in |
@@ -56,7 +56,7 @@ The process follows the blueprint's four-way combination; each school owns one c
 
 | Epic | Scope (§20/§4) | Stories | Points |
 |---|---|---:|---:|
-| E1 Foundation, Auth & Access | login, JWT, RBAC, architecture, JsonStore | US-01,02,03 | 11 |
+| E1 Foundation, Auth & Access | login, JWT, RBAC, architecture, binary store | US-01,02,03 | 11 |
 | E2 Members | member records + management UI | US-04,05 | 6 |
 | E3 Catalogue & Search | book CRUD, search, detail | US-06,07,08,09,37* | 14 |
 | E4 Physical Copies & Barcodes | copy lifecycle, barcode generation/SVG | US-10,11,12 | 11 |
@@ -75,7 +75,7 @@ The process follows the blueprint's four-way combination; each school owns one c
 | US | Points | Owner | Sprint | Short title |
 |---|---:|---|---|---|
 | US-01 | 3 | N | S1 | Sign-in endpoint — bcrypt verify + JWT issue |
-| US-02 | 5 | N | S1 | Layered scaffold + atomic JsonStore persistence |
+| US-02 | 5 | N | S1 | Layered scaffold + atomic binary persistence |
 | US-03 | 3 | K | S1 | Sign-in screen, token storage, role-aware navigation |
 | US-04 | 3 | K | S1 | Member management API + validation wiring |
 | US-05 | 3 | K | S1 | Members admin screen (edit, status, password reset) |
@@ -135,7 +135,7 @@ Seven two-week sprints; calendar dates are the team's planning record (release 4
 
 | Sprint | Outcome / notable event | Retrospective decision applied next sprint |
 |---|---|---|
-| S1 | Working sign-in and member CRUD in review; JsonStore atomic-write design validated by store tests started early | Keep a persistence-safety test pack; add supertest harness before circulation work |
+| S1 | Working sign-in and member CRUD in review; atomic-write persistence design validated by store tests started early | Keep a persistence-safety test pack; add supertest harness before circulation work |
 | S2 | Search engine shipped with 5-pt US-08 as sprint max — calibration held | Velocity signal ≈ 16–17 pts; do not plan above 22 without a stabilisation buffer |
 | S3 | Highest planned load (21). Reservation cancel/redispatch rule found incomplete: cancelling a READY hold stranded the copy (RES-001) | Stop carrying half-done queue rules into new features → US-15 carried; S4 booked the fix explicitly |
 | S4 | Largest completed sprint (22): carry absorbed, return + queue dispatch landed with integration regression test for RES-001 | Defect-adjacent stories estimated too low before; reserve fixer time (applied in S6/S7) |
@@ -188,7 +188,7 @@ With per-sprint scope fixed at planning, the release-level burndown (remaining b
 
 | Developer | Role | Focus areas | Delivered pts | Share |
 |---|---|---|---:|---:|
-| S. Nidhish Guhan S | Product Owner / Dev | architecture, JsonStore, domain rules, backend services, CI/DevOps | 61 | 48.8 % |
+| S. Nidhish Guhan S | Product Owner / Dev | architecture, BinaryStore, domain rules, backend services, CI/DevOps | 61 | 48.8 % |
 | Kawaskar J | Scrum Master / Dev | frontend, auth UX, barcode UI, E2E, documentation | 64 | 51.2 % |
 
 Near-equal load was a scheduling constraint in sprint planning (§5.1 rows); pairing (XP) crossed these boundaries on circulation and reservation work.
@@ -200,7 +200,7 @@ Near-equal load was a scheduling constraint in sprint planning (§5.1 rows); pai
 ```text
 1 CLMS
 ├─ 1.1 Requirements & Design — 1.1.1 SRS · 1.1.2 UML set · 1.1.3 architecture decision records
-├─ 1.2 Backend — 1.2.1 JsonStore/persistence · 1.2.2 domain rules · 1.2.3 services · 1.2.4 routes/auth
+├─ 1.2 Backend — 1.2.1 BinaryStore/persistence · 1.2.2 domain rules · 1.2.3 services · 1.2.4 routes/auth
 ├─ 1.3 Frontend — 1.3.1 auth/UX shell · 1.3.2 catalogue/member screens · 1.3.3 desk/My Library · 1.3.4 reports/admin screens
 ├─ 1.4 Barcode subsystem — 1.4.1 identity scheme · 1.4.2 Code 128 rendering · 1.4.3 scan workflows
 ├─ 1.5 Circulation & reservations — 1.5.1 issue/return/renew · 1.5.2 queues/dispatch · 1.5.3 penalties/policies
@@ -247,17 +247,17 @@ TE critical-path total (~17 wks) versus the 14-calendar-week plan explains the d
 
 ### 8.4 COCOMO II (basic, organic) — estimate vs actual
 
-Inputs: delivered production size **E = 2.4 × (KLOC)^1.05** with KLOC = 1.498 (measured, `metrics-report.json`):
+Inputs: delivered production size **E = 2.4 × (KLOC)^1.05** with KLOC = 1.585 (measured, `metrics-report.json`):
 
 | Quantity | Value |
 |---|---|
-| Effort E | 2.4 × 1.498^1.05 = **3.67 person-months** (≈ 558 person-hours at 152 h/PM) |
-| Schedule SD | 2.5 × 3.67^0.334 = **3.86 months** |
-| Recommended staffing | E/SD ≈ **0.95 developers** |
+| Effort E | 2.4 × 1.585^1.05 = **3.89 person-months** (≈ 592 person-hours at 152 h/PM) |
+| Schedule SD | 2.5 × 3.89^0.334 = **3.93 months** |
+| Recommended staffing | E/SD ≈ **0.99 developers** |
 | Plan of record | 2 developers × 14 weeks ≈ 3.2 calendar months, 7 sprint PM-equivalents × 2 = **7.0 PM capacity** |
-| Interpretation | Actual capacity ≈ 1.9× the organic-model estimate: the model prices code writing only; the plan additionally funded ceremony, dual review, a 121-test suite, Selenium evidence and documentation. Presented with this assumption set; no claim of model violation. |
+| Interpretation | Actual capacity ≈ 1.8× the organic-model estimate: the model prices code writing only; the plan additionally funded ceremony, dual review, a 123-test suite, Selenium evidence and documentation. Presented with this assumption set; no claim of model violation. |
 
-Function-point cross-check (derivation from the real structure, default low-complexity weights, labelled approximate): 10 internal logical files (data collections) + 20 write endpoints + 25 read endpoints → UFP ≈ 10×7 + 20×3 + 25×4 = **230 FP**, ≈ 6.5 LOC/FP — consistent with a small high-level-codebase size and with the KLOC figure used above.
+Function-point cross-check (derivation from the real structure, default low-complexity weights, labelled approximate): 10 internal logical files (data collections) + 20 write endpoints + 25 read endpoints → UFP ≈ 10×7 + 20×3 + 25×4 = **230 FP**, ≈ 6.9 LOC/FP — consistent with a small high-level-codebase size and with the KLOC figure used above.
 
 ## 9. Risk register (§35) — six risks
 
@@ -266,9 +266,9 @@ Function-point cross-check (derivation from the real structure, default low-comp
 | R1 | Scope growth beyond MVP (§35 “scope growth”) | M | H | 12 | Mitigate | PO freeze to §42 MVP; only accepted stretch (US-37) deferred rather than squeezed in |
 | R2 | Duplicate/incorrect barcode identity (§35) | L | H | 6 | Prevent | Derived `LIB-<BOOKCODE>-NNN` scheme + existence check + duplicate-guard tests (FR-05, Unit I §6) |
 | R3 | Incorrect library rules (eligibility/penalty/queue) (§35) | M | H | 12 | Mitigate | Centralised `domain/` rules, decision-table + BVA tests (Unit III §4–7); caught RES-001 pre-release |
-| R4 | Data inconsistency from mid-write crash (§35 “database inconsistency”) | M | H | 12 | Mitigate | Atomic tmp+rename JsonStore writes + store unit suite (Unit I §4.3) |
+| R4 | Data inconsistency from mid-write crash (§35 “database inconsistency”) | M | H | 12 | Mitigate | Atomic tmp+rename BinaryStore writes + store unit suite (Unit I §4.3) |
 | R5 | Weak/unexplainable recommendations (§35) | M | M | 6 | Mitigate | Fixed weights (40/25/15/10/10) + reason strings + score unit tests |
-| R6 | Late or thin testing (§35) | M | H | 12 | Mitigate | Test-with-development (XP): 121 tests by S7, coverage gate in CI, E2E before release; S5 stabilisation sprint institutionalised it |
+| R6 | Late or thin testing (§35) | M | H | 12 | Mitigate | Test-with-development (XP): 123 tests by S7, coverage gate in CI, E2E before release; S5 stabilisation sprint institutionalised it |
 
 (Transferred/avoided items from §35's nine rows — Git conflicts, CI/Docker issues, barcode-scan integration — were handled by the SCM strategy §10, mock/manual fallback in the scan flow and the early CI introduction; kept out of the six-risk register above by impact weighting, planning record.)
 

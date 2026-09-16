@@ -384,7 +384,7 @@ elements:
         type: solid
         color: '#EFEADC'
       lineHeight: 1.12
-    - text: Five strict layers · avg CC 2.13
+    - text: Five strict layers · avg CC 2.15
       fontFamily: Helvetica
       fontSize: 12.5
       color: '#1E3A2F'

@@ -30,7 +30,7 @@ elements:
   - 1136
   - 44
   content:
-    text: 'A pyramid, not a coin flip: 121 tests in six suites'
+    text: 'A pyramid, not a coin flip: 123 tests in six suites'
     fontSize: 30
     color: '#1E3A2F'
     fontFamily: Georgia
@@ -89,7 +89,7 @@ elements:
   - 440
   - 62
   content:
-    text: '121'
+    text: '123'
     fontSize: 52
     color: '#1E3A2F'
     fontFamily: Georgia

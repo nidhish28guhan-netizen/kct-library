@@ -336,7 +336,7 @@ elements:
   - 1136
   - 80
   content:
-    text: Copy owns the state machine of the next slide. Loan and Reservation reference Member, Title and Copy by id — JsonStore persists one collection per entity, and joins happen in the domain layer.
+    text: Copy owns the state machine of the next slide. Loan and Reservation reference Member, Title and Copy by id — BinaryStore persists each collection as one opaque .cdb binary file, and joins happen in the domain layer.
     fontSize: 14
     color: '#66756A'
     fontFamily: Helvetica

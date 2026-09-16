@@ -2,7 +2,7 @@
 
 **Course:** 24CSI015 — Software Engineering with Agile Practices
 **Project:** College Library Management System (CLMS) · v1.0
-**Traceability:** blueprint §§26–41. Every count below is reproduced from the repository: `npx jest` output (121 tests, 6 suites), Istanbul coverage (`backend/coverage/`), `docs/metrics-report.json` (acorn AST metrics), `.github/workflows/ci.yml` and the Docker files at `backend/`, `frontend/`, repo root.
+**Traceability:** blueprint §§26–41. Every count below is reproduced from the repository: `npx jest` output (123 tests, 6 suites), Istanbul coverage (`backend/coverage/`), `docs/metrics-report.json` (acorn AST metrics), `.github/workflows/ci.yml` and the Docker files at `backend/`, `frontend/`, repo root.
 
 ---
 
@@ -12,21 +12,21 @@ Strategy: tests are written **with** each increment (XP, §18), defects are only
 
 | Level | Tooling | Volume (measured) | Scope |
 |---|---|---:|---|
-| Unit (domain, pure functions) | Jest | **69 tests / 5 suites** | loan/copy/reservation/penalty/member/policy/barcode/recommendation rules; JsonStore crash-shape and rename behaviour |
+| Unit (domain, pure functions) | Jest | **71 tests / 5 suites** | loan/copy/reservation/penalty/member/policy/barcode/recommendation rules; BinaryStore crash-shape, CRC32 corruption-rejection and JSON→binary migration behaviour |
 | Integration (REST API) | Jest + supertest | **52 tests / 1 suite** | full request path: auth, RBAC, catalogue, copies/barcode (incl. SVG), circulation lifecycle, reservations + RES-001 regression, penalties, recommendations, notifications, reports, admin |
 | System / E2E (UI) | Selenium + headless Chrome | **2 journeys × 5 verified steps** | student reservation journey; librarian issue/return journey (real HTTP + real SPA, server on :4000) |
 | Acceptance walkthrough | sprint review | 7 reviews (planning record) | acceptance criteria per story (Unit II §3.1) |
 
-`121 automated tests, 6 suites — re-verified in this session (jest output: “Tests: 121 passed, 6 total”).`
+`123 automated tests, 6 suites — re-verified in this session (jest output: “Tests: 123 passed, 6 total”).`
 
 **§26 syllabus rule — “at least three core modules with a minimum 80 % code-coverage target”: SATISFIED.**
-Statement coverage by module: `src/domain` **96.83 %**, `src/repositories` **97.05 %**, `src/routes` **85.41 %** — three core modules above 80 %. Precisely stated: the aggregate over all files is 82.04 % statements / 88.13 % lines; `src/services` sits at 73.91 % statements, an **accepted trade-off** (§12) because service behaviour is exercised through the 52-route integration suite and the domain rules it delegates to are near-fully covered.
+Statement coverage by module: `src/domain` **96.83 %**, `src/repositories` **97.05 %**, `src/routes` **85.51 %** — three core modules above 80 %. Precisely stated: the aggregate over all files is 82.38 % statements / 88.84 % lines; `src/services` sits at 73.91 % statements, an **accepted trade-off** (§12) because service behaviour is exercised through the 52-route integration suite and the domain rules it delegates to are near-fully covered.
 
 ## 2. Test inventory (real suite names)
 
 | Suite | File | Tests | Representative coverage |
 |---|---|---:|---|
-| JsonStore | `tests/domain/store.test.js` | 8 | atomic write/rename, collection isolation, replaceAll |
+| BinaryStore | `tests/domain/store.test.js` | 10 | atomic write/rename, opaque binary container (magic+CRC32), corruption rejection, legacy-JSON migration, replaceAll |
 | Loan rules | `tests/domain/loanRules.test.js` | 21 | due-date BVA, `canIssue` decision table T1–T5, renewability |
 | Reservation rules | `tests/domain/reservationRules.test.js` | 11 | queue order FACULTY→FIFO→memberId, duplicate/queue-limit |
 | Member/penalty/policy | `tests/domain/memberPenaltyPolicy.test.js` | 18 | member validation, ₹1/day penalties, policy merge/validator |
@@ -131,8 +131,8 @@ McCabe V(G) = E − N + 2P computed per function over acorn ASTs (decision nodes
 
 | Measured (whole production source) | Value |
 |---|---|
-| Files / LOC / functions | 29 / 1 498 / 314 |
-| Average cyclomatic complexity | **2.13** |
+| Files / LOC / functions | 29 / 1 585 / 321 |
+| Average cyclomatic complexity | **2.15** |
 | Maximum cyclomatic complexity | **14** |
 | Functions with CC > 10 | 4 (table below, `metrics-report.json` `highComplexityFns`) |
 
@@ -149,11 +149,11 @@ Control-flow criterion: statement + branch coverage (§32) drives “paths throu
 
 | Module | Stmts | Branch | Funcs | Lines |
 |---|---:|---:|---:|---:|
-| **All production files** | **82.04 %** (859/1047) | 66.78 % | 75.71 % | **88.13 %** |
+| **All production files** | **82.38 %** (917/1113) | 66.61 % | 76.25 % | **88.84 %** |
 | src/domain | 96.83 % (153/158) | 89.92 % | 94.73 % | 98.30 % |
 | src/repositories | 97.05 % (33/34) | 75.00 % | 92.31 % | 96.96 % |
-| src/routes | 85.41 % (123/144) | 65.00 % | 70.58 % | 97.77 % |
-| src/db (JsonStore) | 96.77 % (60/62) | 92.85 % | 94.11 % | 98.11 % |
+| src/routes | 85.51 % (124/145) | 65.00 % | 70.58 % | 97.82 % |
+| src/db (BinaryStore) | 92.12 % (117/127) | 75.00 % | 95.83 % | 99.01 % |
 | src/middleware | 92.30 % (24/26) | 85.71 % | 85.71 % | 100 % |
 | src/utils | 94.11 % (16/17) | 66.66 % | 85.71 % | 100 % |
 | src/services | 73.91 % (425/575) | 56.42 % | 69.71 % | 80.95 % |
@@ -170,7 +170,7 @@ Acorn-AST analyzer, 29 production files (`npm run metrics` regenerates; Halstead
 |---|---:|---:|---:|---:|---|---:|
 | backend/src/app.js | 43 | 5 | 2.00 | 4 | createApp | 6 220 |
 | backend/src/config.js | 12 | 0 | 0.00 | 1 | — | 0 |
-| backend/src/db/store.js | 104 | 17 | 1.53 | 2 | (anonymous) | 2 219 |
+| backend/src/db/store.js | 188 | 24 | 1.88 | 8 | decodeFile | 11 165 |
 | backend/src/domain/barcodeRules.js | 18 | 3 | 1.67 | 3 | parseCopyBarcode | 218 |
 | backend/src/domain/copyRules.js | 16 | 2 | 3.50 | 5 | canIssueCopy | 719 |
 | backend/src/domain/loanRules.js | 52 | 7 | 2.29 | 5 | canIssue | 1 760 |
@@ -215,7 +215,7 @@ Lifecycle per §33: `NEW → ASSIGNED → IN PROGRESS → FIXED → RETEST → C
 | Actual result | Copy left `RESERVED` pointing at a departed holder — out of circulation indefinitely |
 | Expected result | Copy returns to circulation: either to the next queued member (READY + notification) or AVAILABLE |
 | Fix | Snapshot pre-cancel state; on cancel/expire of a READY hold, redispatch the copy down the queue (US-21) |
-| Retest / close | Pinned by the integration case in “Reservations + queue … incl. RES-001 regression”; closed S4, still passing in the 121-test run |
+| Retest / close | Pinned by the integration case in “Reservations + queue … incl. RES-001 regression”; closed S4, still passing in the 123-test run |
 
 **UI-002 — barcode SVG cannot authenticate through `<img>`**
 
@@ -243,17 +243,43 @@ Lifecycle per §33: `NEW → ASSIGNED → IN PROGRESS → FIXED → RETEST → C
 | Fix | Explicit `.login-card input` positional indexing (aria-labelled desk inputs likewise) |
 | Retest / close | Both journeys 5/5 steps green; closed S7 |
 
+**AUTH-001 — page refresh silently emptied every member view (principal-shape drift)**
+
+| Field | Record |
+|---|---|
+| Defect ID / Module | AUTH-001 / Auth surface (`GET /api/auth/me`) + SPA session restore |
+| Found / by | Binary-store verification pass — headless-Chrome reload probe after sign-in |
+| Severity / priority | Major / High — pressing F5 as a student left the dashboard and My Library permanently empty |
+| Reproduction | Sign in as a member, reload the SPA. `/auth/me` returned the raw JWT payload (`sub`, `iat`, `exp`) while `/auth/login` returns the principal with `id`; the client stored `user.id` and then called `/members/undefined/history` |
+| Actual result | Restored session produced a principal without `id`; every member-scoped request 404s and the views render nothing |
+| Expected result | `/auth/me` and `/auth/login` return the same principal shape |
+| Fix | `routes/index.js` — `/auth/me` normalises `{sub, iat, exp, …}` → `{id, …}`; regression assertion added to the integration suite (`id` defined, `sub` absent) |
+| Retest / close | Reload probe green — loan and hold render from the restored session; pinned in `api.test.js`; CLOSED |
+
+**E2E-004 — student journey raced React's commit and flaked**
+
+| Field | Record |
+|---|---|
+| Defect ID / Module | E2E-004 / E2E suite (`tests/e2e/selenium-flow.js`) |
+| Found / by | Regression runs after the storage change — journey 1 step 2 intermittently failed |
+| Severity / priority | Minor / Medium — evidence reliability, not product behaviour (manual probe confirmed the content rendered in ~11 ms) |
+| Reproduction | Assert on `body` text immediately after `elementsLocated('.stat')` resolves — the class exists in a partially painted commit |
+| Actual result | Assertion captured the shell (154-char body) before stat values and the loan row were painted |
+| Expected result | Deterministic wait on rendered content, not on the DOM skeleton |
+| Fix | Journey 1 waits for `.stat-value` elements (rendered only after the history API resolves) and polls body text until the loan title appears before asserting; added the ₹7.00 fine-total assertion |
+| Retest / close | Student journey green on repeated consecutive headless runs; CLOSED |
+
 ## 10. ISO/IEC 25010 assessment (§37) — all eight characteristics
 
 | Characteristic | Assessment | Evidence |
 |---|---|---|
-| Functional suitability | Met — all 17 FRs traced (§Unit I 2.3) | 121 tests; E2E agreements on live state |
+| Functional suitability | Met — all 17 FRs traced (§Unit I 2.3) | 123 tests; E2E agreements on live state |
 | Performance efficiency | Met at target scale | in-process reads over 34-copy/12-title dataset; response times sub-millisecond-class locally; 512 kB body cap; JSON O(n) scans noted as scale limit (Unit I §4.3) |
 | Compatibility | Met | CORS + same-origin single-port mode; nginx reverse-proxy path in compose; REST + JSON contract |
 | Usability | Met | scan-first desk (keyboard-wedge inputs), role-aware navigation, clear availability badges, explainable recommendation reasons, accessible labels (`aria-label` on barcode slots/inputs) |
 | Reliability | Met | atomic tmp+rename writes; guarded state transitions (no invalid copy states); RES-001 class fixed + regression-pinned; health endpoint for orchestrator restarts |
 | Security | Met | bcrypt hashes; JWT expiry; route-level `requireRole` guards; self-or-staff data scoping; central error envelope prevents stack/info leaks; audit trail |
-| Maintainability | Met | layering + pure domain core; avg CC 2.13, only 4 fns > 10; metrics + coverage tooling in repo; conventions in Unit II §10 |
+| Maintainability | Met | layering + pure domain core; avg CC 2.15, only 4 fns > 10; metrics + coverage tooling in repo; conventions in Unit II §10 |
 | Portability | Met | Node 22 slim/alpine images, no native deps; DATA_DIR/VOLUME data location configurable; env-driven config; compose declares runtime |
 
 ## 11. DevOps — CI and containers (§40) — built from the actual files
@@ -293,11 +319,11 @@ Deployment topology (§40 pipeline diagram): push → Actions (test/gate/build) 
 
 | Gate | Threshold | Actual | Verdict |
 |---|---|---|---|
-| Automated tests pass | 121/121, 6/6 | 121/121 (re-run for this report) | PASS |
+| Automated tests pass | 123/123, 6/6 | 123/123 (re-run for this report) | PASS |
 | Selenium journeys | 2 × 5 steps | both green | PASS |
-| §26 coverage rule | ≥ 3 core modules ≥ 80 % stmts | domain 96.83, repositories 97.05, routes 85.41 | PASS |
-| Complexity policy | no uncontrolled hotspots | avg 2.13; max 14 (intentional validator); 4 fns > 10 all test-pinned | PASS with noted exceptions |
-| E2E + CI evidence | defect log closed, gate wired | 3 defects CLOSED; gate in `ci.yml` | PASS |
+| §26 coverage rule | ≥ 3 core modules ≥ 80 % stmts | domain 96.83, repositories 97.05, routes 85.51 | PASS |
+| Complexity policy | no uncontrolled hotspots | avg 2.15; max 14 (intentional validator); 4 fns > 10 all test-pinned | PASS with noted exceptions |
+| E2E + CI evidence | defect log closed, gate wired | 5 defects CLOSED (incl. AUTH-001, E2E-004 post-release); gate in `ci.yml` | PASS |
 
 ## 14. CMMI level 3 mapping (§39)
 

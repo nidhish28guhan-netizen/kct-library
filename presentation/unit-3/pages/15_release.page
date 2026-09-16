@@ -221,7 +221,7 @@ elements:
   - 904.675
   - 64
   content:
-    text: ': 121 tests green · 82.0% stmts / 88.1% lines · 2 E2E journeys passing'
+    text: ': 123 tests green · 82.4% stmts / 88.8% lines · 2 E2E journeys passing'
     fontSize: 15
     color: '#1E3A2F'
     fontFamily: Helvetica

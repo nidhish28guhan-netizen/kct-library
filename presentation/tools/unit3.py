@@ -13,7 +13,7 @@ def build():
 
     # 1 cover -----------------------------------------------------------
     P_("01_cover.page", cover("III", ["Testing, Quality", "& DevOps"],
-        "121 tests, 82% coverage and two Selenium journeys — the evidence behind v1.0.0.",
+        "123 tests, 82% coverage and two Selenium journeys — the evidence behind v1.0.0.",
         "deck 3 / 3"), "cover")
 
     # 2 agenda ----------------------------------------------------------
@@ -32,11 +32,11 @@ def build():
     footer(els, 2); P_("02_agenda.page", els)
 
     # 3 pyramid -----------------------------------------------------------
-    els, y = header("Unit III · Part 1 · Strategy", "A pyramid, not a coin flip: 121 tests in six suites")
+    els, y = header("Unit III · Part 1 · Strategy", "A pyramid, not a coin flip: 123 tests in six suites")
     els.append(IMG(M, 172, 560, 360, "media/pyramid.png"))
     els.append(T(M, 540, 560, 20, "Figure: test pyramid — counts as shipped at v1.0.0.",
                  size=11.5, color=MUTED, font=MONO))
-    for i, (n, lab, sub) in enumerate([("121", "AUTOMATED TESTS", "all passing"),
+    for i, (n, lab, sub) in enumerate([("123", "AUTOMATED TESTS", "all passing"),
                                        ("6", "JEST SUITES", "domain · repos · routes · services"),
                                        ("2", "E2E JOURNEYS", "Selenium headless Chrome")]):
         els += STAT(700, 186 + i * 128, n, lab, sub=sub, numsize=52, w=440,
@@ -211,31 +211,31 @@ def build():
     els.append(R(960, 196, 248, 240, PANEL))
     els.append(R(960, 196, 248, 5, BRASS))
     els.append(T(978, 214, 212, 20, "MEASURED", size=11, color=BRASS, bold=True, ls=1.6, wrap=False))
-    els += STAT(978, 244, "121", "TESTS PASSING", numsize=34, w=212)
+    els += STAT(978, 244, "123", "TESTS PASSING", numsize=34, w=212)
     els.append(HL(978, 330, 212))
     els += STAT(978, 344, "6", "SUITES", numsize=34, w=212, numcolor=BRASS)
     footer(els, 10); P_("10_coverage.page", els)
 
     # 11 whitebox ----------------------------------------------------------------------------
     els, y = header("Unit III · Part 3 · Evidence", "White-box: complexity kept in a ledger")
-    els += STAT(M, 190, "2.13", "AVERAGE MCCABE CC", sub="across the backend", numsize=64, w=420)
+    els += STAT(M, 190, "2.15", "AVERAGE MCCABE CC", sub="across the backend", numsize=64, w=420)
     els += STAT(M, 348, "14", "MAXIMUM CC — ONE OUTLIER", numsize=64, numcolor=BRASS, w=420,
                 sub="the hold-redispatch branch from RES-001")
     els.append(VL(560, 196, 240, LINEC, 2))
     els += BUL(600, 200, [
-        "Average CC 2.13| — guards stay linear by design",
+        "Average CC 2.15| — guards stay linear by design",
         "Peak 14 is deliberate| — redispatch is branchy, pinned by tests",
         "Halstead effort N × log2 n| — a review smell meter, not a gate"], w=608, step=66, size=14)
-    els += BAR(500, "Low average complexity is what let a two-person team hold 1,498 LOC and 314 functions in their heads.", size=13, h=44)
+    els += BAR(500, "Low average complexity is what let a two-person team hold 1,585 LOC and 321 functions in their heads.", size=13, h=44)
     footer(els, 11); P_("11_whitebox.page", els)
 
     # 12 ISO 25010 ------------------------------------------------------------------------------
     els, y = header("Unit III · Part 4 · Quality system", "ISO 25010: eight characteristics, eight pieces of evidence")
-    iso_a = [["Functional suitability", "121 tests · 6 suites · all passing"],
+    iso_a = [["Functional suitability", "123 tests · 6 suites · all passing"],
              ["Reliability", "atomic store · state-machine guards"],
              ["Security", "JWT · bcryptjs · RBAC on routes"],
              ["Usability", "keyboard-reachable · reduced-motion"]]
-    iso_b = [["Maintainability", "layering · avg CC 2.13 · coverage floor"],
+    iso_b = [["Maintainability", "layering · avg CC 2.15 · coverage floor"],
              ["Portability", "Docker images · compose stack"],
              ["Transferability", "seed data + policy documentation"],
              ["Performance efficiency", "in-process JSON reads · single instance"]]
@@ -307,7 +307,7 @@ def build():
                  size=15, color=WHITE, lh=1.3))
     els += BUL(M, 332, [
         "Delivered|: catalogue, circulation, holds queue, fines, barcodes, RBAC desks, React SPA, Docker stack",
-        "Quality at the gate|: 121 tests green · 82.0% stmts / 88.1% lines · 2 E2E journeys passing"], w=1100, step=58, size=15)
+        "Quality at the gate|: 123 tests green · 82.4% stmts / 88.8% lines · 2 E2E journeys passing"], w=1100, step=58, size=15)
     els += COLHEAD(M, 458, "Known limits, on the record")
     els += BUL(M, 490, [
         "US-37 deferred|— the one point that did not make the date",

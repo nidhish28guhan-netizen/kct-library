@@ -24,12 +24,12 @@ Planned-vs-completed accounting convention: a carried story counts in the **plan
 
 ### Sprint 1 — Foundation (1–12 Jun 2026)
 
-**Goal:** staff can sign in, RBAC works, members and persistence exist; JsonStore safety proven by tests.
+**Goal:** staff can sign in, RBAC works, members and persistence exist; atomic-store safety proven by tests.
 
 | US | Short title | Pts | Owner | Completed |
 |---|---|---:|---|---|
 | US-01 | Sign-in endpoint — bcrypt + JWT | 3 | N | ✔ |
-| US-02 | Layered scaffold + atomic JsonStore | 5 | N | ✔ |
+| US-02 | Layered scaffold + atomic binary store | 5 | N | ✔ |
 | US-03 | Sign-in screen, role-aware nav | 3 | K | ✔ |
 | US-04 | Member management API + validation | 3 | K | ✔ |
 | US-05 | Members admin screen | 3 | K | ✔ |

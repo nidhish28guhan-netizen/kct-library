@@ -514,7 +514,7 @@ elements:
   - 520
   - 58
   content:
-    text: JsonStore
+    text: BinaryStore
     fontSize: 16
     color: '#FFFFFF'
     fontFamily: Menlo
@@ -532,7 +532,7 @@ elements:
   - 540
   - 20
   content:
-    text: L5 · JSONSTORE
+    text: L5 · BINARYSTORE
     fontSize: 11
     color: '#A8792C'
     fontFamily: Helvetica
@@ -551,7 +551,7 @@ elements:
   - 540
   - 26
   content:
-    text: tmp file + atomic rename · crash-safe
+    text: .cdb container · tmp+rename · CRC32-checked
     fontSize: 12.5
     color: '#66756A'
     fontFamily: Helvetica
@@ -584,7 +584,7 @@ elements:
   - 1090
   - 48
   content:
-    text: JSON files instead of Postgres — an explicit requirement, answered with atomic persistence
+    text: Binary .cdb files in local storage instead of Postgres — atomic, CRC32-guarded persistence
     fontSize: 13
     color: '#FFFFFF'
     fontFamily: Helvetica
@@ -601,7 +601,7 @@ elements:
   - 1136
   - 16
   content:
-    text: 'System scale: 29 source files · 1,498 LOC · 314 functions · ~45 REST endpoints'
+    text: 'System scale: 29 source files · 1,585 LOC · 321 functions · ~45 REST endpoints'
     fontSize: 11.5
     color: '#66756A'
     fontFamily: Menlo

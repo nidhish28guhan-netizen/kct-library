@@ -19,7 +19,7 @@ UNIT I — FUNDAMENTALS & DESIGN
 - Layered architecture          — routes → services → domain → repositories → store (unit-1 §3.1)
 - Modular design                — 12 modules mapped to specific files (unit-1 §3.2)
 - Separation of concerns        — pure business rules kept in domain/ with no I/O
-- Design decision record        — JSON files instead of PostgreSQL, why and what it costs (unit-1 §4.3)
+- Design decision record        — binary .cdb files in local storage instead of PostgreSQL, why and what it costs (unit-1 §4.3)
 - Atomic write                  — save to temp file then rename, so data never half-writes (db/store.js)
 - Unique identifier design      — barcode built from book code + copy number, LIB-<BOOKCODE>-NNN (unit-1 §6)
 - Traceability matrix           — FR → module → test, in unit-1 §2.3
@@ -50,7 +50,7 @@ UNIT II — AGILE PRACTICES & PROJECT MANAGEMENT
 - WBS                           — work broken into 3 levels of deliverables (unit-2 §8.1)
 - Gantt chart                   — the seven sprint dates drawn for the release (unit-2 §8.2, sprint-plan §4)
 - PERT / three-point estimate   — O/M/P per activity, critical path backend→barcode→circulation→testing→ops
-- COCOMO II                     — organic model on 1.498 KLOC → 3.67 person-months, 3.86 months schedule
+- COCOMO II                     — organic model on 1.585 KLOC → 3.89 person-months, 3.93 months schedule
 - Function point (count)        — ~230 FP derived from the real files/endpoints, as a size cross-check
 - Risk register                 — 6 risks with likelihood×impact and a response each (unit-2 §9)
 - Version control / SCM         — Git on main, module-scoped conventional commits (unit-2 §10)
@@ -60,7 +60,7 @@ UNIT II — AGILE PRACTICES & PROJECT MANAGEMENT
 =====================================================================
 UNIT III — TESTING, QUALITY & DEVOPS
 =====================================================================
-- Test pyramid                  — 69 unit / 52 API integration / 2 E2E journeys (121 tests, 6 suites)
+- Test pyramid                  — 71 unit / 52 API integration / 2 E2E journeys (123 tests, 6 suites)
 - Unit testing                  — Jest on pure domain rules (loan, penalty, queue, barcode, scoring)
 - Integration testing           — supertest driving the real 45-route API incl. auth and RBAC
 - End-to-end testing            — Selenium headless Chrome, student journey + librarian journey
@@ -70,9 +70,9 @@ UNIT III — TESTING, QUALITY & DEVOPS
 - Equivalence partitioning      — valid/invalid classes for limits, dues, copy states, search terms (unit-3 §3.1)
 - Boundary value analysis       — 13/14/15-day, dues 49/50/51, renews 1/2/3, hold 48 h, queue 5 (unit-3 §3.2)
 - Decision table testing        — issue-eligibility and renewability rules as tables (unit-3 §3.3)
-- Coverage measurement          — Istanbul: 82.04 % stmts / 88.13 % lines overall (unit-3 §7)
-- Coverage rule / gate          — three core modules ≥ 80 % (domain 96.83, repositories 97.05, routes 85.41); CI fails below bar
-- Cyclomatic complexity (McCabe)— avg 2.13, max 14, four hotspots >10 listed and test-pinned (unit-3 §6)
+- Coverage measurement          — Istanbul: 82.38 % stmts / 88.84 % lines overall (unit-3 §7)
+- Coverage rule / gate          — three core modules ≥ 80 % (domain 96.83, repositories 97.05, routes 85.51); CI fails below bar
+- Cyclomatic complexity (McCabe)— avg 2.15, max 14, four hotspots >10 listed and test-pinned (unit-3 §6)
 - Halstead metrics              — per-file effort computed from the AST (docs/metrics-report.json)
 - Static analysis               — tools/analyze.js over acorn ASTs, regenerable with npm run metrics
 - Defect lifecycle              — NEW→ASSIGNED→IN PROGRESS→FIXED→RETEST→CLOSED (§33 flow)

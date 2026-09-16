@@ -70,17 +70,17 @@ A centralised system for managing members (students, faculty), staff (librarians
 | FR-14 | Send notifications | `notifyService` + due-soon (3 d), overdue, hold-ready event rules | Integration “Notifications (US-29..US-31)” |
 | FR-15 | Generate recommendations | `domain/recommendationRules.js` weighted scoring; `recommendationService.forMe/similarTo` | Unit `barcodeRecommendation.test.js`; integration “Recommendations (US-26..US-28)” |
 | FR-16 | Generate reports | `reportService`: summary, overdue, circulationTrend, popularBooks, mostReserved | Integration reports section |
-| FR-17 | Maintain audit records | `services/auditService.js` → `data/audit.json`; `GET /api/admin/audit` | Integration admin section |
+| FR-17 | Maintain audit records | `services/auditService.js` → `data/audit.cdb`; `GET /api/admin/audit` | Integration admin section |
 
 ### 2.4 Non-functional requirements (§16) → design responses
 
 | NFR (§16) | Design response | Evidence |
 |---|---|---|
 | Security: authentication, RBAC, protected records, audit | JWT bearer middleware + `requireRole(...)` guard factories; `assertSelfOrStaff` scoping on member-owned data; bcrypt hashes; audit trail | `middleware/auth.js`, `routes/index.js` (45 routes, guard applied before every write), error envelope strips stack traces (`app.js`) |
-| Reliability: no duplicate barcodes, consistent transactions, no invalid copy states | Barcode built as `LIB-<BOOKCODE>-NNN` with existence check; every mutation is one `JsonStore.replaceAll` atomic tmp+rename write | `barcodeRules.js`, `db/store.js` (write `*.tmp` then `fs.renameSync`) |
+| Reliability: no duplicate barcodes, consistent transactions, no invalid copy states | Barcode built as `LIB-<BOOKCODE>-NNN` with existence check; every mutation is one `BinaryStore.replaceAll` atomic tmp+rename write of a checksummed binary payload | `barcodeRules.js`, `db/store.js` (write `*.tmp` then `fs.renameSync`) |
 | Usability: fast search, simple barcode workflow, clear availability, explainable recommendations | Single-scan desk UI; per-copy badges; every suggestion carries a reason string | `CirculationDesk.jsx`, `BookDetail.jsx`, `recommendationRules.reason()` |
 | Performance: responsive search, fast circulation | In-process data access over pre-loaded JSON; O(n) scans bounded by seed-scale (34 copies, 12 titles); JSON body limit 512 kB | `repository.js` find/findOne; `app.js` |
-| Maintainability: modular services, centralised rules, automated tests, documentation | `domain/` holds pure rules (no I/O); 121 automated tests; static metrics tooling | `metrics-report.json`, `tools/analyze.js` |
+| Maintainability: modular services, centralised rules, automated tests, documentation | `domain/` holds pure rules (no I/O); 123 automated tests; static metrics tooling | `metrics-report.json`, `tools/analyze.js` |
 
 ### 2.5 SRS packaging
 
@@ -100,8 +100,8 @@ flowchart TD
   A --> R[API layer — routes/index.js\n45 routes: 25 GET, 20 write]
   R --> S[Application services — services/*.js\nauth · member · catalogue · copy · circulation · reservation · penalty · recommendation · notify · report · admin · audit]
   S --> D[Domain layer — domain/*.js\nloanRules · copyRules · reservationRules · penaltyRules · policyRules · recommendationRules · barcodeRules · memberRules]
-  S --> P[Repository layer — repositories/\nRepository collection facade over JsonStore]
-  P --> J[Persistence — db/store.js\natomic JSON-file store (tmp + rename)]
+  S --> P[Repository layer — repositories/\nRepository collection facade over BinaryStore]
+  P --> J[Persistence — db/store.js\nbinary .cdb store — MessagePack+deflate, CRC32; tmp + rename]
   S --> AU[(AuditLog\nauditService)]
 ```
 
@@ -162,20 +162,23 @@ erDiagram
 
 **Book vs BookCopy separation (§5)** is the central modelling decision: status (`AVAILABLE/ISSUED/RESERVED/LOST/DAMAGED/MAINTENANCE`) and barcode belong to a physical copy, not the title. Reservation queues are per `Book`, copy assignment happens at return time — this is what produced defect RES-001 (Unit III §9) and its redispatch rule.
 
-### 4.3 Persistence decision: JSON-file store instead of PostgreSQL
+### 4.3 Persistence decision: binary files in local storage instead of PostgreSQL
 
-Blueprint §3 assumed PostgreSQL. **The substitution to JSON files was an explicit user (product-owner) requirement** and is treated as a design-constraint change, recorded with its trade-offs:
+Blueprint §3 assumed PostgreSQL. The product owner's requirement evolved in two steps — first *"MERN without the database, use JSON"*, then *"all the library data, including all user data, should be stored in local storage as binary files"*. The implemented answer satisfies the final requirement with zero external services: **BinaryStore** (`db/store.js`) persists every collection — books, copies, members, loans, reservations, penalties, policies, **users**, notifications, audit — as one opaque binary file `data/<name>.cdb`.
 
-| Concern | PostgreSQL design | Implemented JsonStore (`db/store.js`) |
+File format (little-endian): `CDB1` magic · format version · compression tag · record count · uncompressed/stored lengths · **CRC32** · zlib-deflated (level 9) **MessagePack** payload. No collection is human-readable on disk, and every read verifies the checksum before a single record reaches application code.
+
+| Concern | PostgreSQL design | Implemented BinaryStore (`db/store.js`) |
 |---|---|---|
-| Crash consistency | Transactions/WAL | Every collection saved via write to `*.tmp` + `fs.renameSync` — atomic replace on POSIX; a torn file cannot appear |
+| On-disk format | Rows in managed tablespace | Binary `.cdb` container per collection (header + MessagePack + deflate + CRC32) — opaque on disk, decoded via `Buffer`, never as text |
+| Crash consistency | Transactions/WAL | Write to `*.tmp` + `fs.renameSync` — atomic replace on POSIX; a torn file cannot appear, a corrupted one fails the CRC/length checks and is rejected |
 | Uniqueness constraints | `UNIQUE(barcode)`, `UNIQUE(book_id,copy_number)` (§6) | Enforced in application layer: barcode built deterministically from `bookCode` + next copy number; `locate()` resolves by exact match; copy numbers unique by monotonic counter per book |
 | Query capability | SQL joins | In-process `find/findOne/filter` over arrays (`repository.js`); joins performed in service code (loan → member → book denormalised fields `bookTitle`, `memberCode` stored on the loan for read efficiency) |
 | Multi-process writes | Row-level locking | Single-process Node server documented constraint; store is one writer |
-| Deployment weight | DB server required | Zero external services; `data/*.json` volume-mounted in Docker; `npm run seed` rebuilds initial state |
+| Deployment weight | DB server required | Zero external services; `data/*.cdb` volume-mounted in Docker; `npm run seed` rebuilds initial state; legacy `.json` documents auto-migrate once, keeping a `.json.migrated` rollback copy |
 | Auditability | DB logs | Application audit log (`auditService`) |
 
-The repository layer keeps this decision reversible: services talk to `Repository` collections, so swapping `JsonStore` for a Postgres adapter does not touch `domain/` or most of `services/`. This is the Open-Closed / layering argument cited in the ISO 25010 maintainability assessment (Unit III §10).
+The repository layer keeps this decision reversible: services talk to `Repository` collections, so swapping `BinaryStore` for a Postgres adapter does not touch `domain/` or most of `services/`. This is the Open-Closed / layering argument cited in the ISO 25010 maintainability assessment (Unit III §10). (Class history: shipped as `JsonStore` under the intermediate “JSON files” requirement; the binary change renamed it `BinaryStore`, with a `JsonStore` export alias keeping existing wiring compatible.)
 
 ### 4.4 Copy state machine (§5 statuses, §14 “State Diagram”)
 
@@ -257,7 +260,7 @@ sequenceDiagram
   participant API as routes/circulation
   participant C as circulationService
   participant D as domain rules
-  participant R as repositories/JsonStore
+  participant R as repositories/BinaryStore
   L->>API: POST /api/circulation/issue {memberIdentifier, barcode}
   API->>C: issue(user, body)
   C->>R: locate member (LIB-<ROLL>) + copy (LIB-<BOOKCODE>-NNN)
@@ -278,7 +281,7 @@ sequenceDiagram
   participant P as penaltyService
   participant RS as reservationService
   participant N as notifyService
-  participant R as JsonStore
+  participant R as BinaryStore
   L->>C: POST /api/circulation/return {barcode}
   C->>R: find ACTIVE loan for copy
   C->>C: daysLate(returnDate, dueDate)
@@ -327,10 +330,10 @@ Issue and return are scan-first (§7–§8): the desk UI takes the member identi
 
 | Design property | Mechanism | Measured support |
 |---|---|---|
-| Separation of concerns | routes → services → domain → repositories → JsonStore | 29 production files, 1 498 LOC, avg McCabe 2.13 (`metrics-report.json`) |
+| Separation of concerns | routes → services → domain → repositories → BinaryStore | 29 production files, 1 585 LOC, avg McCabe 2.15 (`metrics-report.json`) |
 | Centralised business rules (NFR maintainability) | `domain/` pure functions; policies as data | 96.83 % statement coverage on `src/domain` |
-| Reliability of persisted state | atomic tmp+rename writes; derived unique identifiers | JsonStore unit suite (8 tests incl. crash-shape checks) |
+| Reliability of persisted state | atomic tmp+rename writes + CRC32 verified on read; derived unique identifiers | BinaryStore unit suite (10 tests incl. crash-shape, corruption-rejection and migration checks) |
 | Explainability | reason strings on recommendations; decision-rule domain layer | every `forMe` suggestion carries a reason (FR table §2.3 FR-15) |
-| Requirement → design → code trace | §§1–16 mapped in §2.3/§2.4 | 121 tests — 69 unit, 52 integration over the 45-route API |
+| Requirement → design → code trace | §§1–16 mapped in §2.3/§2.4 | 123 tests — 71 unit, 52 integration over the 45-route API |
 
-**Known limitation (accepted):** the JsonStore design constrains CLMS to a single server process and college-scale data volumes; the repository seam bounds the cost of a future database migration.
+**Known limitation (accepted):** the BinaryStore design constrains CLMS to a single server process and college-scale data volumes; the repository seam bounds the cost of a future database migration.

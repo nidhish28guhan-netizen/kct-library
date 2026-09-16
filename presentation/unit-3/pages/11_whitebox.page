@@ -62,7 +62,7 @@ elements:
   - 420
   - 74
   content:
-    text: '2.13'
+    text: '2.15'
     fontSize: 64
     color: '#1E3A2F'
     fontFamily: Georgia
@@ -203,7 +203,7 @@ elements:
   - 128.45
   - 72
   content:
-    text: Average CC 2.13
+    text: Average CC 2.15
     fontSize: 14
     color: '#1E3A2F'
     fontFamily: Helvetica
@@ -362,7 +362,7 @@ elements:
   - 1090
   - 44
   content:
-    text: Low average complexity is what let a two-person team hold 1,498 LOC and 314 functions in their heads.
+    text: Low average complexity is what let a two-person team hold 1,585 LOC and 321 functions in their heads.
     fontSize: 13
     color: '#FFFFFF'
     fontFamily: Helvetica

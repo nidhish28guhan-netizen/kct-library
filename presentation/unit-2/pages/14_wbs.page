@@ -158,7 +158,7 @@ elements:
   - 250
   - 18
   content:
-    text: auth+RBAC · JsonStore
+    text: auth+RBAC · binary store
     fontSize: 11.5
     color: '#66756A'
     fontFamily: Menlo
@@ -519,7 +519,7 @@ elements:
   - 500
   - 120
   content:
-    text: <p><span style="color:#DCC9A5;font-size:14px">E = a × (KLOC)^b,  a=2.4 · b=1.05</span></p><p><span style="color:#FFFFFF;font-size:17px">E = 2.4 × (1.498 KLOC)^1.05 ≈ 3.7 person-months</span></p>
+    text: <p><span style="color:#DCC9A5;font-size:14px">E = a × (KLOC)^b,  a=2.4 · b=1.05</span></p><p><span style="color:#FFFFFF;font-size:17px">E = 2.4 × (1.585 KLOC)^1.05 ≈ 3.9 person-months</span></p>
     fontSize: 14
     color: '#FFFFFF'
     fontFamily: Helvetica
@@ -553,7 +553,7 @@ elements:
   - 98.47500000000001
   - 48
   content:
-    text: 1.498 KLOC
+    text: 1.585 KLOC
     fontSize: 15.5
     color: '#1E3A2F'
     fontFamily: Helvetica
@@ -571,7 +571,7 @@ elements:
   - 423.525
   - 48
   content:
-    text: = 1,498 measured LOC of the shipped system
+    text: = 1,585 measured LOC of the shipped system
     fontSize: 15.5
     color: '#1E3A2F'
     fontFamily: Helvetica
@@ -625,7 +625,7 @@ elements:
   - 364.3925
   - 48
   content:
-    text: ≈ 5.8 months for the modelled effort
+    text: ≈ 3.9 months for the modelled effort
     fontSize: 15.5
     color: '#1E3A2F'
     fontFamily: Helvetica
@@ -729,7 +729,7 @@ elements:
   - 1090
   - 44
   content:
-    text: 'Estimate vs reality: the model said 3.7 person-months over 5.8 months; two builders crossed it in one summer.'
+    text: 'Estimate vs reality: the model said 3.9 person-months over 3.9 months; two builders landed it in one summer.'
     fontSize: 13
     color: '#FFFFFF'
     fontFamily: Helvetica

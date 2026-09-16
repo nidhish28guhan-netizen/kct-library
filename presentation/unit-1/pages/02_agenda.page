@@ -317,7 +317,7 @@ elements:
   - 600
   - 28
   content:
-    text: Layered backend · JsonStore · barcodes · data · principles
+    text: Layered backend · binary store · barcodes · data · principles
     fontSize: 14.5
     color: '#66756A'
     fontFamily: Helvetica

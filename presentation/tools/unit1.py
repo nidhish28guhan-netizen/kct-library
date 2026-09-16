@@ -22,7 +22,7 @@ def build():
     parts = [("01", "FRAMING", "Problem statement · stakeholders and roles"),
              ("02", "METHOD", "SDLC choice · requirements engineering · traceability"),
              ("03", "MODELLING", "Use cases · class model · state machine · issue sequence"),
-             ("04", "ARCHITECTURE", "Layered backend · JsonStore · barcodes · data · principles")]
+             ("04", "ARCHITECTURE", "Layered backend · binary store · barcodes · data · principles")]
     yy = 190
     for num, t, topics in parts:
         els.append(HL(M, yy - 16, 1136))
@@ -99,7 +99,7 @@ def build():
         [["Security", "JWT · bcryptjs hashes · RBAC guards"],
          ["Reliability", "Atomic tmp + rename JSON writes"],
          ["Portability", "Docker frontend, backend, compose"],
-         ["Maintainability", "Five strict layers · avg CC 2.13"]], size=12.5))
+         ["Maintainability", "Five strict layers · avg CC 2.15"]], size=12.5))
     els.append(T(M, 508, 1136, 80,
         "Roughly 45 REST endpoints carry the functional side. The NFR table is the honest ledger — each need maps to a named mechanism in the code, not an aspiration.",
         size=14, color=MUTED))
@@ -180,7 +180,7 @@ def build():
     els.append(LEDGER(M, 186, 548, 250, [0.28, 0.72], ["ENTITY", "KEY FIELDS"], ent_a, mono_cols=(1,), size=12))
     els.append(LEDGER(660, 186, 548, 250, [0.28, 0.72], ["ENTITY", "KEY FIELDS"], ent_b, mono_cols=(1,), size=12))
     els.append(T(M, 466, 1136, 80,
-        "Copy owns the state machine of the next slide. Loan and Reservation reference Member, Title and Copy by id — JsonStore persists one collection per entity, and joins happen in the domain layer.",
+        "Copy owns the state machine of the next slide. Loan and Reservation reference Member, Title and Copy by id — BinaryStore persists each collection as one opaque .cdb binary file, and joins happen in the domain layer.",
         size=14, color=MUTED))
     els += BAR(560, "Relation map: Account 1:1 Member · Title 1:N Copy · Member 1:N Loan / Reservation / Penalty · Policy read by every guard",
                font=MONO, size=12.5, h=44)
@@ -245,7 +245,7 @@ def build():
               ("services", "orchestration only — no business rules"),
               ("domain", "pure functions: policies, state, fines"),
               ("repositories", "one accessor per entity collection"),
-              ("JsonStore", "tmp file + atomic rename · crash-safe")]
+              ("BinaryStore", ".cdb container · tmp+rename · CRC32-checked")]
     yy = 220
     for i, (lab, note_) in enumerate(layers):
         fill = INK if i != 4 else BRASS
@@ -258,8 +258,8 @@ def build():
         if i < 4:
             els += AROW([(350, yy + 58), (350, yy + 70)], color=MUTED, th=2, hlen=11)
         yy += 70
-    els += BAR(580, "JSON files instead of Postgres — an explicit requirement, answered with atomic persistence", size=13)
-    els.append(T(M, 646, 1136, 16, "System scale: 29 source files · 1,498 LOC · 314 functions · ~45 REST endpoints",
+    els += BAR(580, "Binary .cdb files in local storage instead of Postgres — atomic, CRC32-guarded persistence", size=13)
+    els.append(T(M, 646, 1136, 16, "System scale: 29 source files · 1,585 LOC · 321 functions · ~45 REST endpoints",
                  size=11.5, color=MUTED, font=MONO))
     footer(els, 12); P_("12_architecture.page", els)
 

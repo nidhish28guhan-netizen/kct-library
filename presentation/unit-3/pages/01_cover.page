@@ -152,7 +152,7 @@ elements:
   - 820
   - 48
   content:
-    text: 121 tests, 82% coverage and two Selenium journeys — the evidence behind v1.0.0.
+    text: 123 tests, 82% coverage and two Selenium journeys — the evidence behind v1.0.0.
     fontSize: 16
     color: '#66756A'
     fontFamily: Helvetica
