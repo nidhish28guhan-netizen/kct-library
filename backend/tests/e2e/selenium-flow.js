@@ -24,12 +24,16 @@ const step = (msg) => { steps.push(msg); console.log(`  ✓ ${steps.length}. ${m
     await inputs[0].sendKeys('ECE2210');
     await inputs[1].sendKeys('College@123');
     await driver.findElement(By.xpath('//button[normalize-space()="Sign in"]')).click();
-    await driver.wait(until.elementsLocated(By.css('.stat'), 5), 8000);
+    // Wait for the data-driven state, not the DOM skeleton: .stat-value only
+    // exists once the history API resolved and React committed the numbers.
+    await driver.wait(until.elementsLocated(By.css('.stat-value'), 4), 8000);
     step('Student ECE2210 signed in; dashboard stats rendered');
 
     // 2. dashboard shows the overdue loan
+    await driver.wait(async () => /Computer Networks/.test(await driver.findElement(By.css('body')).getText()), 5000);
     const body = await driver.findElement(By.css('body')).getText();
     assert.match(body, /Computer Networks/, 'dashboard should list the active loan');
+    assert.match(body, /₹7\.00/, 'dashboard should show the unpaid fine total');
     step('Dashboard lists the active loan and fine summary');
 
     // 3. catalogue search finds the held title

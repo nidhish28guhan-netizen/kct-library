@@ -2,9 +2,9 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { JsonStore } = require('../../src/db/store');
+const { JsonStore, BinaryStore, __internals } = require('../../src/db/store');
 
-describe('JsonStore — atomic JSON persistence', () => {
+describe('BinaryStore — atomic binary (.cdb) persistence', () => {
   let dir, store;
   beforeEach(() => {
     dir = fs.mkdtempSync(path.join(os.tmpdir(), 'clms-store-'));
@@ -37,11 +37,29 @@ describe('JsonStore — atomic JSON persistence', () => {
     expect(fs.readdirSync(dir).filter((f) => f.endsWith('.tmp'))).toEqual([]);
   });
 
-  test('collection file contains valid JSON (crash-safe shape)', () => {
+  test('collection persists as a binary container, never readable text', () => {
     store.insert('members', { id: 'MB-1', name: 'Arun' });
-    const raw = JSON.parse(fs.readFileSync(path.join(dir, 'members.json'), 'utf8'));
-    expect(raw[0].memberId).toBeUndefined();
-    expect(raw[0].name).toBe('Arun');
+    const buf = fs.readFileSync(path.join(dir, 'members.cdb'));
+    expect(buf.subarray(0, 4).toString('latin1')).toBe('CDB1'); // magic
+    expect(buf.includes(Buffer.from('Arun'))).toBe(false);      // payload is encoded+deflated
+    expect(__internals.decodeFile(buf, 'members.cdb')[0].name).toBe('Arun');
+  });
+
+  test('corrupted binary file is rejected via CRC32 before records load', () => {
+    store.insert('books', { id: 'BK-1', title: 'DDD' });
+    const p = path.join(dir, 'books.cdb');
+    const buf = fs.readFileSync(p);
+    buf[buf.length - 1] ^= 0xFF; // flip a payload byte
+    expect(() => __internals.decodeFile(buf, 'books.cdb')).toThrow(/corrupt binary store file/);
+  });
+
+  test('legacy .json documents migrate to .cdb once, with a rollback copy', () => {
+    fs.writeFileSync(path.join(dir, 'books.json'), JSON.stringify([{ id: 'BK-old', title: 'Legacy' }]));
+    const reopened = new BinaryStore(dir);
+    expect(reopened.all('books')[0].title).toBe('Legacy');
+    expect(fs.existsSync(path.join(dir, 'books.cdb'))).toBe(true);
+    expect(fs.existsSync(path.join(dir, 'books.json.migrated'))).toBe(true);
+    expect(fs.existsSync(path.join(dir, 'books.json'))).toBe(false);
   });
 
   test('remove deletes exactly one record', () => {

@@ -2,7 +2,10 @@ node_modules/
 dist/
 coverage/
 backend/data/*.json
+backend/data/*.cdb
+backend/data/*.migrated
 backend/data/.tmp*
+backend/data/*.tmp
 presentation/**/.preview/
 .env
 *.log

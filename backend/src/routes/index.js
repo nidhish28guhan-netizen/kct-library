@@ -33,7 +33,10 @@ const router = express.Router();
 
 /* ---------- auth ---------- */
 router.post('/auth/login', wrap((req, res) => res.json(authService.login(req.body || {}))));
-router.get('/auth/me', authenticate, wrap((req, res) => res.json(req.user)));
+router.get('/auth/me', authenticate, wrap((req, res) => {
+  const { sub, iat, exp, ...principal } = req.user; // same shape as /auth/login's user
+  res.json({ id: sub, ...principal });
+}));
 
 router.use(authenticate); // everything below requires a session
 

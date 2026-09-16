@@ -70,6 +70,8 @@ describe('Authentication (US-01..US-03)', () => {
     expect((await request(app).get('/api/auth/me').set('Authorization', 'Bearer junk')).status).toBe(401);
     const ok = await request(app).get('/api/auth/me').set('Authorization', `Bearer ${tokens.s1}`);
     expect(ok.body.role).toBe('STUDENT');
+    expect(ok.body.id).toBeDefined(); // /auth/me must match /auth/login's user shape (frontend contract)
+    expect(ok.body.sub).toBeUndefined();
   });
 });
 

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-15T18:03:47.175Z",
+  "generatedAt": "2026-09-16T06:01:47.063Z",
   "totals": {
     "files": 29,
-    "loc": 1498,
-    "functions": 314,
-    "avgCyclomatic": 2.13,
+    "loc": 1585,
+    "functions": 321,
+    "avgCyclomatic": 2.15,
     "maxCyclomatic": 14,
     "highComplexityFns": [
       {
@@ -46,12 +46,12 @@
     },
     {
       "file": "backend/src/db/store.js",
-      "loc": 104,
-      "functions": 17,
-      "avgCyclomatic": 1.53,
-      "maxCyclomatic": 2,
-      "worstFn": "(anonymous)",
-      "totalHalsteadEffort": 2219
+      "loc": 188,
+      "functions": 24,
+      "avgCyclomatic": 1.88,
+      "maxCyclomatic": 8,
+      "worstFn": "decodeFile",
+      "totalHalsteadEffort": 11165
     },
     {
       "file": "backend/src/domain/barcodeRules.js",
@@ -154,12 +154,12 @@
     },
     {
       "file": "backend/src/routes/index.js",
-      "loc": 127,
+      "loc": 130,
       "functions": 51,
       "avgCyclomatic": 1.2,
       "maxCyclomatic": 3,
       "worstFn": "assertSelfOrStaff",
-      "totalHalsteadEffort": 1504
+      "totalHalsteadEffort": 1545
     },
     {
       "file": "backend/src/server.js",
