@@ -32,7 +32,7 @@ export default function Login() {
         <label className="field">
           <span className="field-label">Username or roll number</span>
           <input type="text" value={identifier} onChange={(e) => setId(e.target.value)}
-            placeholder="e.g. librarian1 or CSE2201" autoComplete="username" autoFocus />
+            placeholder="Username or roll number" autoComplete="username" autoFocus />
         </label>
         <label className="field">
           <span className="field-label">Password</span>
