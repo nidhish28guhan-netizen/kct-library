@@ -25,8 +25,10 @@ cd ../backend && npm run seed && npm start
 # → http://localhost:4000
 ```
 
-Accounts (shown by the seeder): `admin / Admin@123` · `librarian1 /
-Librarian@123` · members (e.g. `CSE2201`) share password `College@123`.
+Accounts are created by an administrator via **Admin → Audit Log → staff
+accounts** (`POST /api/admin/users`, ADMIN only). There are no built-in
+accounts; the first admin is created by the seeder and every password is
+stored only as a bcrypt hash.
 
 ## Test it
 
