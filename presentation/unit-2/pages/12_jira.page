@@ -30,7 +30,7 @@ elements:
   - 1136
   - 44
   content:
-    text: Jira CLMS is the paper trail — a live, company-managed Scrum board
+    text: Jira KCT Library is the paper trail — a live, company-managed Scrum board
     fontSize: 30
     color: '#1E3A2F'
     fontFamily: Georgia
@@ -326,10 +326,10 @@ elements:
   bounds:
   - 96
   - 428
-  - 284.32
+  - 242.0825
   - 48
   content:
-    text: Issue keys run CLMS-1 to CLMS-55
+    text: Issue keys run NS-1 to NS-9
     fontSize: 15.5
     color: '#1E3A2F'
     fontFamily: Helvetica
@@ -342,9 +342,9 @@ elements:
 - elementId: e741
   elementType: text
   bounds:
-  - 376.32
+  - 334.0825
   - 428
-  - 789.6800000000001
+  - 831.9175
   - 48
   content:
     text: — stories, tasks and defects share one ledger
@@ -380,7 +380,7 @@ elements:
   - 328
   - 44
   content:
-    text: 'project: CLMS · Scrum (company-managed)'
+    text: 'project: KCT Library · Scrum (company-managed)'
     fontSize: 11.5
     color: '#FFFFFF'
     fontFamily: Menlo
@@ -430,7 +430,7 @@ elements:
   - 820
   - 16
   content:
-    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    text: KCT Library · 24CSI015 · Software Engineering with Agile Practices
     fontSize: 10
     color: '#66756A'
     fontFamily: Helvetica

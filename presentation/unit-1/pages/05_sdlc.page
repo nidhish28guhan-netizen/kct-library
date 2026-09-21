@@ -96,7 +96,7 @@ elements:
         type: solid
         color: '#1E3A2F'
       lineHeight: 1.12
-    - text: HOW CLMS ACTUALLY RAN
+    - text: HOW KCT Library ACTUALLY RAN
       fontFamily: Helvetica
       fontSize: 11.5
       color: '#FFFFFF'
@@ -216,7 +216,7 @@ elements:
         type: solid
         color: '#F5F2EA'
       lineHeight: 1.12
-  - - text: Fit for CLMS
+  - - text: Fit for KCT Library
       fontFamily: Menlo
       fontSize: 13
       color: '#1E3A2F'
@@ -324,7 +324,7 @@ elements:
   - 820
   - 16
   content:
-    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    text: KCT Library · 24CSI015 · Software Engineering with Agile Practices
     fontSize: 10
     color: '#66756A'
     fontFamily: Helvetica

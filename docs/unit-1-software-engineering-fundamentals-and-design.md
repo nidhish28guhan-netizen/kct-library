@@ -1,7 +1,7 @@
 # Unit I — Software Engineering Fundamentals and Design
 
 **Course:** 24CSI015 — Software Engineering with Agile Practices
-**Project:** College Library Management System (CLMS) · v1.0
+**Project:** KCT Library · v1.0
 **Traceability:** blueprint §§1–17 (`College_Library_Management_System_Complete_Architecture.md`); all implementation claims verified against `backend/src/`, `frontend/src/` and `docs/metrics-report.json`.
 
 ---
@@ -18,7 +18,7 @@
 | Fit to 12-module scope (§4) | Poor — cross-module state (copy lifecycle) needs joint testing | Moderate | Good — increments are chosen along module seams |
 | Cost on a 2-person team | Rework-heavy | Planning-heavy | Balanced; ceremony cost measured and accepted |
 
-**Decision rationale.** CLMS is multi-module (12 modules, §4) with strong cross-module state coupling (a copy is `RESERVED` by the reservation queue but `ISSUED` by circulation). Waterfall would defer the discovery of that coupling to final integration. Spiral's explicit risk-cycle cost buys little once the top risks (barcode uniqueness, policy correctness, inconsistent transactions) were addressed by design decisions in §§6, 9, 10, 12 rather than by prototypes. An incremental Agile approach (Scrum delivery cadence, XP engineering discipline — see Unit II) lets each increment put working software in front of the product owner every two weeks.
+**Decision rationale.** KCT Library is multi-module (12 modules, §4) with strong cross-module state coupling (a copy is `RESERVED` by the reservation queue but `ISSUED` by circulation). Waterfall would defer the discovery of that coupling to final integration. Spiral's explicit risk-cycle cost buys little once the top risks (barcode uniqueness, policy correctness, inconsistent transactions) were addressed by design decisions in §§6, 9, 10, 12 rather than by prototypes. An incremental Agile approach (Scrum delivery cadence, XP engineering discipline — see Unit II) lets each increment put working software in front of the product owner every two weeks.
 
 ### 1.2 Incremental path actually followed (§17, §44)
 
@@ -336,4 +336,4 @@ Issue and return are scan-first (§7–§8): the desk UI takes the member identi
 | Explainability | reason strings on recommendations; decision-rule domain layer | every `forMe` suggestion carries a reason (FR table §2.3 FR-15) |
 | Requirement → design → code trace | §§1–16 mapped in §2.3/§2.4 | 123 tests — 71 unit, 52 integration over the 45-route API |
 
-**Known limitation (accepted):** the BinaryStore design constrains CLMS to a single server process and college-scale data volumes; the repository seam bounds the cost of a future database migration.
+**Known limitation (accepted):** the BinaryStore design constrains KCT Library to a single server process and college-scale data volumes; the repository seam bounds the cost of a future database migration.

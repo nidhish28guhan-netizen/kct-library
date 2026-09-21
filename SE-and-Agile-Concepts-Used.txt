@@ -1,5 +1,5 @@
 SIMPLE LIST OF SOFTWARE ENGINEERING & AGILE CONCEPTS ACTUALLY USED IN THIS PROJECT
-Course 24CSI015 · College Library Management System (CLMS) v1.0
+Course 24CSI015 · KCT Library v1.0
 One line per concept: what it is, and exactly where we used it in this project.
 
 =====================================================================
@@ -45,7 +45,7 @@ UNIT II — AGILE PRACTICES & PROJECT MANAGEMENT
 - Kanban board + WIP limit      — JIRA columns To Do→In Progress→Code Review→Testing→Done, max 2–3 tasks active
 - Lean (waste removal)          — scan-first desk replaces manual entry; MVP freeze stopped scope creep
 - XP practices                  — test-first coding, pairing on circulation, small commits, CI on every push
-- JIRA as evidence layer        — project CLMS (id 10034), board 35, 55 issues, sprints named on the board
+- JIRA as evidence layer        — project NS "KCT Library" (id 10000), board 1, 55 issues, sprints named on the board
 - Workload split                — Nidhish 61 pts / Kawaskar 64 pts across the 7 sprints (sprint-plan §3.3)
 - WBS                           — work broken into 3 levels of deliverables (unit-2 §8.1)
 - Gantt chart                   — the seven sprint dates drawn for the release (unit-2 §8.2, sprint-plan §4)

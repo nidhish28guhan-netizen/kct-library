@@ -1,4 +1,4 @@
-# CLMS Documentation — Index and Quick Reference
+# KCT Library Documentation — Index and Quick Reference
 
 **Course:** 24CSI015 — Software Engineering with Agile Practices · **Project:** College Library Management System v1.0
 **Repository:** backend `backend/` (Node 22 + Express 4, binary local-file store) · frontend `frontend/` (React 18.3 + Vite 5 SPA) · documentation `docs/` · metrics tool `tools/analyze.js`
@@ -29,7 +29,7 @@
 | Business rules | 14 d/3 books/3 holds student · 30 d/5/5 faculty · ₹1/day fine · ₹50 borrow block · 2 renewals · 48 h hold · 3-day due-soon · 5-deep queue (FACULTY→FIFO→memberId) · rec weights 40/25/15/10/10 | `domain/policyRules.js`, `domain/*.js` |
 | Initial dataset | 2 staff, 4 members, 12 titles, 34 copies, 11 loans (1 overdue), 3 reservations (2 WAITING, 1 READY), 2 penalties (1 PAID, 1 UNPAID ₹7) | `backend/src/db/seed.js` |
 | Agile record | 7 completed two-week sprints (1 Jun – 4 Sep 2026) · 126-pt backlog · 125 delivered · velocity mean 17.9 | `docs/sprint-plan.md` |
-| JIRA | nidhish28guhan123.atlassian.net · project CLMS (id 10034) · Scrum board 35 · 55 issues (10 epics, 37 stories, 8 sub-tasks/bugs) | Unit II §6 |
+| JIRA | nidhish28guhan123.atlassian.net · project NS "KCT Library" (id 10000) · Scrum board 1 · 9 issues (10 epics, 37 stories, 8 sub-tasks/bugs) | Unit II §6 |
 | UI design system | “Modern Library Ledger” — Fraunces + IBM Plex Sans/Mono, single-origin served SPA | `frontend/src/styles.css`, `app.js` |
 
 ## 3. How to run

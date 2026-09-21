@@ -28,7 +28,7 @@ MONO    = "Menlo"
 
 W, H, M = 1280, 720, 72
 TOTAL = 16
-COURSE_LINE = "CLMS · 24CSI015 · Software Engineering with Agile Practices"
+COURSE_LINE = "KCT Library · 24CSI015 · Software Engineering with Agile Practices"
 
 _ctr = [0]
 def nid():

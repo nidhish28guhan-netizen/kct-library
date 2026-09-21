@@ -27,18 +27,18 @@ function Shell({ children }) {
     <div className="shell">
       <aside className="sidebar">
         <div className="brand">
-          <h1>CLMS</h1>
-          <small>College Library</small>
+          <h1>KCT Library</h1>
+          <small>Central Library</small>
         </div>
         <nav className="nav">
           <div className="nav-section">Workspace</div>
           {link('/', 'Dashboard')}
-          {link('/catalogue', 'Catalogue')}
-          {!staff && link('/my-library', 'My Library')}
-          {staff && <><div className="nav-section">Circulation</div>{link('/desk', 'Circulation Desk')}</>}
+          {link('/catalogue', 'Book Catalog')}
+          {!staff && link('/my-library', 'My Borrowed Books')}
+          {staff && <><div className="nav-section">Circulation</div>{link('/desk', 'Issue & Return Desk')}</>}
           {staff && <><div className="nav-section">Administration</div>
             {link('/members', 'Members')}
-            {link('/books-admin', 'Books & Copies')}
+            {link('/books-admin', 'Books & Inventory')}
             {admin && link('/policies', 'Policies')}
             {link('/reports', 'Reports')}
             {admin && link('/audit', 'Audit Log')}

@@ -1,8 +1,8 @@
 # Unit II — Agile Practices and Project Management
 
 **Course:** 24CSI015 — Software Engineering with Agile Practices
-**Project:** College Library Management System (CLMS) · v1.0
-**Traceability:** blueprint §§18–36; JIRA project **CLMS**; sprint arithmetic verified programmatically (see `docs/sprint-plan.md`). Dates, per-sprint plan/completed figures and retrospectives are the team's **planning record**; story points, counts and metrics are taken from the backlog and the repository.
+**Project:** KCT Library · v1.0
+**Traceability:** blueprint §§18–36; JIRA project **NS** ("KCT Library"); sprint arithmetic verified programmatically (see `docs/sprint-plan.md`). Dates, per-sprint plan/completed figures and retrospectives are the team's **planning record**; story points, counts and metrics are taken from the backlog and the repository.
 
 ---
 
@@ -10,18 +10,18 @@
 
 The process follows the blueprint's four-way combination; each school owns one concern, and the table records how that appeared in this project:
 
-| School | Concern (§18) | Concrete practice in CLMS (§19 pattern) |
+| School | Concern (§18) | Concrete practice in KCT Library (§19 pattern) |
 |---|---|---|
 | Lean | Value + waste reduction | Barcode scanning removes repetitive manual entry at the circulation desk; MVP feature freeze (§42) rejected non-essential scope (e.g. no payment gateway — penalties stay a library rule, §9); policies stored as editable data instead of code changes |
 | Scrum | Planning + incremental delivery | 7 two-week sprints, sprint goal per increment, review with the product owner after each, retrospective action fed into the next sprint (§39 improvement loop) |
-| Kanban | Flow visibility + WIP | JIRA board CLMS-35 workflow `TO DO → IN PROGRESS → CODE REVIEW → TESTING → DONE`; WIP limit 2–3 active dev tasks per developer; defects (RES-001, UI-002, E2E-003) entered as cards and pulled by whoever was free in the affected module |
+| Kanban | Flow visibility + WIP | JIRA board NS board workflow `TO DO → IN PROGRESS → CODE REVIEW → TESTING → DONE`; WIP limit 2–3 active dev tasks per developer; defects (RES-001, UI-002, E2E-003) entered as cards and pulled by whoever was free in the affected module |
 | XP | Engineering quality | TDD on domain rules (Unit III §4); pair programming on the issue/return paths (both developers' commits co-located in circulation files); continuous integration via GitHub Actions (`.github/workflows/ci.yml`); refactoring passes kept McCabe average at 2.15 |
 
 **Integration worked example (blueprint §19 "Barcode Issue"):** Lean justified scan-first checkout; Scrum placed the story (US-13/US-14) in Sprint 3; Kanban visualised its move through review/testing with RES-001 stopping it in TESTING; XP supplied the failing-test-first fix and the regression test that now pins the redispatch behaviour.
 
 ## 2. Roles, ceremonies, working agreements (§18)
 
-| Role | Person | Responsibilities in CLMS |
+| Role | Person | Responsibilities in KCT Library |
 |---|---|---|
 | Product Owner + developer | S. Nidhish Guhan S | backlog order, MVP freeze, release decision (incl. US-37 deferral); architecture, BinaryStore, domain rules, backend services, CI/DevOps — 61 delivered story points |
 | Scrum Master + developer | Kawaskar J | ceremony facilitation, board hygiene, impediment log; frontend, auth UX, barcode UI, E2E suites, documentation — 64 delivered story points |
@@ -177,8 +177,8 @@ With per-sprint scope fixed at planning, the release-level burndown (remaining b
 
 | Item | Value |
 |---|---|
-| Site / project | nidhish28guhan123.atlassian.net · project **CLMS** (id 10034) |
-| Board | Scrum board 35 with the §24 workflow columns |
+| Site / project | nidhish28guhan123.atlassian.net · project **NS** ("KCT Library") (id 10034) |
+| Board | Scrum board 1 with the §24 workflow columns |
 | Issues | **55 total**: 10 epics, 37 stories, 8 supporting issues (defect sub-tasks/bugs incl. RES-001, UI-002, E2E-003, and CI/persistence sub-tasks) |
 | Sprint status on board | “Sprint 1 - Foundation” … “Sprint 5 - Release” closed; sprints 6–7 exist in this planning record after the replan — board reflects epics/stories with resolution marking in progress (no board URLs claimed for S6–S7) |
 
@@ -198,7 +198,7 @@ Near-equal load was a scheduling constraint in sprint planning (§5.1 rows); pai
 ### 8.1 WBS (three levels)
 
 ```text
-1 CLMS
+1 KCT Library
 ├─ 1.1 Requirements & Design — 1.1.1 SRS · 1.1.2 UML set · 1.1.3 architecture decision records
 ├─ 1.2 Backend — 1.2.1 BinaryStore/persistence · 1.2.2 domain rules · 1.2.3 services · 1.2.4 routes/auth
 ├─ 1.3 Frontend — 1.3.1 auth/UX shell · 1.3.2 catalogue/member screens · 1.3.3 desk/My Library · 1.3.4 reports/admin screens
@@ -215,7 +215,7 @@ Near-equal load was a scheduling constraint in sprint planning (§5.1 rows); pai
 ```mermaid
 gantt
   dateFormat YYYY-MM-DD
-  title CLMS release timeline (2026)
+  title KCT Library release timeline (2026)
   section Sprints
   S1 Foundation        :s1, 2026-06-01, 12d
   S2 Catalogue         :s2, 2026-06-15, 12d

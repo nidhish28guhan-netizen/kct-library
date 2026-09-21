@@ -4,7 +4,7 @@ import { Card, Badge, ErrorBanner, OkBanner, Table } from '../components/ui';
 import BarcodeSvg from '../components/BarcodeSvg';
 
 export default function CirculationDesk() {
-  const [mode, setMode] = useState('Issue');
+  const [mode, setMode] = useState('Issue Book');
   const [memberId, setMemberId] = useState('');
   const [barcode, setBarcode] = useState('');
   const [elig, setElig] = useState(null);
@@ -53,11 +53,11 @@ export default function CirculationDesk() {
 
   return (<>
     <div className="tabs no-print">
-      {['Issue', 'Return'].map((m) => <button key={m} className={mode === m ? 'active' : ''} onClick={() => { setMode(m); setError(null); }}>{m}</button>)}
+      {['Issue Book', 'Return Book'].map((m) => <button key={m} className={mode === m ? 'active' : ''} onClick={() => { setMode(m); setError(null); }}>{m}</button>)}
     </div>
     <ErrorBanner error={error} />
 
-    {mode === 'Issue' ? <div className="desk-grid">
+    {mode === 'Issue Book' ? <div className="desk-grid">
       <Card title="Step 1 — Scan member ID">
         <form className="scan-box" onSubmit={checkMember}>
           <input type="text" placeholder="Member barcode or roll number, e.g. LIB-CSE2201 / CSE2201"
@@ -73,9 +73,9 @@ export default function CirculationDesk() {
             </div>
             <dl className="kv">
               <dt>Member</dt><dd>{elig.member.name} <span className="mono cell-sub">({elig.member.memberId})</span> · <Badge status={elig.member.role === 'FACULTY' ? 'amber' : 'blue'}>{elig.member.role}</Badge></dd>
-              <dt>On loan</dt><dd>{elig.issuedCount} of {elig.limit}</dd>
-              <dt>Unpaid dues</dt><dd>{fmtINR(elig.unpaidDues)} (block at {fmtINR(elig.blockThreshold)})</dd>
-              <dt>Loan period</dt><dd>{elig.loanDays} days · {elig.renewLimit} renewals allowed</dd>
+              <dt>Currently borrowed</dt><dd>{elig.issuedCount} of {elig.limit} books</dd>
+              <dt>Pending fines</dt><dd>{fmtINR(elig.unpaidDues)} (borrowing paused at {fmtINR(elig.blockThreshold)})</dd>
+              <dt>Borrowing period</dt><dd>{elig.loanDays} days · {elig.renewLimit} renewal(s) allowed</dd>
             </dl>
           </div>
           {elig.activeLoans.length > 0 && <Table head={['Title', 'Due', '']} rows={elig.activeLoans} render={(l) => <>
@@ -91,11 +91,11 @@ export default function CirculationDesk() {
           <button className="btn brass" disabled={!elig || !barcode.trim()}>Issue book</button>
         </form>
         {receipt && <div className="receipt" style={{ marginTop: 14 }}>
-          <div className="receipt-head"><h3>Loan receipt</h3>
+          <div className="receipt-head"><h3>Borrowing receipt</h3>
             <span className="receipt-due">Due {fmtDay(receipt.loan.dueDate)}</span></div>
           <dl className="kv">
             <dt>Title</dt><dd className="cell-strong">{receipt.book.title}</dd>
-            <dt>Copy barcode</dt><dd className="mono">{receipt.copy.barcode}</dd>
+            <dt>Book barcode</dt><dd className="mono">{receipt.copy.barcode}</dd>
             <dt>Borrower</dt><dd>{receipt.member.name} ({receipt.member.memberId})</dd>
             <dt>Issued on</dt><dd className="mono">{fmtDay(receipt.loan.issueDate)}</dd>
             <dt>Renewals</dt><dd>{receipt.loan.renewalsUsed} used of {elig ? elig.renewLimit : 2}</dd>
@@ -105,19 +105,19 @@ export default function CirculationDesk() {
         </div>}
       </Card>
     </div> :
-      <Card title="Return a copy">
+      <Card title="Return a Book">
         <form className="scan-box" onSubmit={doReturn}>
           <input type="text" placeholder="LIB-…-NNN" value={barcode} onChange={(e) => setBarcode(e.target.value)} aria-label="Book barcode" />
-          <button className="btn brass">Return copy</button>
+          <button className="btn brass">Return book</button>
         </form>
         {result && <div className="card" style={{ marginTop: 14, boxShadow: 'none', background: 'var(--surface-2)' }}>
           <p><strong>“{result.book.title}”</strong> returned by {result.member?.name || 'member'}.</p>
           {result.lateDays > 0
-            ? <p className="banner banner-warn" style={{ margin: '8px 0' }}>{result.lateDays} day(s) late — penalty {fmtINR(result.penalty?.amount)} recorded.</p>
-            : <p className="banner banner-ok" style={{ margin: '8px 0' }}>Returned on time. No penalty.</p>}
+            ? <p className="banner banner-warn" style={{ margin: '8px 0' }}>{result.lateDays} day(s) late — fine of {fmtINR(result.penalty?.amount)} recorded.</p>
+            : <p className="banner banner-ok" style={{ margin: '8px 0' }}>Returned on time. No fines.</p>}
           {result.dispatch
-            ? <p>Copy dispatched to the next member in the reservation queue <span className="mono">({result.dispatch.memberId})</span> — hold is READY for 48 hours.</p>
-            : <p>Copy is back on the shelf (AVAILABLE).</p>}
+            ? <p>Book allocated to the next member on the waitlist <span className="mono">({result.dispatch.memberId})</span> — hold is READY for 48 hours.</p>
+            : <p>Book is back on the shelf (AVAILABLE).</p>}
         </div>}
       </Card>}
   </>);

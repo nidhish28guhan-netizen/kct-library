@@ -1,8 +1,8 @@
-# CLMS — College Library Management System
+# KCT Library — College Library Management System
 
 A complete, working library management system for the **24CSI015 – Software
 Engineering with Agile Practices** course project. Built and delivered over
-seven two-week sprints (Jira project `CLMS`).
+seven two-week sprints (Jira project `NS` ("KCT Library")).
 
 - **Backend** — Node 22 / Express 4, layered (routes → services → domain →
   repositories → JSON-file store with atomic writes), JWT auth, RBAC

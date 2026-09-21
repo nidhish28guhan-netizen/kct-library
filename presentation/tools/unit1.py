@@ -14,7 +14,7 @@ def build():
 
     # 1 cover -----------------------------------------------------------
     P_("01_cover.page", cover("I", ["SE Fundamentals &", "System Design"],
-        "How CLMS was framed, specified and designed before the first sprint opened.",
+        "How KCT Library was framed, specified and designed before the first sprint opened.",
         "deck 1 / 3"), "cover")
 
     # 2 agenda ----------------------------------------------------------
@@ -43,7 +43,7 @@ def build():
         "Shelf stock drifted from the register"], w=500, step=38)
     els.append(R(640, 170, 568, 322, PANEL))
     els.append(R(640, 170, 568, 5, BRASS))
-    els += COLHEAD(664, 196, "CLMS answers")
+    els += COLHEAD(664, 196, "KCT Library answers")
     els += BUL(664, 234, [
         "Express 4 API| + React 18 / Vite 5 SPA",
         "JWT + bcryptjs| sessions, RBAC on routes",
@@ -71,11 +71,11 @@ def build():
     # 5 SDLC --------------------------------------------------------------
     els, y = header("Unit I · Part 2 · Method", "Waterfall would have frozen rules we were still discovering")
     els.append(LEDGER(M, 178, 1136, 264, [0.20, 0.36, 0.44],
-        ["DIMENSION", "WATERFALL", "HOW CLMS ACTUALLY RAN"],
+        ["DIMENSION", "WATERFALL", "HOW KCT Library ACTUALLY RAN"],
         [["Requirements", "Signed off once, up front", "Evolved as 37 stories across 10 epics"],
          ["Feedback", "Only after full build-out", "Every two weeks at the sprint review"],
          ["Risk", "Late integration surprises", "Each sprint ran live on localhost:4000"],
-         ["Fit for CLMS", "Weak — policies were unknown", "Lean + Scrum + Kanban + XP hybrid"]],
+         ["Fit for KCT Library", "Weak — policies were unknown", "Lean + Scrum + Kanban + XP hybrid"]],
         mono_cols=(0,), size=13))
     els += BAR(468, "Agile fit confirmed: seven two-week sprints, 125 of 126 scope points delivered by 4 Sep 2026 — the process story is Unit II.", size=13)
     els.append(T(M, 546, 1136, 80,
@@ -141,7 +141,7 @@ def build():
     els, y = header("Unit I · Part 3 · Modelling", "Use-case view: four actors, one shared catalogue")
     bx, by, bw2, bh2 = 300, 170, 838, 460
     els.append(R(bx, by, bw2, bh2, PAPER, border=INK, bw=2))
-    els.append(T(bx + 16, by + 10, bw2 - 32, 20, "CLMS · COLLEGE LIBRARY MANAGEMENT SYSTEM",
+    els.append(T(bx + 16, by + 10, bw2 - 32, 20, "KCT Library · COLLEGE LIBRARY MANAGEMENT SYSTEM",
                  size=11, color=INK, bold=True, ls=1.5, wrap=False))
     actors = [("STUDENT", 226), ("FACULTY", 322), ("LIBRARIAN", 418), ("ADMIN", 512)]
     for lab, ay in actors:
@@ -335,7 +335,7 @@ def build():
                16)
     P_("16_recap.page", els)
 
-    write_deck(d, "CLMS Unit I — SE Fundamentals & System Design", names)
+    write_deck(d, "KCT Library Unit I — SE Fundamentals & System Design", names)
     return names
 
 if __name__ == "__main__":

@@ -24,9 +24,9 @@ export default function Login() {
   return (
     <div className="login-wrap">
       <form className="login-card" onSubmit={submit}>
-        <div className="wordmark">CLMS</div>
+        <div className="wordmark">KCT Library</div>
         <div className="wordmark-rule" />
-        <p className="subtitle">College Library Management System<br />24CSI015 · Software Engineering with Agile Practices</p>
+        <p className="subtitle">Kumaraguru College of Technology · Central Library<br />Library Management System</p>
         <h2>Sign in</h2>
         <ErrorBanner error={error} />
         <label className="field">

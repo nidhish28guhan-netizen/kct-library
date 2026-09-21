@@ -336,7 +336,7 @@ def build():
                  size=12.5, color=MUTED, font=MONO))
     footer(els, 16); P_("16_recap.page", els)
 
-    write_deck(d, "CLMS Unit III — Testing, Quality & DevOps", names)
+    write_deck(d, "KCT Library Unit III — Testing, Quality & DevOps", names)
     return names
 
 if __name__ == "__main__":

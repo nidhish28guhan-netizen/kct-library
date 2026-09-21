@@ -279,7 +279,7 @@ elements:
   - 380
   - 16
   content:
-    text: WHY THIS WORKS FOR CLMS
+    text: WHY THIS WORKS FOR KCT LIBRARY
     fontSize: 11.5
     color: '#A8792C'
     fontFamily: Helvetica
@@ -635,7 +635,7 @@ elements:
   - 820
   - 16
   content:
-    text: CLMS · 24CSI015 · Software Engineering with Agile Practices
+    text: KCT Library · 24CSI015 · Software Engineering with Agile Practices
     fontSize: 10
     color: '#66756A'
     fontFamily: Helvetica

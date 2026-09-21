@@ -152,7 +152,7 @@ elements:
   - 820
   - 48
   content:
-    text: How CLMS was framed, specified and designed before the first sprint opened.
+    text: How KCT Library was framed, specified and designed before the first sprint opened.
     fontSize: 16
     color: '#66756A'
     fontFamily: Helvetica

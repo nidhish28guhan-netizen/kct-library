@@ -1,6 +1,6 @@
-# CLMS Sprint Plan — Full Seven-Sprint Planning Record
+# KCT Library Sprint Plan — Full Seven-Sprint Planning Record
 
-**Course:** 24CSI015 — Software Engineering with Agile Practices · **Project key:** CLMS (JIRA id 10034, Scrum board 35)
+**Course:** 24CSI015 — Software Engineering with Agile Practices · **Project key:** KCT Library (JIRA id 10034, Scrum board 1)
 **Status of this document:** this is the team's authoritative **planning record** for sprints 1–7. Calendar dates, per-sprint narratives and burndown descriptions are the planning record; story points, owner totals and test/coverage figures are measured from the backlog and repository.
 All tables below were re-summed programmatically before publication (assertions listed in §5).
 
@@ -186,7 +186,7 @@ The load inverts sprint-to-sprint (backend-heavy S3, frontend-heavy S4/S7) becau
 ```mermaid
 gantt
   dateFormat YYYY-MM-DD
-  title CLMS seven-sprint plan to release
+  title KCT Library seven-sprint plan to release
   section Delivery
   S1 Foundation        :2026-06-01, 12d
   S2 Catalogue         :2026-06-15, 12d

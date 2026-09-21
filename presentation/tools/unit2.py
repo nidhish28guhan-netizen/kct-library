@@ -135,7 +135,7 @@ def build():
                      align="center", valign="middle", wrap=False))
     els.append(T(M, 290, 560, 20, "FIBONACCI STORY-POINT SCALE", size=11, color=MUTED,
                  bold=True, ls=1.5, wrap=False))
-    els += COLHEAD(M, 340, "Why this works for CLMS")
+    els += COLHEAD(M, 340, "Why this works for KCT Library")
     els += BUL(M, 374, [
         "Silent first estimates| — no anchoring to the louder hat",
         "Coarse scale| — matches real uncertainty, not hours",
@@ -218,15 +218,15 @@ def build():
     footer(els, 11); P_("11_carryover.page", els)
 
     # 12 jira ---------------------------------------------------------------------------
-    els, y = header("Unit II · Part 3 · Execution", "Jira CLMS is the paper trail — a live, company-managed Scrum board")
+    els, y = header("Unit II · Part 3 · Execution", "Jira KCT Library is the paper trail — a live, company-managed Scrum board")
     for i, (n, lab) in enumerate([("55", "TOTAL ISSUES"), ("10", "EPICS"), ("37", "STORIES")]):
         els += STAT(M + i * 380, 188, n, lab, numsize=62)
         if i < 2: els.append(VL(M + (i + 1) * 380 - 40, 194, 96, LINEC, 2))
     els += BUL(M, 344, [
         "Company-managed Scrum board| — sprints started and completed on schedule",
         "All seven sprints| show a sprint-closed event on the board",
-        "Issue keys run CLMS-1 to CLMS-55| — stories, tasks and defects share one ledger"], w=1100, step=42)
-    els += CHIP(M, 508, 340, 44, "project: CLMS · Scrum (company-managed)", fill=INK, size=11.5)
+        "Issue keys run NS-1 to NS-9| — stories, tasks and defects share one ledger"], w=1100, step=42)
+    els += CHIP(M, 508, 340, 44, "project: KCT Library · Scrum (company-managed)", fill=INK, size=11.5)
     els.append(T(428, 508, 780, 44, "Board numbers are quoted as text evidence — the live board is available for the seminar walkthrough.",
                  size=13, color=MUTED, valign="middle"))
     footer(els, 12); P_("12_jira.page", els)
@@ -266,7 +266,7 @@ def build():
     # 14 WBS + COCOMO ---------------------------------------------------------------------
     els, y = header("Unit II · Part 4 · Planning evidence", "WBS to three levels — and a COCOMO II sanity check")
     els.append(R(M, 176, 218, 44, INK))
-    els.append(T(M, 176, 218, 44, "1 · CLMS", size=14, color=WHITE, font=DISPLAY, bold=True,
+    els.append(T(M, 176, 218, 44, "1 · KCT Library", size=14, color=WHITE, font=DISPLAY, bold=True,
                  align="center", valign="middle", wrap=False))
     branches = [("1.1 Foundation", "auth+RBAC · binary store"),
                 ("1.2 Circulation", "loans · holds · fines"),
@@ -332,7 +332,7 @@ def build():
                "Next · Unit III — how this backlog was tested, measured and shipped.", 16)
     P_("16_recap.page", els)
 
-    write_deck(d, "CLMS Unit II — Agile Practices & Project Management", names)
+    write_deck(d, "KCT Library Unit II — Agile Practices & Project Management", names)
     return names
 
 if __name__ == "__main__":

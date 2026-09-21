@@ -1,7 +1,7 @@
 # Unit III — Software Testing, Quality and DevOps
 
 **Course:** 24CSI015 — Software Engineering with Agile Practices
-**Project:** College Library Management System (CLMS) · v1.0
+**Project:** KCT Library · v1.0
 **Traceability:** blueprint §§26–41. Every count below is reproduced from the repository: `npx jest` output (123 tests, 6 suites), Istanbul coverage (`backend/coverage/`), `docs/metrics-report.json` (acorn AST metrics), `.github/workflows/ci.yml` and the Docker files at `backend/`, `frontend/`, repo root.
 
 ---
@@ -308,7 +308,7 @@ Deployment topology (§40 pipeline diagram): push → Actions (test/gate/build) 
 
 ## 12. Software maintenance classification (§41) — with this project's real instances
 
-| Type | Blueprint example (§41) | Actual instance(s) in CLMS |
+| Type | Blueprint example (§41) | Actual instance(s) in KCT Library |
 |---|---|---|
 | **Corrective** | fix incorrect penalty/reservation logic | RES-001 redispatch fix (US-21 + regression test); UI-002 authenticated SVG rendering; E2E-003 selector determinism |
 | **Adaptive** | college changes library policy | `PUT /api/admin/policies` — role loan days/book/hold limits, ₹/day, block threshold, renew cap, hold window, queue depth are admin-editable data; new role types would extend `policyRules.roles` |

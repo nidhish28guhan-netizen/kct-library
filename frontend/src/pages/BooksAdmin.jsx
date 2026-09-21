@@ -38,18 +38,18 @@ export default function BooksAdmin() {
   };
 
   return (
-    <Card title="Books & Copies" actions={<button className="btn small" onClick={() => { setForm(blank); setEditing({}); }}>Catalogue new title</button>}>
+    <Card title="Books & Inventory" actions={<button className="btn small" onClick={() => { setForm(blank); setEditing({}); }}>Add new book</button>}>
       <ErrorBanner error={error} /><OkBanner>{flash}</OkBanner>
       <div style={{ marginBottom: 14, maxWidth: 380 }}><input type="search" placeholder="Search titles / codes…" value={q} onChange={(e) => setQ(e.target.value)} /></div>
-      {!rows ? <Spinner /> : rows.length === 0 ? <EmptyState title="No titles" /> : (
-        <Table head={['Title', 'Code', 'Author', 'Category', 'Copies', '']} rows={rows} render={(b) => <>
+      {!rows ? <Spinner /> : rows.length === 0 ? <EmptyState title="No books in catalog" note="Add your first book to get started." /> : (
+        <Table head={['Title', 'Code', 'Author', 'Category', 'Stock (Available / Total)', '']} rows={rows} render={(b) => <>
           <td><span className="cell-strong">{b.title}</span><div className="cell-sub">{b.isbn}</div></td>
           <td className="cell-mono">{b.bookCode}</td><td>{b.author}</td>
           <td>{b.category}</td>
           <td className="num">{b.availableCopies}/{b.totalCopies} <div className="cell-sub">available / total</div></td>
           <td><span className="row" style={{ gap: 6 }}>
             <button className="btn ghost small" onClick={() => { setForm(b); setEditing(b); }}>Edit</button>
-            <button className="btn ghost small" onClick={() => openCopies(b)}>Copies</button>
+            <button className="btn ghost small" onClick={() => openCopies(b)}>Physical Stock</button>
           </span></td>
         </>} />
       )}
@@ -78,11 +78,11 @@ export default function BooksAdmin() {
         </form>
       </Modal>
 
-      <Modal open={!!copies} title={`Copies of “${copies?.book.title}”`} onClose={() => setCopies(null)} wide>
+      <Modal open={!!copies} title={`Physical Copies of “${copies?.book.title}”`} onClose={() => setCopies(null)} wide>
         <div className="row" style={{ marginBottom: 12 }}>
           <Field label="Count"><input id="cnt" type="number" defaultValue={1} min={1} max={50} style={{ width: 80 }} /></Field>
           <Field label="Shelf location"><input id="shelf" placeholder="A1-3" style={{ width: 120 }} /></Field>
-          <button className="btn" onClick={addCopies}>Register copies</button>
+          <button className="btn" onClick={addCopies}>Add copies to stock</button>
         </div>
         <Table head={['Barcode', '#', 'Shelf', 'Condition', 'Status']} rows={copies?.rows || []} render={(c) => <>
           <td className="cell-mono">{c.barcode}</td><td className="num">{c.copyNumber}</td>

@@ -41,25 +41,34 @@ export default function Dashboard() {
   return (<>
     <div className="grid cols-4" style={{ marginBottom: 18 }}>
       {isStaff
-        ? ['books', 'copies', 'available', 'activeLoans', 'overdue', 'unpaidDues', 'issuesThisWeek', 'reservationsActive'].map((k) => (
-          <Stat key={k} label={k.replace(/([A-Z])/g, ' $1').replace(/^./, (c) => c.toUpperCase())}
-            value={k === 'unpaidDues' ? fmtINR(data.summary[k]) : data.summary[k]}
-            tone={k === 'overdue' && data.summary.overdue > 0 ? 'warn' : (k === 'available' ? 'ok' : '')} />
-        ))
+        ? [
+            { key: 'books', label: 'Unique Titles' },
+            { key: 'copies', label: 'Total Physical Books' },
+            { key: 'available', label: 'Available Now' },
+            { key: 'activeLoans', label: 'Borrowed Books' },
+            { key: 'overdue', label: 'Overdue Returns' },
+            { key: 'unpaidDues', label: 'Pending Fines' },
+            { key: 'issuesThisWeek', label: 'Issued This Week' },
+            { key: 'reservationsActive', label: 'Active Holds' }
+          ].map(({ key, label }) => (
+            <Stat key={key} label={label}
+              value={key === 'unpaidDues' ? fmtINR(data.summary[key]) : data.summary[key]}
+              tone={key === 'overdue' && data.summary.overdue > 0 ? 'warn' : (key === 'available' ? 'ok' : '')} />
+          ))
         : <>
-          <Stat label="On loan" value={data.history.loans.filter((l) => !l.returnDate).length} />
-          <Stat label="Due soon" value={data.history.loans.filter((l) => !l.returnDate && new Date(l.dueDate) - Date.now() < 3 * 864e5 && new Date(l.dueDate) > Date.now()).length} />
+          <Stat label="Currently Borrowed" value={data.history.loans.filter((l) => !l.returnDate).length} />
+          <Stat label="Due Soon" value={data.history.loans.filter((l) => !l.returnDate && new Date(l.dueDate) - Date.now() < 3 * 864e5 && new Date(l.dueDate) > Date.now()).length} />
           <Stat label="Overdue" tone={data.history.loans.some((l) => !l.returnDate && new Date(l.dueDate) < Date.now()) ? 'warn' : ''}
             value={data.history.loans.filter((l) => !l.returnDate && new Date(l.dueDate) < Date.now()).length} />
-          <Stat label="Unpaid fines" value={fmtINR(data.history.penalties.filter((p) => p.status === 'UNPAID').reduce((s, p) => s + p.amount, 0))} />
+          <Stat label="Pending Fines" value={fmtINR(data.history.penalties.filter((p) => p.status === 'UNPAID').reduce((s, p) => s + p.amount, 0))} />
         </>}
     </div>
 
     <div className="grid cols-2">
       {isStaff ? <>
-        <Card title="Overdue loans" actions={<button className="btn brass small" onClick={sweep}>Run notification sweep</button>}>
+        <Card title="Overdue Returns" actions={<button className="btn brass small" onClick={sweep}>Check & Send Due Reminders</button>}>
           {sweepMsg && <OkBanner>{sweepMsg}</OkBanner>}
-          {data.overdue.length === 0 ? <EmptyState title="Nothing overdue" note="Every loan is within its due date." /> : (
+          {data.overdue.length === 0 ? <EmptyState title="No overdue books" note="All borrowed books are within their due date." /> : (
             <Table head={['Member', 'Title', 'Due', 'Days late']} rows={data.overdue.slice(0, 6)}
               render={(o) => <>
                 <td>{o.memberName}<div className="cell-sub mono">{o.memberCode}</div></td>
@@ -68,14 +77,14 @@ export default function Dashboard() {
               </>} />
           )}
         </Card>
-        <Card title="Recent activity">
+        <Card title="Recent Activity">
           <ul className="notif-list">{data.audit.map((a) => (
             <li key={a.id}><span className="cell-mono">{a.action}</span> {a.entity} <span className="cell-sub">by {a.actorName}</span><span className="when">{fmtDate(a.ts)}</span></li>
           ))}</ul>
         </Card>
       </> : <>
-        <Card title="Current loans" actions={<Link className="btn ghost small" to="/my-library">My Library →</Link>}>
-          {data.history.loans.filter((l) => !l.returnDate).length === 0 ? <EmptyState title="No books on loan" note="Browse the catalogue to find your next read." /> : (
+        <Card title="My Borrowed Books" actions={<Link className="btn ghost small" to="/my-library">My Books →</Link>}>
+          {data.history.loans.filter((l) => !l.returnDate).length === 0 ? <EmptyState title="No books borrowed" note="Browse the catalog to find your next read." /> : (
             <Table head={['Title', 'Due', 'Status']} rows={data.history.loans.filter((l) => !l.returnDate)}
               render={(l) => <>
                 <td className="cell-strong">{l.bookTitle}<div className="cell-sub mono">{l.copyBarcode}</div></td>
