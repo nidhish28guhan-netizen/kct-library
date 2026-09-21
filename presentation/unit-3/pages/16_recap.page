@@ -285,7 +285,7 @@ elements:
   - 1136
   - 24
   content:
-    text: S. Nidhish Guhan S · Kawaskar J — 24CSI015 Software Engineering with Agile Practices
+    text: KCT Library — System Documentation
     fontSize: 12.5
     color: '#66756A'
     fontFamily: Menlo
@@ -317,7 +317,7 @@ elements:
   - 820
   - 16
   content:
-    text: KCT Library · 24CSI015 · Software Engineering with Agile Practices
+    text: KCT Library
     fontSize: 10
     color: '#66756A'
     fontFamily: Helvetica

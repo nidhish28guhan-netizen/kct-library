@@ -25,9 +25,13 @@ export default function Members() {
   const save = async (e) => {
     e.preventDefault(); setError(null);
     try {
-      if (editing?.id) await api(`/members/${editing.id}`, { method: 'PUT', body: form });
-      else await api('/members', { method: 'POST', body: form });
-      setFlash(editing?.id ? 'Member updated.' : 'Member registered. Initial password: College@123');
+      if (editing?.id) {
+        await api(`/members/${editing.id}`, { method: 'PUT', body: form });
+        setFlash('Member updated.');
+      } else {
+        const created = await api('/members', { method: 'POST', body: form });
+        setFlash(`Member registered. Temporary password: ${created.tempPassword} — share it once, it is not shown again.`);
+      }
       setEditing(null); load();
     } catch (err) { setError(err); }
   };
@@ -39,8 +43,8 @@ export default function Members() {
   };
 
   const resetPw = async (m) => {
-    await api(`/members/${m.id}/reset-password`, { method: 'POST', body: { password: 'College@123' } });
-    setFlash(`Password for ${m.name} reset to the initial password.`);
+    const res = await api(`/members/${m.id}/reset-password`, { method: 'POST', body: {} });
+    setFlash(`Password for ${m.name} reset. Temporary password: ${res.tempPassword} — share it once.`);
   };
 
   return (

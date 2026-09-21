@@ -28,7 +28,7 @@ MONO    = "Menlo"
 
 W, H, M = 1280, 720, 72
 TOTAL = 16
-COURSE_LINE = "KCT Library · 24CSI015 · Software Engineering with Agile Practices"
+COURSE_LINE = "KCT Library"
 
 _ctr = [0]
 def nid():
@@ -195,7 +195,7 @@ def cover(unit_roman, title_lines, tagline, deck_marker):
              align="right", lh=1.0, wrap=False),
            T(M, 60, 1000, 20, "COLLEGE LIBRARY MANAGEMENT SYSTEM · UNIVERSITY PROJECT SEMINAR",
              size=12, color=BRASS, bold=True, ls=2.2, wrap=False),
-           T(M, 92, 700, 22, "COURSE 24CSI015 · SOFTWARE ENGINEERING WITH AGILE PRACTICES",
+           T(M, 92, 700, 22, "KCT LIBRARY — SYSTEM DOCUMENTATION",
              size=11.5, color=MUTED, bold=True, ls=1.6, wrap=False)]
     els.append(T(M, 168, 700, 26, "Unit " + unit_roman + " of III",
                  size=15, color=BRASS, font=DISPLAY, italic=True, bold=True, wrap=False))
@@ -208,12 +208,12 @@ def cover(unit_roman, title_lines, tagline, deck_marker):
     ty = 470
     els.append(VL(M, ty, 132, LINEC, 2))
     els.append(T(M + 24, ty + 2, 300, 20, "TEAM", size=11, color=BRASS, bold=True, ls=2, wrap=False))
-    for j, (nm, role) in enumerate([("S. Nidhish Guhan S", "— Product Owner / Developer"),
-                                    ("Kawaskar J", "— Scrum Master / Developer")]):
+    for j, (nm, role) in enumerate([("Library Administration", "— Product Owner"),
+                                    ("Library IT", "— System Administration")]):
         ry = ty + 34 + j * 34
         els.append(T(M + 24, ry, 240, 26, nm, size=15, color=INK, bold=True, wrap=False))
         els.append(T(M + 24 + 180, ry, 420, 26, role, size=15, color=MUTED, wrap=False))
-    els.append(T(M, 644, 700, 20, "Project seminar · September 2026", size=13, color=MUTED, font=MONO))
+    els.append(T(M, 644, 700, 20, "KCT Library · System documentation", size=13, color=MUTED, font=MONO))
     els.append(T(860, 644, 348, 20, deck_marker, size=11, color=MUTED, font=MONO,
                  align="right", wrap=False))
     return els

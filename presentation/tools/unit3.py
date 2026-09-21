@@ -332,7 +332,7 @@ def build():
     els += CHIP(M, 522, 330, 44, "Delivered v1.0.0 · 4 Sep 2026", fill=INK, size=13, body_font=True)
     els.append(T(432, 522, 776, 44, "Whole seminar: design in Unit I · process in Unit II · this evidence trail in Unit III.",
                  size=13.5, color=MUTED, valign="middle"))
-    els.append(T(M, 600, 1136, 24, "S. Nidhish Guhan S · Kawaskar J — 24CSI015 Software Engineering with Agile Practices",
+    els.append(T(M, 600, 1136, 24, "KCT Library — System Documentation",
                  size=12.5, color=MUTED, font=MONO))
     footer(els, 16); P_("16_recap.page", els)
 

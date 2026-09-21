@@ -385,7 +385,7 @@ elements:
   - 408
   - 42
   content:
-    text: 'PO: S. Nidhish Guhan S — Product Owner / Developer'
+    text: 'PO: Library Administration — Product Owner'
     fontSize: 11.5
     color: '#FFFFFF'
     fontFamily: Helvetica
@@ -418,7 +418,7 @@ elements:
   - 418
   - 42
   content:
-    text: 'SM: Kawaskar J — Scrum Master / Developer'
+    text: 'SM: Library IT — System Administration'
     fontSize: 11.5
     color: '#FFFFFF'
     fontFamily: Helvetica
@@ -468,7 +468,7 @@ elements:
   - 820
   - 16
   content:
-    text: KCT Library · 24CSI015 · Software Engineering with Agile Practices
+    text: KCT Library
     fontSize: 10
     color: '#66756A'
     fontFamily: Helvetica

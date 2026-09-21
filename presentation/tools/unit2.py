@@ -65,9 +65,9 @@ def build():
          ["Retrospective", "Sprint end", "Whole team", "A rule change for the Definition of Done"],
          ["Backlog refinement", "Continuous", "Product Owner", "Stories sliced to fit one sprint"]],
         size=12.5))
-    els += CHIP(M, 512, 420, 42, "PO: S. Nidhish Guhan S — Product Owner / Developer",
+    els += CHIP(M, 512, 420, 42, "PO: Library Administration — Product Owner",
                 fill=INK, size=11.5, body_font=True)
-    els += CHIP(506, 512, 430, 42, "SM: Kawaskar J — Scrum Master / Developer",
+    els += CHIP(506, 512, 430, 42, "SM: Library IT — System Administration",
                 fill=INK, size=11.5, body_font=True)
     els.append(T(M, 580, 1136, 40, "A two-person Scrum keeps ceremony overhead lean: the review output is a working desk flow, not a status deck.",
                  size=14, color=MUTED))
@@ -94,7 +94,7 @@ def build():
                  size=13.5, color=MUTED))
     els += BAR(524, "125 of 126 points were delivered — US-37 (1 pt) was deferred at review rather than dilute the release.",
                size=13, h=44)
-    els.append(T(M, 588, 1136, 30, "Epic sums reconcile to scope: 58 + 68 = 126 pts · Nidhish 61 + Kawaskar 64 = 125 delivered.",
+    els.append(T(M, 588, 1136, 30, "Epic sums reconcile to scope: 58 + 68 = 126 pts planned · 125 pts delivered.",
                  size=12, color=MUTED, font=MONO))
     footer(els, 5); P_("05_backlog.page", els)
 
@@ -234,8 +234,8 @@ def build():
     # 13 team + DoD ----------------------------------------------------------------------
     els, y = header("Unit II · Part 3 · Execution", "Two builders, balanced load, one shared finish line")
     rows = [HDR(["MEMBER", "HAT", "AREA OF GRAVITY", "PTS"])]
-    split = [["S. Nidhish Guhan S", "Product Owner", "Backend · domain · DevOps", "61"],
-             ["Kawaskar J", "Scrum Master", "Frontend · E2E · docs", "64"],
+    split = [["Library Administration", "Product Owner", "Backend · domain · DevOps", "61"],
+             ["Library IT", "Scrum Master", "Frontend · E2E · docs", "64"],
              ["TOTAL DELIVERED", "—", "of 126 points scoped", "125"]]
     for ri, r in enumerate(split):
         last = ri == 2

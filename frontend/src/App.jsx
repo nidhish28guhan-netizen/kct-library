@@ -44,7 +44,7 @@ function Shell({ children }) {
             {admin && link('/audit', 'Audit Log')}
           </>}
         </nav>
-        <div className="sidebar-foot">24CSI015 · Software Engineering<br />with Agile Practices</div>
+        <div className="sidebar-foot">Central Library<br />KCT Library</div>
       </aside>
       <div className="main">
         <header className="topbar">

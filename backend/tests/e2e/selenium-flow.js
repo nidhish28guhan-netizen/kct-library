@@ -12,6 +12,17 @@ const BASE = process.env.E2E_BASE || 'http://localhost:4000';
 const steps = [];
 const step = (msg) => { steps.push(msg); console.log(`  ✓ ${steps.length}. ${msg}`); };
 
+// Fetch the temporary password the seeder wrote to the gitignored
+// data/.seed-credentials.json (never hardcoded, never committed).
+const tempPw = async (memberId) => {
+  const fs = require('fs'), path = require('path');
+  const dir = process.env.DATA_DIR || path.join(__dirname, '..', '..', 'data');
+  const file = path.join(dir, '.seed-credentials.json');
+  const creds = JSON.parse(fs.readFileSync(file, 'utf8'));
+  if (!creds[memberId]) throw new Error(`no temp password for ${memberId} — re-run the seeder`);
+  return creds[memberId];
+};
+
 (async () => {
   const opts = new chrome.Options();
   opts.addArguments('--headless=new', '--no-sandbox', '--disable-gpu', '--window-size=1400,900');
@@ -22,7 +33,7 @@ const step = (msg) => { steps.push(msg); console.log(`  ✓ ${steps.length}. ${m
     await driver.wait(until.elementLocated(By.css('.login-card input')), 8000);
     const inputs = await driver.findElements(By.css('.login-card input'));
     await inputs[0].sendKeys('ECE2210');
-    await inputs[1].sendKeys('College@123');
+    await inputs[1].sendKeys(await tempPw('ECE2210'));
     await driver.findElement(By.xpath('//button[normalize-space()="Sign in"]')).click();
     // Wait for the data-driven state, not the DOM skeleton: .stat-value only
     // exists once the history API resolved and React committed the numbers.
@@ -37,7 +48,7 @@ const step = (msg) => { steps.push(msg); console.log(`  ✓ ${steps.length}. ${m
     step('Dashboard lists the active loan and fine summary');
 
     // 3. catalogue search finds the held title
-    await driver.findElement(By.partialLinkText('Catalogue')).click();
+    await driver.findElement(By.partialLinkText('Book Catalog')).click();
     await driver.wait(until.elementLocated(By.css('table tbody')), 8000);
     const search = await driver.findElement(By.css('input[type="search"]'));
     await search.clear(); await search.sendKeys('Discrete Mathematics');
@@ -50,9 +61,9 @@ const step = (msg) => { steps.push(msg); console.log(`  ✓ ${steps.length}. ${m
     step('Catalogue search + detail page shows the title with a RESERVED copy');
 
     // 4. My Library -> Reservations tab shows the READY hold
-    await driver.findElement(By.partialLinkText('My Library')).click();
-    await driver.wait(until.elementLocated(By.xpath('//button[normalize-space()="Reservations"]')), 8000);
-    await driver.findElement(By.xpath('//button[normalize-space()="Reservations"]')).click();
+    await driver.findElement(By.partialLinkText('My Borrowed Books')).click();
+    await driver.wait(until.elementLocated(By.xpath('//button[normalize-space()="Book Holds"]')), 8000);
+    await driver.findElement(By.xpath('//button[normalize-space()="Book Holds"]')).click();
     await driver.wait(async () => {
       const t = await (await driver.findElements(By.css('td')))[0]?.getText().catch(() => '');
       return (await driver.findElement(By.css('body')).getText()).includes('Discrete Mathematics');

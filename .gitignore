@@ -6,6 +6,7 @@ backend/data/*.cdb
 backend/data/*.migrated
 backend/data/.tmp*
 backend/data/*.tmp
+backend/data/.seed-credentials.json
 presentation/**/.preview/
 .env
 *.log

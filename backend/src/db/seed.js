@@ -7,6 +7,9 @@
  */
 const { JsonStore, setStore } = require('./store');
 const config = require('../config');
+const crypto = require('crypto');
+const fs = require('fs');
+const path = require('path');
 const { Users, Members, Books, Copies, Loans, Reservations, Penalties, Policies, Notifications, Audit } = require('../repositories');
 const { DEFAULT_POLICIES } = require('../domain/policyRules');
 const { copyBarcode } = require('../domain/barcodeRules');
@@ -22,14 +25,19 @@ const hash = (pw) => bcrypt.hashSync(pw, 10);
 const DAY = 864e5;
 const ago = (d) => new Date(Date.now() - d * DAY).toISOString();
 
-/* ---- staff accounts ---- */
+/* ---- staff accounts (passwords generated once, printed below; never hardcoded) ---- */
+const generated = {};
 const staff = [
-  { username: 'admin', name: 'Library Administrator', role: 'ADMIN', password: 'Admin@123' },
-  { username: 'librarian1', name: 'Kalaivani S', role: 'LIBRARIAN', password: 'Librarian@123' }
+  { username: 'admin', name: 'Library Administrator', role: 'ADMIN' },
+  { username: 'librarian1', name: 'Chief Librarian', role: 'LIBRARIAN' }
 ];
-for (const s of staff) Users.insert({ username: s.username, name: s.name, role: s.role, passwordHash: hash(s.password) });
+for (const s of staff) {
+  const pw = crypto.randomUUID().slice(0, 8);
+  generated[s.username] = pw;
+  Users.insert({ username: s.username, name: s.name, role: s.role, passwordHash: hash(pw) });
+}
 
-/* ---- members ---- */
+/* ---- members (temporary passwords generated per member, printed once) ---- */
 const members = [
   { memberId: 'CSE2201', name: 'Arun Karthik R', role: 'STUDENT', dept: 'CSE', year: 'III', email: 'arun.k@college.edu' },
   { memberId: 'CSE2202', name: 'Deepa Sri L', role: 'STUDENT', dept: 'CSE', year: 'III', email: 'deepa.sri@college.edu' },
@@ -38,9 +46,11 @@ const members = [
 ];
 const memberBy = {};
 for (const m of members) {
+  const pw = crypto.randomUUID().slice(0, 8);
+  generated[m.memberId] = pw;
   const rec = Members.insert({
     ...m, memberId: m.memberId, status: 'ACTIVE', barcode: `LIB-${m.memberId}`,
-    passwordHash: hash('College@123')
+    passwordHash: hash(pw)
   });
   memberBy[m.memberId] = rec;
 }
@@ -86,7 +96,7 @@ function issue(bookCode, copyNo, memberId, daysAgoIssued, loanDays, returnedDays
     bookId: book.id, bookTitle: book.title, copyId: copy.id, barcode: copy.barcode,
     issueDate, dueDate,
     returnDate: returnedDaysAgo !== null ? ago(returnedDaysAgo) : null,
-    renewalsUsed: 0, status: returnedDaysAgo !== null ? 'RETURNED' : 'ACTIVE', issuedBy: 'Kalaivani S'
+    renewalsUsed: 0, status: returnedDaysAgo !== null ? 'RETURNED' : 'ACTIVE', issuedBy: 'Chief Librarian'
   });
   Copies.update(copy.id, { status: returnedDaysAgo !== null ? 'AVAILABLE' : 'ISSUED' });
   return loan;
@@ -104,7 +114,7 @@ issue('CSCLN02', 1, 'FAC1001', 6, 30);                        // active faculty 
 Penalties.insert({
   memberId: memberBy.CSE2201.id, memberName: memberBy.CSE2201.name, loanId: 'seeded', bookTitle: 'Introduction to Algorithms',
   amount: 3.0, reason: '3 day(s) late on "Introduction to Algorithms"', status: 'PAID',
-  issuedAt: ago(8), paidAt: ago(7), receipt: 'RCPT-SEED01', receivedBy: 'Kalaivani S'
+  issuedAt: ago(8), paidAt: ago(7), receipt: 'RCPT-SEED01', receivedBy: 'Chief Librarian'
 });
 Penalties.insert({
   memberId: memberBy.ECE2210.id, memberName: memberBy.ECE2210.name, loanId: overdueLoan.id, bookTitle: overdueLoan.bookTitle,
@@ -128,7 +138,7 @@ Loans.insert({
   memberId: memberBy.CSE2201.id, memberName: memberBy.CSE2201.name, memberCode: 'CSE2201',
   bookId: bookBy.CSMAT09.id, bookTitle: 'Discrete Mathematics', copyId: heldCopy.id, barcode: heldCopy.barcode,
   issueDate: ago(12), dueDate: computeDueDate(ago(12), 14), returnDate: ago(1), renewalsUsed: 0,
-  status: 'RETURNED', lateDays: 0, issuedBy: 'Kalaivani S'
+  status: 'RETURNED', lateDays: 0, issuedBy: 'Chief Librarian'
 });
 Copies.update(heldCopy.id, { status: 'RESERVED', heldFor: memberBy.ECE2210.id });
 Reservations.insert({
@@ -139,4 +149,6 @@ Reservations.insert({
 console.log('Initial dataset loaded:');
 console.log(`  ${Users.count()} staff accounts · ${Members.count()} members · ${Books.count()} titles · ${Copies.count()} copies`);
 console.log(`  ${Loans.count()} loans · ${Reservations.count()} reservations · ${Penalties.count()} penalties`);
-console.log('Accounts — admin/Admin@123 · librarian1/Librarian@123 · members password College@123');
+console.log('Generated credentials (shown once — store them now):');
+for (const [who, pw] of Object.entries(generated)) console.log(`  ${who} / ${pw}`);
+fs.writeFileSync(path.join(config.dataDir, '.seed-credentials.json'), JSON.stringify(generated, null, 2));

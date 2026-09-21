@@ -1,12 +1,17 @@
 {
-  "name": "clms-frontend",
+  "name": "kct-library-desktop",
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "KCT Library — Electron + Vite + React desktop client",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron:dev": "concurrently -k -n vite,electron -c cyan,magenta \"vite --port 5173\" \"wait-on tcp:5173 && electron .\"",
+    "electron:build": "vite build && electron-builder",
+    "electron": "electron ."
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -15,6 +20,20 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.0"
+    "concurrently": "^9.0.1",
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3",
+    "vite": "^5.4.0",
+    "wait-on": "^8.0.0"
+  },
+  "build": {
+    "appId": "in.kct.library",
+    "productName": "KCT Library",
+    "files": ["dist/**", "electron/**", "package.json"],
+    "extraResources": [
+      { "from": "../backend", "to": "backend", "filter": ["**", "!node_modules", "!coverage", "!data", "!tests"] }
+    ],
+    "mac": { "category": "public.app-category.education", "target": ["dmg"] },
+    "directories": { "output": "release" }
   }
 }

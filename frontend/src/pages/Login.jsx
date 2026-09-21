@@ -26,7 +26,7 @@ export default function Login() {
       <form className="login-card" onSubmit={submit}>
         <div className="wordmark">KCT Library</div>
         <div className="wordmark-rule" />
-        <p className="subtitle">Kumaraguru College of Technology · Central Library<br />Library Management System</p>
+        <p className="subtitle">Central Library<br />Library Management System</p>
         <h2>Sign in</h2>
         <ErrorBanner error={error} />
         <label className="field">

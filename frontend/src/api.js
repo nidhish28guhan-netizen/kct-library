@@ -1,6 +1,13 @@
 /* Minimal authenticated API client. Single place that knows about the token. */
 const TOKEN_KEY = 'lms_token';
 
+/* In the Electron desktop app the UI is loaded from the filesystem (file://),
+   so requests must point at the API origin explicitly. In the browser the
+   UI is served by the API itself, so a relative path is correct. */
+const API_ORIGIN = (typeof window !== 'undefined' && window.location.protocol === 'file:')
+  ? `http://127.0.0.1:${4000}`
+  : '';
+
 export const getToken = () => localStorage.getItem(TOKEN_KEY);
 export const setToken = (t) => localStorage.setItem(TOKEN_KEY, t);
 export const clearToken = () => localStorage.removeItem(TOKEN_KEY);
@@ -9,7 +16,7 @@ export async function api(path, { method = 'GET', body } = {}) {
   const headers = { 'Content-Type': 'application/json' };
   const token = getToken();
   if (token) headers.Authorization = `Bearer ${token}`;
-  const res = await fetch(`/api${path}`, {
+  const res = await fetch(`${API_ORIGIN}/api${path}`, {
     method,
     headers,
     body: body !== undefined ? JSON.stringify(body) : undefined
@@ -30,7 +37,7 @@ export async function api(path, { method = 'GET', body } = {}) {
 
 /** Fetch an authenticated binary/text resource (e.g. the barcode SVG) as text. */
 export async function fetchText(path) {
-  const res = await fetch(`/api${path}`, {
+  const res = await fetch(`${API_ORIGIN}/api${path}`, {
     headers: { Authorization: `Bearer ${getToken()}` }
   });
   if (!res.ok) throw { status: res.status, message: 'Failed to load resource' };

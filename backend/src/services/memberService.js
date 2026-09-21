@@ -1,4 +1,5 @@
 'use strict';
+const crypto = require('crypto');
 const { Members, Books, Loans, Reservations, Penalties } = require('../repositories');
 const { validateMemberInput, canTransition } = require('../domain/memberRules');
 const { memberBarcode } = require('../domain/barcodeRules');
@@ -26,14 +27,15 @@ function create(actor, input) {
     errors.push('memberId already exists');
   }
   if (errors.length) throw badRequest(errors.join('; '), errors);
+  const tempPassword = input.password || crypto.randomUUID().slice(0, 8);
   const member = Members.insert({
     name: input.name.trim(), role: input.role, memberId: input.memberId.trim().toUpperCase(),
     email: input.email || null, dept: input.dept || null, year: input.year || null,
     status: 'ACTIVE', barcode: memberBarcode(input.memberId),
-    passwordHash: hash(input.password || 'College@123')
+    passwordHash: hash(tempPassword)
   });
   audit.record(actor, 'MEMBER_CREATE', 'Member', member.id, null, publicMember(member));
-  return publicMember(member);
+  return { ...publicMember(member), tempPassword };
 }
 
 function update(actor, id, patch) {
@@ -58,9 +60,10 @@ function changeStatus(actor, id, status) {
 function resetPassword(actor, id, newPassword) {
   const member = Members.byId(id);
   if (!member) throw notFound('Member not found');
-  Members.update(id, { passwordHash: hash(newPassword || 'College@123') });
+  const temp = newPassword || crypto.randomUUID().slice(0, 8);
+  Members.update(id, { passwordHash: hash(temp) });
   audit.record(actor, 'MEMBER_PASSWORD_RESET', 'Member', id);
-  return { ok: true };
+  return { ok: true, tempPassword: temp };
 }
 
 const byMemberId = (memberId) => Members.findOne((m) => m.memberId === String(memberId || '').toUpperCase());

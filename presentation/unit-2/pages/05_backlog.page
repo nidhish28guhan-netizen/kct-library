@@ -581,7 +581,7 @@ elements:
   - 1136
   - 30
   content:
-    text: 'Epic sums reconcile to scope: 58 + 68 = 126 pts · Nidhish 61 + Kawaskar 64 = 125 delivered.'
+    text: 'Epic sums reconcile to scope: 58 + 68 = 126 pts planned · 125 pts delivered.'
     fontSize: 12
     color: '#66756A'
     fontFamily: Menlo
@@ -613,7 +613,7 @@ elements:
   - 820
   - 16
   content:
-    text: KCT Library · 24CSI015 · Software Engineering with Agile Practices
+    text: KCT Library
     fontSize: 10
     color: '#66756A'
     fontFamily: Helvetica

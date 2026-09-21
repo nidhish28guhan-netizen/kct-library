@@ -1,3 +1,4 @@
+const crypto = require('crypto');
 'use strict';
 /* API integration suite: exercises real routes against a temp JSON store. */
 process.env.DATA_DIR = require('fs').mkdtempSync(require('path').join(require('os').tmpdir(), 'clms-api-'));
@@ -15,13 +16,15 @@ const app = createApp();
 const SYS = { sub: 'SYS', name: 'system' };
 let librarian, admin, student1, student2, faculty, csBook, netBook, soloBook, lastCopyBook;
 const tokens = {};
+const staffPw = { librarian1: `lib-pw-${crypto.randomUUID().slice(0, 6)}`, admin: `adm-pw-${crypto.randomUUID().slice(0, 6)}` };
 
 const login = async (identifier, password) =>
   (await request(app).post('/api/auth/login').send({ identifier, password })).body.token;
 
 beforeAll(async () => {
-  Users.insert({ username: 'librarian1', name: 'Kalaivani S', role: 'LIBRARIAN', passwordHash: authService.hash('Librarian@123') });
-  Users.insert({ username: 'admin', name: 'Library Admin', role: 'ADMIN', passwordHash: authService.hash('Admin@123') });
+  const pw = (u) => `${u}-pw-${crypto.randomUUID().slice(0, 6)}`;
+  Users.insert({ username: 'librarian1', name: 'Chief Librarian', role: 'LIBRARIAN', passwordHash: authService.hash(staffPw.librarian1) });
+  Users.insert({ username: 'admin', name: 'Library Admin', role: 'ADMIN', passwordHash: authService.hash(staffPw.admin) });
   librarian = 'librarian1'; admin = 'admin';
   student1 = memberService.create(SYS, { name: 'Arun Karthik R', role: 'STUDENT', memberId: 'CSE2201', dept: 'CSE' });
   student2 = memberService.create(SYS, { name: 'Deepa Sri L', role: 'STUDENT', memberId: 'CSE2202', dept: 'CSE' });
@@ -34,22 +37,22 @@ beforeAll(async () => {
   copyService.addCopies(SYS, netBook.id, { count: 2, shelfLocation: 'A2' });
   copyService.addCopies(SYS, soloBook.id, { count: 1, shelfLocation: 'A3' });
   copyService.addCopies(SYS, lastCopyBook.id, { count: 1, shelfLocation: 'A4' });
-  tokens.librarian = await login('librarian1', 'Librarian@123');
-  tokens.admin = await login('admin', 'Admin@123');
-  tokens.s1 = await login('CSE2201', 'College@123');
-  tokens.s2 = await login('CSE2202', 'College@123');
-  tokens.f1 = await login('FAC1001', 'College@123');
+  tokens.librarian = await login('librarian1', staffPw.librarian1);
+  tokens.admin = await login('admin', staffPw.admin);
+  tokens.s1 = await login('CSE2201', student1.tempPassword);
+  tokens.s2 = await login('CSE2202', student2.tempPassword);
+  tokens.f1 = await login('FAC1001', faculty.tempPassword);
 });
 
 const barcodesOf = (bookId) => require('../../src/repositories').Copies.find((c) => c.bookId === bookId).map((c) => c.barcode);
 
 describe('Authentication (US-01..US-03)', () => {
   test('staff login returns token + role', async () => {
-    const r = await request(app).post('/api/auth/login').send({ identifier: 'admin', password: 'Admin@123' });
+    const r = await request(app).post('/api/auth/login').send({ identifier: 'admin', password: staffPw.admin });
     expect(r.status).toBe(200); expect(r.body.token).toBeTruthy(); expect(r.body.user.role).toBe('ADMIN');
   });
   test('member login via roll number, case-insensitive identifier', async () => {
-    const r = await request(app).post('/api/auth/login').send({ identifier: 'cse2201', password: 'College@123' });
+    const r = await request(app).post('/api/auth/login').send({ identifier: 'cse2201', password: student1.tempPassword });
     expect(r.status).toBe(200); expect(r.body.user.memberId).toBe('CSE2201');
   });
   test('wrong password -> 401 INVALID_CREDENTIALS (never reveals which part failed)', async () => {
@@ -62,7 +65,7 @@ describe('Authentication (US-01..US-03)', () => {
     expect(r.status).toBe(401); expect(r.body.error.code).toBe('INVALID_CREDENTIALS');
   });
   test('password is case-sensitive', async () => {
-    const r = await request(app).post('/api/auth/login').send({ identifier: 'admin', password: 'admin@123' });
+    const r = await request(app).post('/api/auth/login').send({ identifier: 'admin', password: staffPw.admin.toUpperCase() });
     expect(r.status).toBe(401);
   });
   test('/auth/me needs a bearer token; bad token 401s', async () => {
@@ -417,7 +420,7 @@ describe('Notifications (US-29..US-31) + reports + admin', () => {
     const created = await request(app).post('/api/members').set('Authorization', `Bearer ${tokens.librarian}`)
       .send({ name: 'Test User', role: 'STUDENT', memberId: 'CSE9999', dept: 'CSE' });
     expect(created.status).toBe(201); expect(created.body.barcode).toBe('LIB-CSE9999');
-    const tok = await login('CSE9999', 'College@123');
+    const tok = await login('CSE9999', created.body.tempPassword);
     const susp = await request(app).patch(`/api/members/${created.body.id}/status`).set('Authorization', `Bearer ${tokens.admin}`).send({ status: 'SUSPENDED' });
     expect(susp.body.status).toBe('SUSPENDED');
     const freeCopy = barcodesOf(csBook.id)[4]; // LIB-CSALG01-005 — never issued

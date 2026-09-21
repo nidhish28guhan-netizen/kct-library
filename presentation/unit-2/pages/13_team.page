@@ -120,7 +120,7 @@ elements:
         type: solid
         color: '#1E3A2F'
       lineHeight: 1.12
-  - - text: S. Nidhish Guhan S
+  - - text: Library Administration
       fontFamily: Helvetica
       fontSize: 13
       color: '#1E3A2F'
@@ -168,7 +168,7 @@ elements:
         type: solid
         color: '#F5F2EA'
       lineHeight: 1.12
-  - - text: Kawaskar J
+  - - text: Library IT
       fontFamily: Helvetica
       fontSize: 13
       color: '#1E3A2F'
@@ -676,7 +676,7 @@ elements:
   - 820
   - 16
   content:
-    text: KCT Library · 24CSI015 · Software Engineering with Agile Practices
+    text: KCT Library
     fontSize: 10
     color: '#66756A'
     fontFamily: Helvetica

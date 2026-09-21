@@ -63,7 +63,7 @@ elements:
   - 700
   - 22
   content:
-    text: COURSE 24CSI015 · SOFTWARE ENGINEERING WITH AGILE PRACTICES
+    text: KCT LIBRARY — SYSTEM DOCUMENTATION
     fontSize: 11.5
     color: '#66756A'
     fontFamily: Helvetica
@@ -203,7 +203,7 @@ elements:
   - 240
   - 26
   content:
-    text: S. Nidhish Guhan S
+    text: Library Administration
     fontSize: 15
     color: '#1E3A2F'
     fontFamily: Helvetica
@@ -221,7 +221,7 @@ elements:
   - 420
   - 26
   content:
-    text: — Product Owner / Developer
+    text: — Product Owner
     fontSize: 15
     color: '#66756A'
     fontFamily: Helvetica
@@ -239,7 +239,7 @@ elements:
   - 240
   - 26
   content:
-    text: Kawaskar J
+    text: Library IT
     fontSize: 15
     color: '#1E3A2F'
     fontFamily: Helvetica
@@ -257,7 +257,7 @@ elements:
   - 420
   - 26
   content:
-    text: — Scrum Master / Developer
+    text: — System Administration
     fontSize: 15
     color: '#66756A'
     fontFamily: Helvetica
@@ -275,7 +275,7 @@ elements:
   - 700
   - 20
   content:
-    text: Project seminar · September 2026
+    text: KCT Library · System documentation
     fontSize: 13
     color: '#66756A'
     fontFamily: Menlo

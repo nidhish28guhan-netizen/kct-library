@@ -12,6 +12,14 @@ const BASE = process.env.E2E_BASE || 'http://localhost:4000';
 const steps = [];
 const step = (m) => { steps.push(m); console.log(`  ✓ ${steps.length}. ${m}`); };
 
+// Read the temp password the seeder wrote to the gitignored credentials file
+// (resolves from DATA_DIR so an isolated instance works too).
+const tempPw = (who) => {
+  const fs = require('fs'), path = require('path');
+  const dir = process.env.DATA_DIR || path.join(__dirname, '..', '..', 'data');
+  return JSON.parse(fs.readFileSync(path.join(dir, '.seed-credentials.json'), 'utf8'))[who];
+};
+
 (async () => {
   const opts = new chrome.Options();
   opts.addArguments('--headless=new', '--no-sandbox', '--disable-gpu', '--window-size=1400,900');
@@ -22,13 +30,13 @@ const step = (m) => { steps.push(m); console.log(`  ✓ ${steps.length}. ${m}`);
     await driver.wait(until.elementLocated(By.css('.login-card input')), 8000);
     const inputs = await driver.findElements(By.css('.login-card input'));
     await inputs[0].sendKeys('librarian1');
-    await inputs[1].sendKeys('Librarian@123');
+    await inputs[1].sendKeys(tempPw('librarian1'));
     await driver.findElement(By.xpath('//button[normalize-space()="Sign in"]')).click();
-    await driver.wait(until.elementLocated(By.partialLinkText('Circulation Desk')), 8000);
+    await driver.wait(until.elementLocated(By.partialLinkText('Issue & Return Desk')), 8000);
     step('Librarian signed in; desk navigation available');
 
     // 2. open desk + member eligibility
-    await driver.findElement(By.partialLinkText('Circulation Desk')).click();
+    await driver.findElement(By.partialLinkText('Issue & Return Desk')).click();
     await driver.wait(until.elementLocated(By.css('input[aria-label="Member identifier"]')), 8000);
     await driver.findElement(By.css('input[aria-label="Member identifier"]')).sendKeys('LIB-CSE2201');
     await driver.findElement(By.xpath('//button[normalize-space()="Check"]')).click();
@@ -50,14 +58,14 @@ const step = (m) => { steps.push(m); console.log(`  ✓ ${steps.length}. ${m}`);
     step('Code-128 barcode rendered in the receipt (authenticated SVG fetch)');
 
     // 5. return tab -> same barcode -> back on shelf (verified via API too)
-    await driver.findElement(By.xpath('//button[normalize-space()="Return"]')).click();
+    await driver.findElement(By.xpath('//button[normalize-space()="Return Book"]')).click();
     await driver.wait(until.elementLocated(By.css('input[aria-label="Book barcode"]')), 8000);
     await driver.findElement(By.css('input[aria-label="Book barcode"]')).sendKeys('LIB-CSHFP04-002');
-    await driver.findElement(By.xpath('//button[normalize-space()="Return copy"]')).click();
+    await driver.findElement(By.xpath('//button[normalize-space()="Return book"]')).click();
     await driver.wait(async () => ((await driver.findElement(By.css('body')).getText()).includes('returned')), 8000);
     const tok = await (await fetch(BASE + '/api/auth/login', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ identifier: 'admin', password: 'Admin@123' })
+      body: JSON.stringify({ identifier: 'admin', password: tempPw('admin') })
     })).json().then((d) => d.token);
     const state = await (await fetch(BASE + '/api/barcodes/LIB-CSHFP04-002', { headers: { Authorization: `Bearer ${tok}` } })).json();
     assert.strictEqual(state.copy.status, 'AVAILABLE', 'copy must be back on the shelf');
