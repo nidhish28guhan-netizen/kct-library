@@ -44,7 +44,7 @@ npm start            # API + built SPA on http://localhost:4000
 
 To run the SPA in development mode with hot reload (proxies `/api` to :4000): `cd frontend && npm install && npm run dev` (Vite on :5173). For the packaged single-port flow from the repo root: `npm install` in both packages, then `npm run build && npm --prefix backend start`.
 
-**Accounts after seeding** (from `seed.js`):
+**Demo accounts created by `seed.js`** (for a fresh local install only — the deployed instance does not use them; staff accounts are created via the ADMIN-only `POST /api/admin/users` endpoint):
 
 | Account | Password | Role |
 |---|---|---|
