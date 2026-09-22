@@ -37,12 +37,15 @@ for (const s of staff) {
   Users.insert({ username: s.username, name: s.name, role: s.role, passwordHash: hash(pw) });
 }
 
-/* ---- members (temporary passwords generated per member, printed once) ---- */
+/* ---- members: 3 students (24BCS roll numbers) + 4 faculty ---- */
 const members = [
-  { memberId: 'CSE2201', name: 'Arun Karthik R', role: 'STUDENT', dept: 'CSE', year: 'III', email: 'arun.k@college.edu' },
-  { memberId: 'CSE2202', name: 'Deepa Sri L', role: 'STUDENT', dept: 'CSE', year: 'III', email: 'deepa.sri@college.edu' },
-  { memberId: 'ECE2210', name: 'Vignesh K', role: 'STUDENT', dept: 'ECE', year: 'II', email: 'vignesh.k@college.edu' },
-  { memberId: 'FAC1001', name: 'Dr. Meena Krishnan', role: 'FACULTY', dept: 'CSE', year: null, email: 'meena.k@college.edu' }
+  { memberId: '24BCS189', name: 'Nidhish Guhan S', role: 'STUDENT', dept: 'CSE', year: 'II', email: '24bcs189@kct.ac.in' },
+  { memberId: '24BCS191', name: 'Nirandjan R', role: 'STUDENT', dept: 'CSE', year: 'II', email: '24bcs191@kct.ac.in' },
+  { memberId: '24BCS148', name: 'Lakshith B R', role: 'STUDENT', dept: 'CSE', year: 'II', email: '24bcs148@kct.ac.in' },
+  { memberId: 'MANOJK', name: 'Manoj K', role: 'FACULTY', dept: 'CSE', year: null, email: 'manoj.k@kct.ac.in' },
+  { memberId: 'VIMALEA', name: 'Vimal E A', role: 'FACULTY', dept: 'CSE', year: null, email: 'vimal.ea@kct.ac.in' },
+  { memberId: 'PRASSANAVK', name: 'Prassana Venkatesan K', role: 'FACULTY', dept: 'CSE', year: null, email: 'prassanavk@kct.ac.in' },
+  { memberId: 'SATHISHK', name: 'Sathish K', role: 'FACULTY', dept: 'CSE', year: null, email: 'sathish.k@kct.ac.in' }
 ];
 const memberBy = {};
 for (const m of members) {
@@ -55,7 +58,7 @@ for (const m of members) {
   memberBy[m.memberId] = rec;
 }
 
-/* ---- catalogue ---- */
+/* ---- catalogue: 15 titles ---- */
 const books = [
   { bookCode: 'CSALG01', isbn: '978-0262046305', title: 'Introduction to Algorithms', author: 'Thomas H. Cormen', publisher: 'MIT Press', edition: '4th', category: 'Computer Science', subject: 'Algorithms', language: 'English', keywords: 'algorithms sorting graphs dp', publicationYear: 2022, copies: 4 },
   { bookCode: 'CSCLN02', isbn: '978-0132350884', title: 'Clean Code', author: 'Robert C. Martin', publisher: 'Prentice Hall', edition: '1st', category: 'Software Engineering', subject: 'Coding Practices', language: 'English', keywords: 'refactoring code quality solid', publicationYear: 2008, copies: 3 },
@@ -66,9 +69,12 @@ const books = [
   { bookCode: 'CSDBS07', isbn: '978-0078028190', title: 'Database System Concepts', author: 'Abraham Silberschatz', publisher: 'McGraw-Hill', edition: '7th', category: 'Computer Science', subject: 'Databases', language: 'English', keywords: 'sql normalization transactions', publicationYear: 2019, copies: 4 },
   { bookCode: 'CSSEN08', isbn: '978-0133943030', title: 'Software Engineering', author: 'Ian Sommerville', publisher: 'Pearson', edition: '10th', category: 'Software Engineering', subject: 'Software Process', language: 'English', keywords: 'agile requirements testing process', publicationYear: 2015, copies: 3 },
   { bookCode: 'CSMAT09', isbn: '978-8126587683', title: 'Discrete Mathematics', author: 'Jeffery Johnsonbaugh', publisher: 'Pearson India', edition: '8th', category: 'Mathematics', subject: 'Discrete Maths', language: 'English', keywords: 'logic combinatorics graph theory', publicationYear: 2017, copies: 2 },
-  { bookCode: 'ENG010', isbn: '978-0140449107', title: 'Pride and Prejudice', author: 'Jane Austen', publisher: 'Penguin Classics', edition: 'Reissue', category: 'Literature', subject: 'Fiction', language: 'English', keywords: 'classic novel', publicationYear: 2003, copies: 2 },
-  { bookCode: 'TAM011', isbn: '978-9386219771', title: 'Sivagamiyin Saipadam', author: 'Kalki Krishnamurthy', publisher: 'Kalki Publications', edition: '12th', category: 'Literature', subject: 'Historical Fiction', language: 'Tamil', keywords: 'tamil classic chola', publicationYear: 2015, copies: 2 },
-  { bookCode: 'CSEET12', isbn: '978-0134032604', title: 'Compilers: Principles, Techniques, and Tools', author: 'Alfred V. Aho', publisher: 'Pearson', edition: '2nd', category: 'Computer Science', subject: 'Compilers', language: 'English', keywords: 'parsing lexing code generation dragon', publicationYear: 2006, copies: 2 }
+  { bookCode: 'CSWEB10', isbn: '978-1119466473', title: 'Web Programming with HTML5, CSS and JavaScript', author: 'Dean Deitel', publisher: 'Wiley', edition: '1st', category: 'Computer Science', subject: 'Web Development', language: 'English', keywords: 'html css javascript responsive', publicationYear: 2018, copies: 3 },
+  { bookCode: 'CSML11', isbn: '978-0262039406', title: 'Introduction to Machine Learning', author: 'Ethem Alpaydin', publisher: 'MIT Press', edition: '3rd', category: 'Computer Science', subject: 'Machine Learning', language: 'English', keywords: 'ml supervised neural networks', publicationYear: 2014, copies: 2 },
+  { bookCode: 'CSDS12', isbn: '978-0321543257', title: 'The Algorithm Design Manual', author: 'Steven S. Skiena', publisher: 'Springer', edition: '2nd', category: 'Computer Science', subject: 'Algorithms', language: 'English', keywords: 'algorithm design problems sorting', publicationYear: 2008, copies: 2 },
+  { bookCode: 'CSGD13', isbn: '978-1558609324', title: '3D Math Primer for Graphics and Game Development', author: 'Fletcher Dunn', publisher: 'A K Peters', edition: '2nd', category: 'Computer Science', subject: 'Game Development', language: 'English', keywords: 'vectors matrices graphics rendering', publicationYear: 2011, copies: 2 },
+  { bookCode: 'ENG014', isbn: '978-0140449107', title: 'Pride and Prejudice', author: 'Jane Austen', publisher: 'Penguin Classics', edition: 'Reissue', category: 'Literature', subject: 'Fiction', language: 'English', keywords: 'classic novel romance', publicationYear: 2003, copies: 2 },
+  { bookCode: 'TAM015', isbn: '978-9386219771', title: 'Sivagamiyin Sapatham', author: 'Kalki Krishnamurthy', publisher: 'Kalki Publications', edition: '12th', category: 'Literature', subject: 'Historical Fiction', language: 'Tamil', keywords: 'tamil classic chola', publicationYear: 2015, copies: 2 }
 ];
 const bookBy = {};
 for (const b of books) {
@@ -102,47 +108,47 @@ function issue(bookCode, copyNo, memberId, daysAgoIssued, loanDays, returnedDays
   return loan;
 }
 
-issue('CSDBS07', 1, 'CSE2201', 30, 14, 18);          // returned on time
-issue('CSOSC05', 1, 'CSE2202', 28, 14, 15);          // returned on time
-issue('ENG010', 1, 'ECE2210', 20, 14, 9);            // returned on time
-issue('CSALG01', 1, 'CSE2201', 25, 14, 8);           // returned 3 days late -> penalty below
-issue('CSSEN08', 1, 'FAC1001', 40, 30, 8);           // faculty returned on time
-const overdueLoan = issue('CSCNW06', 1, 'ECE2210', 21, 14);   // overdue by ~7 days, still out
-const activeLoanA = issue('CSHFP04', 1, 'CSE2202', 5, 14);    // active, due soon window
-issue('CSCLN02', 1, 'FAC1001', 6, 30);                        // active faculty loan
+issue('CSDBS07', 1, '24BCS189', 30, 14, 18);       // returned on time
+issue('CSOSC05', 1, '24BCS191', 28, 14, 15);       // returned on time
+issue('ENG014', 1, '24BCS148', 20, 14, 9);         // returned on time
+issue('CSALG01', 1, '24BCS189', 25, 14, 8);        // returned 3 days late -> penalty below
+issue('CSSEN08', 1, 'MANOJK', 40, 30, 8);          // faculty returned on time
+const overdueLoan = issue('CSCNW06', 1, '24BCS148', 21, 14);  // overdue ~7 days, still out
+const activeLoanA = issue('CSHFP04', 1, '24BCS191', 5, 14);    // active, due soon window
+issue('CSCLN02', 1, 'VIMALEA', 6, 30);                       // active faculty loan
 
 Penalties.insert({
-  memberId: memberBy.CSE2201.id, memberName: memberBy.CSE2201.name, loanId: 'seeded', bookTitle: 'Introduction to Algorithms',
+  memberId: memberBy['24BCS189'].id, memberName: memberBy['24BCS189'].name, loanId: 'seeded', bookTitle: 'Introduction to Algorithms',
   amount: 3.0, reason: '3 day(s) late on "Introduction to Algorithms"', status: 'PAID',
   issuedAt: ago(8), paidAt: ago(7), receipt: 'RCPT-SEED01', receivedBy: 'Chief Librarian'
 });
 Penalties.insert({
-  memberId: memberBy.ECE2210.id, memberName: memberBy.ECE2210.name, loanId: overdueLoan.id, bookTitle: overdueLoan.bookTitle,
+  memberId: memberBy['24BCS148'].id, memberName: memberBy['24BCS148'].name, loanId: overdueLoan.id, bookTitle: overdueLoan.bookTitle,
   amount: 7.0, reason: 'Automated sweep: 7 day(s) overdue', status: 'UNPAID', issuedAt: ago(1)
 });
 
 /* ---- a full-out title with a reservation queue (all 3 copies out) ---- */
-issue('CSCNW06', 2, 'CSE2201', 10, 14);
-issue('CSCNW06', 3, 'FAC1001', 12, 30);
+issue('CSCNW06', 2, '24BCS189', 10, 14);
+issue('CSCNW06', 3, 'MANOJK', 12, 30);
 Reservations.insert({
-  memberId: memberBy.CSE2202.id, memberName: memberBy.CSE2202.name, bookId: bookBy.CSCNW06.id, bookTitle: 'Computer Networks',
+  memberId: memberBy['24BCS191'].id, memberName: memberBy['24BCS191'].name, bookId: bookBy.CSCNW06.id, bookTitle: 'Computer Networks',
   status: 'WAITING', reservedAt: ago(2)
 });
 Reservations.insert({
-  memberId: memberBy.FAC1001.id, memberName: memberBy.FAC1001.name, bookId: bookBy.CSCNW06.id, bookTitle: 'Computer Networks',
+  memberId: memberBy.PRASSANAVK.id, memberName: memberBy.PRASSANAVK.name, bookId: bookBy.CSCNW06.id, bookTitle: 'Computer Networks',
   status: 'WAITING', reservedAt: ago(3)
 });
 // A ready hold on a copy held back from the shelf:
 const heldCopy = Copies.findOne((c) => c.barcode === copyBarcode('CSMAT09', 1));
 Loans.insert({
-  memberId: memberBy.CSE2201.id, memberName: memberBy.CSE2201.name, memberCode: 'CSE2201',
+  memberId: memberBy['24BCS191'].id, memberName: memberBy['24BCS191'].name, memberCode: '24BCS191',
   bookId: bookBy.CSMAT09.id, bookTitle: 'Discrete Mathematics', copyId: heldCopy.id, barcode: heldCopy.barcode,
   issueDate: ago(12), dueDate: computeDueDate(ago(12), 14), returnDate: ago(1), renewalsUsed: 0,
   status: 'RETURNED', lateDays: 0, issuedBy: 'Chief Librarian'
 });
-Copies.update(heldCopy.id, { status: 'RESERVED', heldFor: memberBy.ECE2210.id });
+Copies.update(heldCopy.id, { status: 'RESERVED', heldFor: memberBy['24BCS148'].id });
 Reservations.insert({
-  memberId: memberBy.ECE2210.id, memberName: memberBy.ECE2210.name, bookId: bookBy.CSMAT09.id, bookTitle: 'Discrete Mathematics',
+  memberId: memberBy['24BCS148'].id, memberName: memberBy['24BCS148'].name, bookId: bookBy.CSMAT09.id, bookTitle: 'Discrete Mathematics',
   status: 'READY', reservedAt: ago(4), readyAt: ago(1), copyId: heldCopy.id
 });
 
