@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "KCT Library — college central library management system (Node/Express + Electron/Vite/React, binary local-file persistence)",
+  "license": "MIT",
+  "author": "Nidhish Guhan S",
   "scripts": {
     "build": "npm --prefix frontend run build",
     "start": "npm run build && npm --prefix backend start",
