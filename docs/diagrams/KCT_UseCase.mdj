@@ -1,0 +1,1596 @@
+{
+ "_type": "Project",
+ "_id": "PRJ-001",
+ "name": "KCT Library",
+ "author": "Nidhish Guhan S",
+ "company": "KCT Library",
+ "version": "1.0",
+ "documentVersion": "1.0",
+ "ownedElements": [
+  {
+   "_type": "UMLModel",
+   "_id": "MDL-002",
+   "_parent": {
+    "$ref": "PRJ-001"
+   },
+   "name": "Model",
+   "profile": "uml",
+   "ownedElements": [
+    {
+     "_type": "UMLActor",
+     "_id": "UMLActor-003",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Student"
+    },
+    {
+     "_type": "UMLActor",
+     "_id": "UMLActor-004",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Faculty"
+    },
+    {
+     "_type": "UMLActor",
+     "_id": "UMLActor-005",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Librarian"
+    },
+    {
+     "_type": "UMLActor",
+     "_id": "UMLActor-006",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Admin"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-007",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Login"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-008",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Search Books"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-009",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Borrow Book"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-010",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Return Book"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-011",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Renew Loan"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-012",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Reserve Book"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-013",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Register Member"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-014",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Manage Catalogue"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-015",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Manage Staff"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-016",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "View Reports"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-017",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Verify Eligibility"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-018",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Print Receipt"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-019",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Pay Fine"
+    },
+    {
+     "_type": "UMLUseCase",
+     "_id": "UMLUseCase-020",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Add Book Copies"
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-021",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-022",
+      "_parent": {
+       "$ref": "ASC-021"
+      },
+      "reference": {
+       "$ref": "UMLActor-003"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-023",
+      "_parent": {
+       "$ref": "ASC-021"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-007"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-024",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-025",
+      "_parent": {
+       "$ref": "ASC-024"
+      },
+      "reference": {
+       "$ref": "UMLActor-003"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-026",
+      "_parent": {
+       "$ref": "ASC-024"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-008"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-027",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-028",
+      "_parent": {
+       "$ref": "ASC-027"
+      },
+      "reference": {
+       "$ref": "UMLActor-003"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-029",
+      "_parent": {
+       "$ref": "ASC-027"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-009"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-030",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-031",
+      "_parent": {
+       "$ref": "ASC-030"
+      },
+      "reference": {
+       "$ref": "UMLActor-003"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-032",
+      "_parent": {
+       "$ref": "ASC-030"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-010"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-033",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-034",
+      "_parent": {
+       "$ref": "ASC-033"
+      },
+      "reference": {
+       "$ref": "UMLActor-003"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-035",
+      "_parent": {
+       "$ref": "ASC-033"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-011"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-036",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-037",
+      "_parent": {
+       "$ref": "ASC-036"
+      },
+      "reference": {
+       "$ref": "UMLActor-003"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-038",
+      "_parent": {
+       "$ref": "ASC-036"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-012"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-039",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-040",
+      "_parent": {
+       "$ref": "ASC-039"
+      },
+      "reference": {
+       "$ref": "UMLActor-004"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-041",
+      "_parent": {
+       "$ref": "ASC-039"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-007"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-042",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-043",
+      "_parent": {
+       "$ref": "ASC-042"
+      },
+      "reference": {
+       "$ref": "UMLActor-004"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-044",
+      "_parent": {
+       "$ref": "ASC-042"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-008"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-045",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-046",
+      "_parent": {
+       "$ref": "ASC-045"
+      },
+      "reference": {
+       "$ref": "UMLActor-004"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-047",
+      "_parent": {
+       "$ref": "ASC-045"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-009"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-048",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-049",
+      "_parent": {
+       "$ref": "ASC-048"
+      },
+      "reference": {
+       "$ref": "UMLActor-004"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-050",
+      "_parent": {
+       "$ref": "ASC-048"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-010"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-051",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-052",
+      "_parent": {
+       "$ref": "ASC-051"
+      },
+      "reference": {
+       "$ref": "UMLActor-004"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-053",
+      "_parent": {
+       "$ref": "ASC-051"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-011"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-054",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-055",
+      "_parent": {
+       "$ref": "ASC-054"
+      },
+      "reference": {
+       "$ref": "UMLActor-004"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-056",
+      "_parent": {
+       "$ref": "ASC-054"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-012"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-057",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-058",
+      "_parent": {
+       "$ref": "ASC-057"
+      },
+      "reference": {
+       "$ref": "UMLActor-005"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-059",
+      "_parent": {
+       "$ref": "ASC-057"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-007"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-060",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-061",
+      "_parent": {
+       "$ref": "ASC-060"
+      },
+      "reference": {
+       "$ref": "UMLActor-005"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-062",
+      "_parent": {
+       "$ref": "ASC-060"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-013"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-063",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-064",
+      "_parent": {
+       "$ref": "ASC-063"
+      },
+      "reference": {
+       "$ref": "UMLActor-005"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-065",
+      "_parent": {
+       "$ref": "ASC-063"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-014"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-066",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-067",
+      "_parent": {
+       "$ref": "ASC-066"
+      },
+      "reference": {
+       "$ref": "UMLActor-006"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-068",
+      "_parent": {
+       "$ref": "ASC-066"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-007"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-069",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-070",
+      "_parent": {
+       "$ref": "ASC-069"
+      },
+      "reference": {
+       "$ref": "UMLActor-006"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-071",
+      "_parent": {
+       "$ref": "ASC-069"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-014"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-072",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-073",
+      "_parent": {
+       "$ref": "ASC-072"
+      },
+      "reference": {
+       "$ref": "UMLActor-006"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-074",
+      "_parent": {
+       "$ref": "ASC-072"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-015"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLAssociation",
+     "_id": "ASC-075",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "end1": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-076",
+      "_parent": {
+       "$ref": "ASC-075"
+      },
+      "reference": {
+       "$ref": "UMLActor-006"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     },
+     "end2": {
+      "_type": "UMLAssociationEnd",
+      "_id": "AE-077",
+      "_parent": {
+       "$ref": "ASC-075"
+      },
+      "reference": {
+       "$ref": "UMLUseCase-016"
+      },
+      "multiplicity": "",
+      "name": "",
+      "role": ""
+     }
+    },
+    {
+     "_type": "UMLInclude",
+     "_id": "Include-078",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "source": {
+      "$ref": "UMLUseCase-009"
+     },
+     "target": {
+      "$ref": "UMLUseCase-017"
+     }
+    },
+    {
+     "_type": "UMLInclude",
+     "_id": "Include-079",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "source": {
+      "$ref": "UMLUseCase-009"
+     },
+     "target": {
+      "$ref": "UMLUseCase-018"
+     }
+    },
+    {
+     "_type": "UMLInclude",
+     "_id": "Include-080",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "",
+     "source": {
+      "$ref": "UMLUseCase-014"
+     },
+     "target": {
+      "$ref": "UMLUseCase-020"
+     }
+    },
+    {
+     "_type": "UMLExtend",
+     "_id": "Extend-081",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "if returned after the due date",
+     "source": {
+      "$ref": "UMLUseCase-019"
+     },
+     "target": {
+      "$ref": "UMLUseCase-010"
+     }
+    },
+    {
+     "_type": "UMLExtend",
+     "_id": "Extend-082",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "if no copy is available",
+     "source": {
+      "$ref": "UMLUseCase-012"
+     },
+     "target": {
+      "$ref": "UMLUseCase-009"
+     }
+    },
+    {
+     "_type": "UMLUseCaseDiagram",
+     "_id": "DIAG-083",
+     "_parent": {
+      "$ref": "MDL-002"
+     },
+     "name": "Use Case Diagram",
+     "defaultDiagram": true,
+     "visible": true,
+     "ownedViews": [
+      {
+       "_type": "UMLActorView",
+       "_id": "V-084",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLActor-003"
+       },
+       "left": 70,
+       "top": 210,
+       "width": 60,
+       "height": 90,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLActorView",
+       "_id": "V-085",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLActor-004"
+       },
+       "left": 70,
+       "top": 540,
+       "width": 60,
+       "height": 90,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLActorView",
+       "_id": "V-086",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLActor-005"
+       },
+       "left": 1020,
+       "top": 190,
+       "width": 60,
+       "height": 90,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLActorView",
+       "_id": "V-087",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLActor-006"
+       },
+       "left": 1020,
+       "top": 540,
+       "width": 60,
+       "height": 90,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-088",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-007"
+       },
+       "left": 300,
+       "top": 90,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-089",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-008"
+       },
+       "left": 300,
+       "top": 170,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-090",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-009"
+       },
+       "left": 300,
+       "top": 260,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-091",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-010"
+       },
+       "left": 300,
+       "top": 350,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-092",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-011"
+       },
+       "left": 300,
+       "top": 440,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-093",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-012"
+       },
+       "left": 300,
+       "top": 530,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-094",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-013"
+       },
+       "left": 300,
+       "top": 630,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-095",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-017"
+       },
+       "left": 500,
+       "top": 240,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-096",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-018"
+       },
+       "left": 500,
+       "top": 310,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-097",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-019"
+       },
+       "left": 500,
+       "top": 390,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-098",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-014"
+       },
+       "left": 690,
+       "top": 540,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-099",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-020"
+       },
+       "left": 690,
+       "top": 640,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-100",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-015"
+       },
+       "left": 690,
+       "top": 720,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLUseCaseView",
+       "_id": "V-101",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "UMLUseCase-016"
+       },
+       "left": 500,
+       "top": 730,
+       "width": 130,
+       "height": 44,
+       "autoResize": false
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-102",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-021"
+       },
+       "tail": {
+        "$ref": "V-084"
+       },
+       "head": {
+        "$ref": "V-088"
+       },
+       "lineStyle": 1,
+       "points": "130:255;300:112"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-103",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-024"
+       },
+       "tail": {
+        "$ref": "V-084"
+       },
+       "head": {
+        "$ref": "V-089"
+       },
+       "lineStyle": 1,
+       "points": "130:255;300:192"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-104",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-027"
+       },
+       "tail": {
+        "$ref": "V-084"
+       },
+       "head": {
+        "$ref": "V-090"
+       },
+       "lineStyle": 1,
+       "points": "130:255;300:282"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-105",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-030"
+       },
+       "tail": {
+        "$ref": "V-084"
+       },
+       "head": {
+        "$ref": "V-091"
+       },
+       "lineStyle": 1,
+       "points": "130:255;300:372"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-106",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-033"
+       },
+       "tail": {
+        "$ref": "V-084"
+       },
+       "head": {
+        "$ref": "V-092"
+       },
+       "lineStyle": 1,
+       "points": "130:255;300:462"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-107",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-036"
+       },
+       "tail": {
+        "$ref": "V-084"
+       },
+       "head": {
+        "$ref": "V-093"
+       },
+       "lineStyle": 1,
+       "points": "130:255;300:552"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-108",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-039"
+       },
+       "tail": {
+        "$ref": "V-085"
+       },
+       "head": {
+        "$ref": "V-088"
+       },
+       "lineStyle": 1,
+       "points": "130:585;300:112"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-109",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-042"
+       },
+       "tail": {
+        "$ref": "V-085"
+       },
+       "head": {
+        "$ref": "V-089"
+       },
+       "lineStyle": 1,
+       "points": "130:585;300:192"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-110",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-045"
+       },
+       "tail": {
+        "$ref": "V-085"
+       },
+       "head": {
+        "$ref": "V-090"
+       },
+       "lineStyle": 1,
+       "points": "130:585;300:282"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-111",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-048"
+       },
+       "tail": {
+        "$ref": "V-085"
+       },
+       "head": {
+        "$ref": "V-091"
+       },
+       "lineStyle": 1,
+       "points": "130:585;300:372"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-112",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-051"
+       },
+       "tail": {
+        "$ref": "V-085"
+       },
+       "head": {
+        "$ref": "V-092"
+       },
+       "lineStyle": 1,
+       "points": "130:585;300:462"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-113",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-054"
+       },
+       "tail": {
+        "$ref": "V-085"
+       },
+       "head": {
+        "$ref": "V-093"
+       },
+       "lineStyle": 1,
+       "points": "130:585;300:552"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-114",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-057"
+       },
+       "tail": {
+        "$ref": "V-086"
+       },
+       "head": {
+        "$ref": "V-088"
+       },
+       "lineStyle": 1,
+       "points": "1080:235;300:112"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-115",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-060"
+       },
+       "tail": {
+        "$ref": "V-086"
+       },
+       "head": {
+        "$ref": "V-094"
+       },
+       "lineStyle": 1,
+       "points": "1080:235;300:652"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-116",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-063"
+       },
+       "tail": {
+        "$ref": "V-086"
+       },
+       "head": {
+        "$ref": "V-098"
+       },
+       "lineStyle": 1,
+       "points": "1080:235;690:562"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-117",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-066"
+       },
+       "tail": {
+        "$ref": "V-087"
+       },
+       "head": {
+        "$ref": "V-088"
+       },
+       "lineStyle": 1,
+       "points": "1080:585;300:112"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-118",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-069"
+       },
+       "tail": {
+        "$ref": "V-087"
+       },
+       "head": {
+        "$ref": "V-098"
+       },
+       "lineStyle": 1,
+       "points": "1080:585;690:562"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-119",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-072"
+       },
+       "tail": {
+        "$ref": "V-087"
+       },
+       "head": {
+        "$ref": "V-100"
+       },
+       "lineStyle": 1,
+       "points": "1080:585;690:742"
+      },
+      {
+       "_type": "UMLAssociationView",
+       "_id": "EV-120",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "ASC-075"
+       },
+       "tail": {
+        "$ref": "V-087"
+       },
+       "head": {
+        "$ref": "V-101"
+       },
+       "lineStyle": 1,
+       "points": "1080:585;500:752"
+      },
+      {
+       "_type": "UMLIncludeView",
+       "_id": "EV-121",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "Include-078"
+       },
+       "tail": {
+        "$ref": "V-090"
+       },
+       "head": {
+        "$ref": "V-095"
+       },
+       "lineStyle": 1,
+       "points": "430:282;500:262"
+      },
+      {
+       "_type": "UMLIncludeView",
+       "_id": "EV-122",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "Include-079"
+       },
+       "tail": {
+        "$ref": "V-090"
+       },
+       "head": {
+        "$ref": "V-096"
+       },
+       "lineStyle": 1,
+       "points": "430:282;500:332"
+      },
+      {
+       "_type": "UMLIncludeView",
+       "_id": "EV-123",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "Include-080"
+       },
+       "tail": {
+        "$ref": "V-098"
+       },
+       "head": {
+        "$ref": "V-099"
+       },
+       "lineStyle": 1,
+       "points": "820:562;690:662"
+      },
+      {
+       "_type": "UMLExtendView",
+       "_id": "EV-124",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "Extend-081"
+       },
+       "tail": {
+        "$ref": "V-097"
+       },
+       "head": {
+        "$ref": "V-091"
+       },
+       "lineStyle": 1,
+       "points": "630:412;300:372"
+      },
+      {
+       "_type": "UMLExtendView",
+       "_id": "EV-125",
+       "_parent": {
+        "$ref": "DIAG-083"
+       },
+       "model": {
+        "$ref": "Extend-082"
+       },
+       "tail": {
+        "$ref": "V-093"
+       },
+       "head": {
+        "$ref": "V-090"
+       },
+       "lineStyle": 1,
+       "points": "430:552;300:282"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
